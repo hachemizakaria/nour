@@ -1,9 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<DataFlowDesign class="oracle.dbtools.crest.model.design.process.DataFlowDesign" name="N2_tree" id="51DBC4E4-7CCB-351C-69D4-8CBE4D94AAA7" mainViewID="5EA4DC0F-AB81-6A6D-0D7A-C56299D3091A" topLevel="true">
-<createdBy>msi</createdBy>
-<createdTime>2014-02-14 09:44:31 UTC</createdTime>
-<generatorID>Généré par l&apos;utilisateur</generatorID>
-<ownerDesignName>nour_0_2</ownerDesignName>
-<shouldBeOpen>true</shouldBeOpen>
-<processOrderString>8CE07C02-BF25-DDC0-A1B3-794948BEA26E,F2E89ABE-660B-06A2-152C-2994B76B8C9E,BDBC19C1-F129-EEFE-42FB-A993186539D0,B191F546-341F-CCE6-9E70-7E326B05F925,CD9CE644-E380-A306-6A47-59300D46DDD5,B8631C43-FFD7-D04F-048E-5D6589D7E473,FA75516C-EEA5-06E0-7EB3-24383779CAB3,98EA49F9-9AF0-1A6E-0D77-F2C2CACF2DA4</processOrderString>
-</DataFlowDesign>

@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<TableViewProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableViewProxyOraclev10g" name="Ganrantor" directorySegmentName="seg_0" id="ACC01EA3-5FF5-3A2A-537B-3BDC3F8401DA">
-<createdBy>msi</createdBy>
-<createdTime>2014-02-07 09:44:35 UTC</createdTime>
-<generatorID>Généré par l&apos;utilisateur</generatorID>
-<ownerDesignName>nour_0_2</ownerDesignName>
-</TableViewProxyOraclev10g>

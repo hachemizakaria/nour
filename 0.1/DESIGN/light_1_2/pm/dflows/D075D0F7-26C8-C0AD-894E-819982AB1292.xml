@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<DataFlowDesign class="oracle.dbtools.crest.model.design.process.DataFlowDesign" name="apx_navigation" id="D075D0F7-26C8-C0AD-894E-819982AB1292" mainViewID="E380F13E-95E7-94C3-399F-92C49086EA6A" topLevel="true">
-<createdBy>msi</createdBy>
-<createdTime>2013-11-01 11:33:34 UTC</createdTime>
-<ownerDesignName>light_1_2</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-<processOrderString>183ECEC1-E461-CCF2-98CB-F3C4787BB285,616055DA-3B65-DD14-301E-8FB13FE72C02,FF6FF6AC-A81B-F209-31D0-96983202843A</processOrderString>
-</DataFlowDesign>

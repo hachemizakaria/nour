@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="LIGHT" directorySegmentName="seg_0" id="8937EAB7-C42D-821B-6D17-F76AE50531AB">
-<createdBy>msi</createdBy>
-<createdTime>2013-10-04 09:44:38 UTC</createdTime>
-<generatorID>Généré par l&apos;utilisateur</generatorID>
-<ownerDesignName>light_1_1</ownerDesignName>
-</SchemaObject>

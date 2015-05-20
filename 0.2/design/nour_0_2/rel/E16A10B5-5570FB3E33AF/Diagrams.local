@@ -1,6 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="sub_view" objectID="58F2570F-F187-3C26-A857-244F961A666B" name="SubView_PERON" visible="false"/>
-   <object objectType="main_view" objectID="945654E6-7D8D-9193-1F87-AB5A1E658817" name="n2" visible="true"/>
-   <object objectType="sub_view" objectID="A7205FA3-A6B2-ACB1-DB71-09AD3AAFE5EA" name="SubView_ALMS_out" visible="false"/>
-</oracle.dbtools.crest.model.design.relational.RelationalDesign>

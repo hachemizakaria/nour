@@ -1,6 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.process.DataFlowDesign>
-   <object objectType="Process" objectID="183ECEC1-E461-CCF2-98CB-F3C4787BB285" name="p2 orphane" seqName="seg_0"/>
-   <object objectType="Process" objectID="616055DA-3B65-DD14-301E-8FB13FE72C02" name="p3 support" seqName="seg_0"/>
-   <object objectType="Process" objectID="FF6FF6AC-A81B-F209-31D0-96983202843A" name="P4 equipemnet" seqName="seg_0"/>
-</oracle.dbtools.crest.model.design.process.DataFlowDesign>

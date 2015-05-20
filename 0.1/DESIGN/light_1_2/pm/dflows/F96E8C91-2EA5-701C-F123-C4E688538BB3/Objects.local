@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.process.DataFlowDesign>
-   <object objectType="Process" objectID="141487AD-79E6-A191-5021-A6071A37EC42" name="P2101 orhane edit" seqName="seg_0"/>
-   <object objectType="Process" objectID="283EC944-D1F4-AD5F-FA0A-56EFC9B04981" name="P2 orphane " seqName="seg_0"/>
-   <object objectType="Process" objectID="AEB82154-DE4F-B53F-CFBF-297A117FF8C1" name="P2200 supporter" seqName="seg_0"/>
-   <object objectType="Process" objectID="D3B06AF4-452D-AEA1-400B-CE254E95F39A" name="P2100 orphane list" seqName="seg_0"/>
-</oracle.dbtools.crest.model.design.process.DataFlowDesign>

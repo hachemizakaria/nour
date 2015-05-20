@@ -1,4 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.process.DataFlowDesign>
-   <object objectType="main_view" objectID="E380F13E-95E7-94C3-399F-92C49086EA6A" name="apx_navigation" visible="true"/>
-</oracle.dbtools.crest.model.design.process.DataFlowDesign>

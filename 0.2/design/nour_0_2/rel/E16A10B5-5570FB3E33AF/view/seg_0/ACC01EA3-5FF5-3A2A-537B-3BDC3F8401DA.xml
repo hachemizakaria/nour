@@ -1,9 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="ACC01EA3-5FF5-3A2A-537B-3BDC3F8401DA" name="Ganrantor">
-<createdBy>msi</createdBy>
-<createdTime>2014-02-07 09:44:35 UTC</createdTime>
-<generatorID>Généré par l&apos;utilisateur</generatorID>
-<ownerDesignName>nour_0_2</ownerDesignName>
-<userDefined>false</userDefined>
-<parsed>true</parsed>
-</TableView>

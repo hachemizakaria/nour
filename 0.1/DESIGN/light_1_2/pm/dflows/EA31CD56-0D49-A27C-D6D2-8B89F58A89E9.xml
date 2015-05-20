@@ -1,9 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<DataFlowDesign class="oracle.dbtools.crest.model.design.process.DataFlowDesign" name="p3 support Diagram" id="EA31CD56-0D49-A27C-D6D2-8B89F58A89E9" mainViewID="06A491C3-A268-9F6B-3379-A7D02923731B" topLevel="false" parentDFD_ID="D075D0F7-26C8-C0AD-894E-819982AB1292">
-<createdBy>msi</createdBy>
-<createdTime>2013-11-01 11:36:58 UTC</createdTime>
-<ownerDesignName>light_1_2</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-<process>616055DA-3B65-DD14-301E-8FB13FE72C02</process>
-<processOrderString>76A2FFDD-7F4A-2029-509C-C5AEEE72768E</processOrderString>
-</DataFlowDesign>

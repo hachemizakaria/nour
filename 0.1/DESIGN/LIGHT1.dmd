@@ -1,9 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="LIGHT1" id="424E2C27-1B9B-570E-8946-15B470B8385D" version="3.5">
-<createdBy>msi</createdBy>
-<createdTime>2013-09-22 18:54:23 UTC</createdTime>
-<generatorID>Généré par l&apos;utilisateur</generatorID>
-<ownerDesignName>LIGHT1</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>424E2C27-1B9B-570E-8946-15B470B8385D</designId>
-</OSDM_Design>
