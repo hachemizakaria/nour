@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69CB9FFF-35A0-5251-A380-F000863B73AD" name="L_ALMS_IN">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>L_ALMS_IN</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-11 18:31:29 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="5FBDA5D9-2E6F-71C3-9420-1CB10ACE8300">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_ALMS_IN</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-11 18:31:29 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALMS_VALUE" id="5067741D-9254-19B1-9D53-523906DEDEBA">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_ALMS_IN</sourceObjSchema>
+<sourceObjName>ALMS_VALUE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-11 18:31:29 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALMS_DATE" id="47257D40-7D87-3E00-A065-2D72DEA3BA2E">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_ALMS_IN</sourceObjSchema>
+<sourceObjName>ALMS_DATE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-11 18:31:29 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIVER_CODE" id="B435874E-8D17-5969-5A3F-58FFFBEF524A">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_ALMS_IN</sourceObjSchema>
+<sourceObjName>GIVER_CODE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-11 18:31:29 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENG_ID" id="63DF3F7B-C12D-648A-2635-DA65228BE45D">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_ALMS_IN</sourceObjSchema>
+<sourceObjName>ENG_ID</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-11 18:31:29 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FUND_ACCOUNT" id="7859964A-0DD5-73AE-6779-2FA3964F91FC">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_ALMS_IN</sourceObjSchema>
+<sourceObjName>ALMS_ACCOUNT</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-11 18:39:12 UTC</createdTime>
+<commentInRDBMS>destination</commentInRDBMS>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>A2125C02-F9E6-9771-D6FA-9D802D58EB8B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN7" id="AB21FA02-C483-B887-50F5-E8676550D957">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_ALMS_IN</sourceObjSchema>
+<sourceObjName>COLUMN7</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-11 18:31:29 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN8" id="D986138F-FA45-DF43-3255-F11DC66B50E5">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_ALMS_IN</sourceObjSchema>
+<sourceObjName>COLUMN8</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-11 18:31:29 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN1" id="8043CB37-3AD8-75BF-89B2-805DD79134E2">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_ALMS_IN</sourceObjSchema>
+<sourceObjName>COLUMN1</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-11 18:31:29 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

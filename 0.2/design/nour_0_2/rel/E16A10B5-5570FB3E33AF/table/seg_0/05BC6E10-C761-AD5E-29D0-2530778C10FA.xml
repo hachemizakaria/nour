@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05BC6E10-C761-AD5E-29D0-2530778C10FA" name="ALMS_PLAN_NDY">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>ALMS_PLAN_NDY</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="FAB2FEFE-C3BE-F788-3A1A-247EB96DEAF5">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>ALMS_PLAN_NDY</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAN_ID" id="F98AD312-9BDE-8961-29B1-639663553573">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>ALMS_PLAN_NDY</sourceObjSchema>
+<sourceObjName>PLAN_ID</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>53DA0F90-BCCE-5E61-812F-05FD1F97F116</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57C829D1-CF3B-33B4-D040-47A73A7D3E91" referredColumn="53DA0F90-BCCE-5E61-812F-05FD1F97F116"/>
+</associations>
+</Column>
+<Column name="NDY_CODE" id="D21A75A9-10E2-8035-FBC9-767D13D8400F">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>ALMS_PLAN_NDY</sourceObjSchema>
+<sourceObjName>ND_CODE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_JOINED" id="33061151-D511-72F7-EE19-5477913C1AC3">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>ALMS_PLAN_NDY</sourceObjSchema>
+<sourceObjName>DATE_JOINED</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_EXCLUDED" id="9F1574FB-BF86-A2D5-BFDD-BBED13B6BFB9">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>ALMS_PLAN_NDY</sourceObjSchema>
+<sourceObjName>DATE_EXCLUDED</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN3" id="57E3F591-8F7C-B43D-1E5E-84AE3B2F670E">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>ALMS_PLAN_NDY</sourceObjSchema>
+<sourceObjName>COLUMN3</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5842D68D-E82C-3D4E-609E-EA7805E2DA53" name="ALMS_PLAN_NDY_PK">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>ALMS_PLAN_NDY_PK</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:21:41 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>122F3718-E64F-A361-79D6-BFFD08036229</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAB2FEFE-C3BE-F788-3A1A-247EB96DEAF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="142403FD-36BE-5890-A35F-53FBE48CCF37" name="ALMS_PLAN_NDY_UK1">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>ALMS_PLAN_NDY_UK1</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:21:41 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>34BE6FB8-AA21-89E3-126A-372CB2737782</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F98AD312-9BDE-8961-29B1-639663553573"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87F1D48D-4370-97AB-FC6E-27A481BA9C15" name="ALMS_PLAN_NDY_PK">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>ALMS_PLAN_NDY_PK</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:21:41 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>0B8248D0-8DC6-0215-F69C-1627F126A9DA</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAB2FEFE-C3BE-F788-3A1A-247EB96DEAF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="750C1C26-6351-0F39-B7F7-6518DB76684D" name="ALMS_PLAN_NDY_UK1">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>ALMS_PLAN_NDY_UK1</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:21:41 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>AC5BC92D-0DAB-C0BE-6BBB-7F2EB51C41EA</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F98AD312-9BDE-8961-29B1-639663553573"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CA166EF-2B2C-3E0B-3FD8-1ED68EFC7164" name="ALMS_PLAN_NDY_FK1">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:21:41 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F98AD312-9BDE-8961-29B1-639663553573"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

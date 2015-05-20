@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataFlowDesign class="oracle.dbtools.crest.model.design.process.DataFlowDesign" name="P4_GIFTS Diagram" id="10E61A5D-B7D1-751D-E2C5-54EF5BE27D8C" mainViewID="144E1290-D31A-471C-A689-D7AB743A2568" topLevel="false" parentDFD_ID="82597506-A8A5-5816-515C-792E73663E19">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-06 16:41:57 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<process>D68E2EF7-323F-6753-B863-A2F5C4B0B234</process>
+</DataFlowDesign>

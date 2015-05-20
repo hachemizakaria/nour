@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="N3_T_ALMS" directorySegmentName="seg_0" id="7AA68340-D340-5BE3-FBFA-2A0817F8F472">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:13:45 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<schemaObject>C335209A-12F8-D6E0-879B-6BD64E44D839</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BFF5E721-C4D0-ADBD-D261-9EA75210630B</segment>
+<tableSpace>9CDE3438-49AB-A982-4DD9-77C4C6FE94D5</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="COLUMN3" id="16D3BF72-9139-67C8-CEAE-2113A04D61F7">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:13:45 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLUMN4" id="3190890D-40B1-4D6C-A43D-B94B390F991D">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:13:45 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="580E535C-CF3D-EEE9-60D0-7EAC2E5E5D42">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:13:45 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ALMS_TYPE" id="7621F84C-B94F-9E33-2540-905BF00395C8">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:13:45 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLUMN1" id="D9A7C63E-13D1-CE2C-B65E-329BBE3E8503">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:13:45 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ALMS_DESC" id="FE42631D-B0F0-90A8-185C-57AB12F13805">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:13:45 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="N3_T_ALMS_PK" id="91D2ACDB-5814-1837-917E-AAC2018C5894">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<schemaObject>C335209A-12F8-D6E0-879B-6BD64E44D839</schemaObject>
+<segment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="N3_T_ALMS_UK1" id="C55223BA-FE63-A74D-072A-41E6595E2449">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<schemaObject>C335209A-12F8-D6E0-879B-6BD64E44D839</schemaObject>
+<segment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="N3_T_ALMS_PK" id="792719B7-91DC-3831-812A-FA66F60C0B78">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<segment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+<existingIndex>91D2ACDB-5814-1837-917E-AAC2018C5894</existingIndex>
+<indexSegment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="N3_T_ALMS_UK1" id="928D6538-5E7D-B654-F284-6F7DAD8484A9">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<segment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+<existingIndex>C55223BA-FE63-A74D-072A-41E6595E2449</existingIndex>
+<indexSegment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

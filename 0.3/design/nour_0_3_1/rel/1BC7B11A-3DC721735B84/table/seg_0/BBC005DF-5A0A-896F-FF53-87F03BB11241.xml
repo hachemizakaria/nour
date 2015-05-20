@@ -1,0 +1,362 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBC005DF-5A0A-896F-FF53-87F03BB11241" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_NEEDY_SCHOOL">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_NEEDY_SCHOOL</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="581A259A-3B9A-3761-B803-18D7672979AD">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_NEEDY_SCHOOL</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NDY_CODE" id="21492BC0-77F7-2548-DE94-ECC7E218C462">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_NEEDY_SCHOOL</sourceObjSchema>
+<sourceObjName>NDY_CODE</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="342C6977-7A56-5460-0CAE-2F5D094388B2" referredColumn="05C7002A-913E-EC4A-619A-E6DAA18128F2"/>
+</associations>
+</Column>
+<Column name="SCHOOL_CODE" id="A742E86E-7ADF-345F-5FC7-7BB8C3060342">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_NEEDY_SCHOOL</sourceObjSchema>
+<sourceObjName>SCHOOL_CODE</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F9FF6C5-5209-A6AB-746B-923896DDE8D4" referredColumn="7CBA7390-6D0F-4997-936A-BEF9220A232E"/>
+</associations>
+</Column>
+<Column name="LINE" id="48657820-5524-9BAD-E715-4984006E0A98">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_NEEDY_SCHOOL</sourceObjSchema>
+<sourceObjName>LINE</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FNAME" id="4960B6A5-5E13-602B-D269-A741C81CAEF0">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_NEEDY_SCHOOL</sourceObjSchema>
+<sourceObjName>FNAME</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN4" id="C812BE7D-9279-6E04-8C2A-38C914EFAE4D">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_NEEDY_SCHOOL</sourceObjSchema>
+<sourceObjName>COLUMN4</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN6" id="2919B109-8D86-F380-D4AB-43817B5E64FE">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_NEEDY_SCHOOL</sourceObjSchema>
+<sourceObjName>COLUMN6</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIRTH_ON" id="D5B89318-7D41-29F1-BC4C-85E31F16AF45">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_NEEDY_SCHOOL</sourceObjSchema>
+<sourceObjName>BIRTH_ON</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN5" id="A38ABB2A-D862-566B-3EA2-27BF0EBE15BB">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_NEEDY_SCHOOL</sourceObjSchema>
+<sourceObjName>COLUMN5</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN7" id="8EDB7225-3899-9258-320A-861ECDF758FD">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_NEEDY_SCHOOL</sourceObjSchema>
+<sourceObjName>COLUMN7</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLASSE_LEVEL" id="B75AD2F3-0D4F-5255-44C2-DB0ECB6AACFD">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_NEEDY_SCHOOL</sourceObjSchema>
+<sourceObjName>CLASSE_LEVEL</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SCORING_LVL" id="AF413564-C200-0401-2FD3-21E6ABF5C746">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_NEEDY_SCHOOL</sourceObjSchema>
+<sourceObjName>SCORING_LVL</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="302C2BA2-C084-B13A-0762-B164A316EFA6" referredColumn="35B2C067-A7C1-E54A-2169-580CC8EC2550"/>
+</associations>
+</Column>
+<Column name="COLUMN8" id="BEBEB083-E970-DCC8-6CDE-1D89FE7052A9">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_NEEDY_SCHOOL</sourceObjSchema>
+<sourceObjName>COLUMN8</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN9" id="A96B62E9-8663-17F4-FD7A-1596740DCD65">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_NEEDY_SCHOOL</sourceObjSchema>
+<sourceObjName>COLUMN9</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN1" id="33D9B801-C5A9-B4FC-EFEE-CDB210BA2270">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_NEEDY_SCHOOL</sourceObjSchema>
+<sourceObjName>COLUMN1</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN2" id="92EE7FD5-24CF-FE0C-8003-4068EECEE94D">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_NEEDY_SCHOOL</sourceObjSchema>
+<sourceObjName>COLUMN2</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN3" id="6EFA01E1-2A0C-ECE8-FA57-4AA1AC652CF8">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_NEEDY_SCHOOL</sourceObjSchema>
+<sourceObjName>COLUMN3</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A164848-EBC9-C5D6-C0C1-5B60DC4FE3E8" name="N3_NEEDY_SCHOOL_PK">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_NEEDY_SCHOOL_PK</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="581A259A-3B9A-3761-B803-18D7672979AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D0A06ED-D7DB-A6BB-CE8A-C2B434055710" name="N3_NEEDY_SCHOOL_UK1">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_NEEDY_SCHOOL_UK1</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21492BC0-77F7-2548-DE94-ECC7E218C462"/>
+<colUsage columnID="A742E86E-7ADF-345F-5FC7-7BB8C3060342"/>
+<colUsage columnID="48657820-5524-9BAD-E715-4984006E0A98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F87A23C-96BE-E5AA-79BB-0248AB63159D" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_NEEDY_SCHOOL_PK">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_NEEDY_SCHOOL_PK</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="581A259A-3B9A-3761-B803-18D7672979AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDF17869-56C7-7DDA-97A3-8509EE9178F7" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_NEEDY_SCHOOL_UK1">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_NEEDY_SCHOOL_UK1</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21492BC0-77F7-2548-DE94-ECC7E218C462"/>
+<colUsage columnID="A742E86E-7ADF-345F-5FC7-7BB8C3060342"/>
+<colUsage columnID="48657820-5524-9BAD-E715-4984006E0A98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CFFF1DA-7D55-0BA2-E175-2B1315DEDB1E" name="N3_NEEDY_SCHOOL_FK1">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:52:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF413564-C200-0401-2FD3-21E6ABF5C746"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECF1E4A1-1F8B-F2CB-E81C-18922B9A9E12" name="N3_NEEDY_SCHOOL_FK2">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A742E86E-7ADF-345F-5FC7-7BB8C3060342"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F4459E3-A4D7-445A-E624-2D851DAD3855" name="N3_NEEDY_SCHOOL_FK3">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21492BC0-77F7-2548-DE94-ECC7E218C462"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

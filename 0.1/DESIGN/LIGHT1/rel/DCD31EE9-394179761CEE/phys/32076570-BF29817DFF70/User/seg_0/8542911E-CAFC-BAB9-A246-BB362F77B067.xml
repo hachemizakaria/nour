@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="LIGHT" directorySegmentName="seg_0" id="8542911E-CAFC-BAB9-A246-BB362F77B067">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjName>LIGHT</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 18:54:46 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<schemaObject>8B596FC0-513D-DAA2-F90D-0001D9AE90B1</schemaObject>
+</UserOraclev10g>

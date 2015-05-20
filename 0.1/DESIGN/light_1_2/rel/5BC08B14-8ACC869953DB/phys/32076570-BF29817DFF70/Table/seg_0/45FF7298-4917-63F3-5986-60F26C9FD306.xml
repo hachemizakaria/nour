@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ORPHANE" directorySegmentName="seg_0" id="45FF7298-4917-63F3-5986-60F26C9FD306">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:03:21 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="FATHER_DIED_ON" id="1C932FD0-0B9A-EF9F-E694-DAA23CAB1C42">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:03:21 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="CODE_DOSSIER" id="23F513E7-6E0B-A3AE-7F66-3BD6AB9B7C49">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:03:21 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="LAST_UPDATE" id="3036A9E1-0C35-B122-33EF-FD9126F8356A">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:03:21 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="MOTHER_FNAME" id="32E4F617-52A9-33B5-5C4E-A38D7DD4CAA0">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:03:21 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="BIRTHDAY" id="598052E9-BE66-944F-1471-CACE8D23F463">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:03:21 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="HEALTH_LEVEL" id="5D9DDA5E-DCBE-8AC0-C73A-F333F3C76BF9">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:03:21 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ID" id="70FC9693-B28D-CA61-D299-3F567597FD03">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:03:21 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="MOTHER_LNAME" id="717B14E2-92A4-4FF2-0778-C79576289333">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:03:21 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="HEALTH_OBS" id="95829FD1-3241-84B3-E27D-59E48651B048">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:03:21 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ADOPTER_NAME" id="9EBFB6B6-4F3E-036E-0143-679387DC86C8">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:03:21 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="FATHER" id="B08F6D1D-3FC8-3231-B608-49EFEE70C106">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:03:21 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="MOTHER_DIED_ON" id="DC453C47-D109-4EE4-564A-B02E789ADD95">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:03:21 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ZONE" id="E5F0BF0C-315E-A0E2-3425-A6CAAD686503">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:03:21 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="REGITRED_ON" id="F54576E8-C861-05F5-6537-12823078FED0">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:03:21 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="HEALTH_" id="F8AA4614-0D3C-A3C4-9DFD-2FAA00BD01D3">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:03:21 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ORPHANE_FK1" id="D55C704C-DB63-1694-1710-D7108536B9E7">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:23:28 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ORPHANE_PK" id="1FD40DA0-6866-5F70-8EDF-56CC6123FCA4">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:03:21 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="ORPHANE__UN" id="BE29A006-8583-AF1A-F8F5-87AD19C92556">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:03:21 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

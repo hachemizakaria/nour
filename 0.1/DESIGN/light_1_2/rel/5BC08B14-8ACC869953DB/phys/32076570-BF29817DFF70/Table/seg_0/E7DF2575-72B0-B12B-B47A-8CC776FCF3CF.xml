@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SUPPORTED_CHARGE" directorySegmentName="seg_0" id="E7DF2575-72B0-B12B-B47A-8CC776FCF3CF">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:10:19 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="SUPPORTED_ID" id="02C2B130-D8BE-7E24-55BA-F81D161768BA">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:14:29 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="CHARGE_SCHOOL" id="180BC031-CAFA-F3F4-AB77-DD2872E8EA5A">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:14:29 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="CHARGE_N" id="3574D47E-4F04-4C20-A2DC-B5EE3439997F">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:14:29 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="CHARGE_AGE" id="57B1267B-BD5B-C635-7B7A-F0700FDD43FA">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:14:29 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="LAST_UPDATE" id="8824D126-F6E3-6DA1-5FC4-7E191509581B">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:14:29 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="CHARGE_HEALTH" id="A161D124-3E16-E178-3B71-39DD1DA3ADD5">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:14:29 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ID" id="BF4D8D94-0480-58BD-C253-22216158DF45">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:14:29 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="CHARGE_SEXE" id="F3B8162B-42E0-A1AF-AE7F-716411A7AA22">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:14:29 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SUPPORTED_CHARGE_FK1" id="BC5AAB9F-3128-780B-7046-6701E0F1B482">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:14:52 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SUPPORTED_CHARGE_PK" id="1D437CBC-7BDF-097F-E168-DCFAE1695379">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:14:29 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="SUPPORTED_CHARGE__UN" id="7C670778-99E7-0B16-8092-C0B8BB867991">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:14:29 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

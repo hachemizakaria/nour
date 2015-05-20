@@ -1,0 +1,220 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F1ECFC2-090F-7B51-8542-FBA117545315" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_F_FUNDS">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_F_FUNDS</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="1B99E565-0B8B-A99C-64AD-FC9806AFA1BE">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_FUNDS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN4" id="21A9C380-3E54-EA43-3875-A16A5A94062C">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_FUNDS</sourceObjSchema>
+<sourceObjName>COLUMN4</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN5" id="AB95F154-A22C-B80D-1286-4AC688C91500">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_FUNDS</sourceObjSchema>
+<sourceObjName>COLUMN5</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN6" id="E0AABDB2-3BA7-C1B6-84CA-5EC808B4403A">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_FUNDS</sourceObjSchema>
+<sourceObjName>COLUMN6</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FUND_ACCOUNT" id="3F54855A-C320-1933-F2E5-5392D055C431">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_FUNDS</sourceObjSchema>
+<sourceObjName>FUND_ACCOUNT</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BBDE269-3067-2E4E-8490-C2EEFEE06156" referredColumn="B5F58234-BF41-EC9F-2943-23485EDEA735"/>
+</associations>
+</Column>
+<Column name="FUND_VALUE" id="B2ED48E0-D744-FE47-007B-2BFE222BF051">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_FUNDS</sourceObjSchema>
+<sourceObjName>FUND_VALUE</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN7" id="00341D9E-0C42-EA99-B8BB-B39141C266FE">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_FUNDS</sourceObjSchema>
+<sourceObjName>COLUMN7</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN8" id="EE368889-0E74-7B17-AC9A-99466E14D148">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_FUNDS</sourceObjSchema>
+<sourceObjName>COLUMN8</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN9" id="3A5D4B59-5134-6891-B1E6-9D809CFF732B">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_FUNDS</sourceObjSchema>
+<sourceObjName>COLUMN9</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN10" id="2C80E530-767B-367B-DCA2-0BA612E9FD61">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_FUNDS</sourceObjSchema>
+<sourceObjName>COLUMN10</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN11" id="5E3BA6CD-7CF6-0EE6-C1B6-5B92E78D1C4C">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_FUNDS</sourceObjSchema>
+<sourceObjName>COLUMN11</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9404F980-806B-7D9C-ACEE-94DB1F17A328" name="N3_F_FUNDS_PK">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_F_FUNDS_PK</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>9D9ED790-9ECC-EE60-2E4F-13F4417A2F36</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B99E565-0B8B-A99C-64AD-FC9806AFA1BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4884A966-22A9-DA33-5C36-322F960CA69E" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_F_FUNDS_PK">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_F_FUNDS_PK</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>7CA50BF6-CC6D-C133-CA0F-1C08E1CA74B4</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B99E565-0B8B-A99C-64AD-FC9806AFA1BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBA7385B-9D35-B5FC-9FCD-7C0EACF20441" name="N3_F_FUNDS_FK1">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 16:30:49 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F54855A-C320-1933-F2E5-5392D055C431"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

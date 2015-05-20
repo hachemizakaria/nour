@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.DataFlowDesign>
+   <object objectType="Process" objectID="867FF25F-A8EA-BF55-6A47-9D98C41CA381" name="P3010_alms_plan" seqName="seg_0"/>
+   <object objectType="Process" objectID="FEAB689A-7612-C464-4304-0621EE61048D" name="P3011_alms_plan_ndy" seqName="seg_0"/>
+   <object objectType="Process" objectID="3B7B8271-833C-C55C-FC36-9B38192C5A6B" name="P3200_alms_in" seqName="seg_0"/>
+   <object objectType="Process" objectID="6669BD4D-4292-64E8-2BB4-30E100512DE5" name="P3201_alms_in_view" seqName="seg_0"/>
+   <object objectType="Process" objectID="8A4CA677-7796-1A89-1AA8-DD1D39A1F77F" name="P3202_alms_in edit" seqName="seg_0"/>
+   <object objectType="Process" objectID="854DD78A-C6BA-92EC-3EFF-040275D8EB7C" name="P3300_funds" seqName="seg_0"/>
+   <object objectType="Process" objectID="E2127EB9-EC91-3629-9226-1F2366A4BBA4" name="P3_ALMS" seqName="seg_0"/>
+   <object objectType="Flow" objectID="B3A7A7A6-FC04-4270-0933-096476EEA374" name="Flow_1" seqName="seg_0"/>
+   <object objectType="Flow" objectID="CE4C8E89-8847-ED8C-0619-398191F97E69" name="Flow_2" seqName="seg_0"/>
+   <object objectType="Flow" objectID="732F38F1-0CC0-4813-570D-5B71BE6F83A9" name="Flow_3" seqName="seg_0"/>
+   <object objectType="Flow" objectID="73448C2A-55EC-29D2-9997-9B86FD5EE3A9" name="Flow_5" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.process.DataFlowDesign>

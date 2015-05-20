@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Process class="oracle.dbtools.crest.model.design.process.Process" name="P3_ALMS" directorySegmentName="seg_0" id="E2127EB9-EC91-3629-9226-1F2366A4BBA4">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-06 16:42:23 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<primary>false</primary>
+<batchMinimumTransactions>1000</batchMinimumTransactions>
+<batchTimeUnit>Second</batchTimeUnit>
+<footNote>-alms plan&lt;br&gt;-alms term&lt;br&gt;&lt;br&gt;list of alms plan</footNote>
+<frequencyTimeUnit>Day</frequencyTimeUnit>
+<frequencyTimes>0</frequencyTimes>
+<interactiveLongestResponseTime>5</interactiveLongestResponseTime>
+<interactiveResponseTimeUnit>Second</interactiveResponseTimeUnit>
+<mode>Unknown</mode>
+<priority>Low</priority>
+<peakPeriodsString>000000000000000000000000</peakPeriodsString>
+</Process>

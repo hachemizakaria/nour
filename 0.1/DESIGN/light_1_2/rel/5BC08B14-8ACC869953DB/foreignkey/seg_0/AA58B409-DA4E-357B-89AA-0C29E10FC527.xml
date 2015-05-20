@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AA58B409-DA4E-357B-89AA-0C29E10FC527" name="DISTRUB_ITEMS_FK">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:24:01 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<containerWithKeyObject>72F06CB3-E69B-F717-D6A9-E8BB01A2445F</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>E8596C3C-8187-22E3-2647-A18E081DDB07</localFKIndex>
+<keyObject>266BF4EE-529B-869E-BA57-858C2328FF33</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

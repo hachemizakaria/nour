@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="NOUR" directorySegmentName="seg_0" id="B5992FD1-3C08-BEFC-519C-A184AC0D8283">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjName>NOUR</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-15 16:51:03 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<privileges>CREATE MATERIALIZED VIEW, CREATE SESSION, CREATE TYPE, CREATE SEQUENCE, CREATE OPERATOR, CREATE JOB, CREATE PROCEDURE, CREATE INDEXTYPE, CREATE DIMENSION, CREATE VIEW, CREATE TRIGGER, CREATE SYNONYM, CREATE TABLE, CREATE CLUSTER</privileges>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="1EAD5BC1-16CA-AC14-30AA-B18A9A5E844A">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-15 16:51:03 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

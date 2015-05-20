@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="247E27F9-9551-C9FC-F2AA-A80C264893D3" name="ZONE_AMBASSADOR_FK2">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>LIGHT</sourceObjSchema>
+<sourceObjName>ZONE_AMBASSADOR_FK2</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<containerWithKeyObject>E7EDB787-E8D0-943D-A3E7-4051DEF57904</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>EC776621-6CF7-5B79-90C5-EC19E99CACCF</localFKIndex>
+<keyObject>4B8E2A68-5BEF-6074-B26E-570520188DF8</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

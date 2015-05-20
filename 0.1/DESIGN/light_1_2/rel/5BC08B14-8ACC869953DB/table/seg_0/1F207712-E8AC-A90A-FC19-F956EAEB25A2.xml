@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F207712-E8AC-A90A-FC19-F956EAEB25A2" name="GIFT_IN">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-19 10:18:23 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="F5B6CB96-B91E-6789-DB85-72E47D6C9B9F">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 10:56:41 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_GIFT" id="BD5798CA-8F70-3B2B-6ADC-F4847D2D7A58">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:09:43 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIVER_NAME" id="B3621274-4744-C38D-2221-F747C6E7432B">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:09:43 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIFT_SEQ" id="66401A1E-C2E1-A8C8-DCC4-119489C9CB13">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:03:08 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D6F30CA-C369-524C-CDB6-BDCC839371BC" name="GIFT_IN_PK">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:02:00 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5B6CB96-B91E-6789-DB85-72E47D6C9B9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

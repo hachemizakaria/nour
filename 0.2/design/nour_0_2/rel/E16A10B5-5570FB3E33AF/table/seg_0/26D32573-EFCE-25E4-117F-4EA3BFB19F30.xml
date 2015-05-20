@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26D32573-EFCE-25E4-117F-4EA3BFB19F30" name="L_T_SALARY_LVL">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>L_T_SALARY_LVL</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-14 16:21:32 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="55E3BAD1-2FBC-ED35-126D-CF9283070D21">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_T_SALARY_LVL</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-14 16:21:32 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LVL" id="CCFB5AB2-FD06-DA14-FD17-BFD6229FA702">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_T_SALARY_LVL</sourceObjSchema>
+<sourceObjName>LVL</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-14 16:21:32 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LVL_DESC" id="147E93E7-9587-4AB5-6F30-228FCFDA2800">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_T_SALARY_LVL</sourceObjSchema>
+<sourceObjName>LVL_DESC</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-14 16:21:32 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARY_START" id="BD6B983C-6D92-1B11-8EA4-6793F5435C6D">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_T_SALARY_LVL</sourceObjSchema>
+<sourceObjName>SALARY_START</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-14 16:21:32 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARY_END" id="CF4EE5BF-76EB-E8D0-C833-67F2DABC1C31">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_T_SALARY_LVL</sourceObjSchema>
+<sourceObjName>SALARY_END</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-14 16:21:32 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

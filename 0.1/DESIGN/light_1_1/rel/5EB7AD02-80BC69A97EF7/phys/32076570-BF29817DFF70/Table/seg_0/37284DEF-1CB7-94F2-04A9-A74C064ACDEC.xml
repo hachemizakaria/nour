@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DONATIONS" directorySegmentName="seg_0" id="37284DEF-1CB7-94F2-04A9-A74C064ACDEC">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<schemaObject>8937EAB7-C42D-821B-6D17-F76AE50531AB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D6B057CA-537F-73C3-57F5-A5F22AE3356F</segment>
+<tableSpace>D534987C-0696-84A6-AC53-7E5E0FC24005</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="OBS" id="05C43E63-71FE-AEA9-11B3-7D9D42794C82">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ID" id="150E26CF-F718-B615-BB87-17A02342D8B1">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="DONATION_DATE" id="469D5C3D-8F99-3913-2E71-475DD5C205C5">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="AMBASSADOR" id="6F614826-B288-E6A2-5115-98ED185B952A">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:58:24 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="BENEFICIARY_CODE" id="BE0170EA-3636-B2FE-06A9-1EE4282F7A8A">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="DONATION_VAL" id="E0C6CF11-7A35-CA7B-71BC-A60F6970E32C">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DONATIONS_PK" id="819F8210-5C79-2C81-FA87-B645E3CFBB89">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<schemaObject>8937EAB7-C42D-821B-6D17-F76AE50531AB</schemaObject>
+<segment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</segment>
+<tableSpace>D534987C-0696-84A6-AC53-7E5E0FC24005</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DONATIONS__UN" id="8F16727F-2786-47A3-9720-FCFCC01B6A09">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<schemaObject>8937EAB7-C42D-821B-6D17-F76AE50531AB</schemaObject>
+<segment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</segment>
+<tableSpace>D534987C-0696-84A6-AC53-7E5E0FC24005</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DONATIONS_FK2" id="6D5A75A7-F378-B864-DD18-00C6716B3615">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:58:24 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DONATIONS_FK1" id="A4E714AC-C8D3-8455-579C-5F01BA25D2BF">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DONATIONS_PK" id="25CD737D-BE60-0BF0-F7B0-6CE800D30010">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<segment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</segment>
+<tableSpace>D534987C-0696-84A6-AC53-7E5E0FC24005</tableSpace>
+<existingIndex>819F8210-5C79-2C81-FA87-B645E3CFBB89</existingIndex>
+<indexSegment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="DONATIONS__UN" id="9BC91FD8-F185-9C20-794B-7727D3FD630E">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<segment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</segment>
+<tableSpace>D534987C-0696-84A6-AC53-7E5E0FC24005</tableSpace>
+<existingIndex>8F16727F-2786-47A3-9720-FCFCC01B6A09</existingIndex>
+<indexSegment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

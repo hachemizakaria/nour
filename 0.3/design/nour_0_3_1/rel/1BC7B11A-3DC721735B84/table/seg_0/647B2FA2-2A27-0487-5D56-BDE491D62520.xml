@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="647B2FA2-2A27-0487-5D56-BDE491D62520" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_GIFTS">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_GIFTS</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>81835DB9-678D-9ACE-0C82-BD2AAB945E64</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D36DE340-DCA8-1801-CD22-887EC644A299">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_GIFTS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>730AB7D0-4D2C-E4A5-1E8D-863E2C618BC7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIFT_TYPE" id="6988543D-C5E1-2A35-6409-E801AD468FA1">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_GIFTS</sourceObjSchema>
+<sourceObjName>GIFT_TYPE</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>D44ABAAD-8895-1165-E735-F1F82DFCB979</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIFT_QUANTITE" id="95DAD623-7A55-B67A-C4DE-D738D94C070F">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_GIFTS</sourceObjSchema>
+<sourceObjName>GIFT_QUANTITE</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>95502FD4-8204-4D44-8777-DE5DBEFD36D1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIFT_UNIT" id="25F3C5CA-0675-5A70-46C4-3BF7B699873F">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_GIFTS</sourceObjSchema>
+<sourceObjName>GIFT_UNIT</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>015C939D-034E-E8C7-DF06-6AA46CD265CE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIFT_DATE" id="C3168932-1C1A-365F-1188-C1333B46B1C3">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_GIFTS</sourceObjSchema>
+<sourceObjName>GIFT_DATE</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>60D1518F-95EA-F0F8-28B5-7A730EE67BBB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIVER_CODE" id="E75E9F8D-9F17-F856-565C-49B9D5AAFBD9">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_GIFTS</sourceObjSchema>
+<sourceObjName>GIVER_CODE</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>CA50B15B-4A3E-4702-4CBC-1E519B1539AE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIFT_DESC" id="88DF6DA9-C2D4-E313-A885-67C6FF6DC9F2">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_GIFTS</sourceObjSchema>
+<sourceObjName>GIFT_DESC</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>300A7880-366B-C834-6530-F559CCAE8FAC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LEFT_QNTE" id="D4F65AA4-D3C1-AC39-B3AA-0D46A089B899">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_GIFTS</sourceObjSchema>
+<sourceObjName>LEFT_QNTE</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>210ABCCE-D149-4BFA-B3CC-40E9DDCD9827</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

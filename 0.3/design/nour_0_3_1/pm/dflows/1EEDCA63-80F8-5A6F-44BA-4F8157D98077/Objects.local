@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.DataFlowDesign>
+   <object objectType="Process" objectID="44527F36-D88C-0866-80FC-C07A0D7CED73" name="P1002_alms_type" seqName="seg_0"/>
+   <object objectType="Process" objectID="C277C6F4-5181-0CF3-0E91-0FF968D5D1BA" name="P1003_accounts" seqName="seg_0"/>
+   <object objectType="Process" objectID="316F86D2-7F5A-0D01-6FFD-BAE449B93673" name="P1004_t_needs" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.process.DataFlowDesign>

@@ -1,0 +1,440 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B72E7EAE-4614-D2B0-13C2-0C5E874591A5" name="L_F_BORROW">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>L_F_BORROW</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6BECCD0A-2561-372C-5D53-AAFEDA1A60D4">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRWR_LNAME" id="7C2AE10E-FA6C-4418-710A-3604F628EC3B">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>BRWR_LNAME</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRWR_FNAME" id="DF8A6484-0ED2-947B-FE9D-431E4FB5B99B">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>BRWR_FNAME</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRWR_BIRTH_ON" id="5D4E8D80-BBE2-3506-A335-2E09B3DBBE2E">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>BRWR_BIRTH_ON</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRWR_BIRTH_IN" id="C1E7E4E9-CA74-8417-2466-A8A67550FB4D">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>BRWR_BIRTH_IN</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRWR_CIN" id="3A3B7565-492C-5DF5-097F-2DFE7E416B1F">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>BRWR_CIN</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRWR_CIN_DATE" id="3D487358-F275-22D2-93AD-A16E8763A3F8">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>BRWR_CIN_DATE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRWR_CIN_IN" id="82EC8302-708B-DEF9-FECE-AAA4935AEAC5">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>BRWR_CIN_IN</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRWR_PHONE1" id="4C242CB7-39BE-6ACD-DF4B-3BF3EC60CBEE">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>BRWR_PHONE1</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRWR_PHONE2" id="E8247435-67B7-FFFA-7E06-C26E0465E885">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>BRWR_PHONE2</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRWR_ADDR1" id="6FFF80B8-1290-75EB-D2FD-0C25455ED10E">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>BRWR_ADDR1</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRWR_ADDR2" id="BA4D3395-7410-F216-F873-8168EB589817">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>BRWR_ADDR2</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRWR_PC_N" id="FD294DC2-9173-9232-165C-589CB4DB3853">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>BRWR_PC_N</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRWR_PC_DATE" id="844573AB-8AFA-79DC-29A6-D4349AB20CA9">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>BRWR_PC_DATE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRWR_PC_IN" id="CEA6399E-AC6F-4931-4AB1-36FD48B67CBA">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>BRWR_PC_IN</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EQ_CODE" id="16FB5FFF-723D-4D75-AA6E-EA0ABCF95D1E">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>EQ_CODE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<delegate>42174DDF-DB1A-1F88-F059-A869A7D36410</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EC23A39-B0CA-BEC3-A5DD-BF3732FA80E2" referredColumn="42174DDF-DB1A-1F88-F059-A869A7D36410"/>
+</associations>
+</Column>
+<Column name="PATIENT_LNAME" id="4B87214E-21C9-26DF-ED7C-D5A1B71CB810">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>PATIENT_LNAME</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PATIENT_FNAME" id="A43F8CCF-0A6D-D2EA-58EE-66A2E25675B8">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>PATIENT_FNAME</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PATIENT_ADDR" id="DA8E9DFF-17E9-A88C-DC4C-63C9C5A3DAA7">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>PATIENT_ADDR</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_OUT" id="330FF609-3D49-2398-A345-C0C67E8D8CA3">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>DATE_OUT</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:10:42 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>EF73BC15-5B9A-1D57-921C-522034F31F2C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_IN" id="563F87B1-C01E-61F5-030D-D6EB33F3DA6A">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>DATE_IN</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:10:42 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>E3AEA493-C050-D471-ACC8-4A947477AF45</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EQ_STATE_OUT" id="51674A79-9C43-2BEC-8CDE-2E4673AAA1F9">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>EQ_STATE_OUT</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:10:42 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>E246CF2B-C299-BB6A-8DE2-17E54B372F54</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EQ_STATE_IN" id="0C5CE4F0-3B2A-9EAF-724E-D29D9905FC54">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_BORROW</sourceObjSchema>
+<sourceObjName>EQ_STATE_IN</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:10:42 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>B6B5F999-8969-B14B-5207-4DE08D39DAA8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4EF6BCF7-8EEA-1497-2C56-F012C7BD167A" name="L_F_BORROW_PK">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>L_F_BORROW_PK</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BECCD0A-2561-372C-5D53-AAFEDA1A60D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C2C260E-9749-DE39-109F-22A9031917A1" name="L_F_BORROW_UK1">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>L_F_BORROW_UK1</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:10:42 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>C314C49D-B94C-8CC6-5302-6B0573594CAF</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16FB5FFF-723D-4D75-AA6E-EA0ABCF95D1E"/>
+<colUsage columnID="330FF609-3D49-2398-A345-C0C67E8D8CA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89E88DDA-FBED-64CA-A57C-7365223780C0" name="L_F_BORROW_PK">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>L_F_BORROW_PK</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:46:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BECCD0A-2561-372C-5D53-AAFEDA1A60D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB3CA7EF-ABBD-B9DC-893D-A0C0A6D0526B" name="L_F_BORROW_UK1">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>L_F_BORROW_UK1</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:10:42 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>83401BF0-5F7E-44AF-7297-F5C662A90B12</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16FB5FFF-723D-4D75-AA6E-EA0ABCF95D1E"/>
+<colUsage columnID="330FF609-3D49-2398-A345-C0C67E8D8CA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEE32BC9-91A4-B49E-982F-A9120AD80377" name="L_F_BORROW_FK1">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-19 17:13:45 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16FB5FFF-723D-4D75-AA6E-EA0ABCF95D1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

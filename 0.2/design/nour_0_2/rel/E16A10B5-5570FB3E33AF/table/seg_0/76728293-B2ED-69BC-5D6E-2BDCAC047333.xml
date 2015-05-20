@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76728293-B2ED-69BC-5D6E-2BDCAC047333" name="F_P_PUPIL">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>F_P_PUPIL</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 19:23:55 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D78E8C6C-D1BA-D8C0-CF05-674A3BBC1DB3">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>F_P_PUPIL</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 19:23:55 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSON_ID" id="DC250DF0-3783-9475-E2B4-A6756E756892">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>F_P_PUPIL</sourceObjSchema>
+<sourceObjName>PERSON_ID</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 19:23:55 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>26852042-992E-D562-9FFE-56587A87CD20</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6ECD355-A9E4-9696-DCF4-F89033FA4841" referredColumn="26852042-992E-D562-9FFE-56587A87CD20"/>
+</associations>
+</Column>
+<Column name="SCHOOL_GRADE" id="EEF4A9CD-7FD3-D449-98B7-E19F7C13006C">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>F_P_PUPIL</sourceObjSchema>
+<sourceObjName>SCHOOL_GRADE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 19:23:55 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SCHOOL_ID" id="74AF8FD5-1943-3A0C-9B63-BA6C53D5A9A3">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>F_P_PUPIL</sourceObjSchema>
+<sourceObjName>SCHOOL_ID</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 19:23:55 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>7E9B440A-6CD5-71AC-1D5F-F5A2105B6BAB</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6AA7BD31-6823-C5FA-8822-5442304E63DA" referredColumn="7E9B440A-6CD5-71AC-1D5F-F5A2105B6BAB"/>
+</associations>
+</Column>
+<Column name="COLUMN2" id="8F9B34A7-2150-015D-6774-324D3ED4C449">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>F_P_PUPIL</sourceObjSchema>
+<sourceObjName>COLUMN2</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 19:23:55 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="659685EB-13FB-E983-8DB1-1815DBE55EFF" name="F_P_PUPIL_PK">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>F_P_PUPIL_PK</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:25:42 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>A85D6995-5FD2-FE4C-07A9-F93D02D9B287</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D78E8C6C-D1BA-D8C0-CF05-674A3BBC1DB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83E00A99-1D44-7594-7F80-83A5656761E9" name="F_P_PUPIL_PK">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>F_P_PUPIL_PK</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:25:42 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>7CAF339D-BACF-DC3D-4D41-5E919BF96A3C</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D78E8C6C-D1BA-D8C0-CF05-674A3BBC1DB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89FF042E-86A4-9A02-41E9-C0B11F69E14C" name="F_P_PUPIL_FK1">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:25:42 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC250DF0-3783-9475-E2B4-A6756E756892"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00E680F1-4FF4-D6B6-B4C2-095EA02B24FF" name="F_P_PUPIL_FK2">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:35:49 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74AF8FD5-1943-3A0C-9B63-BA6C53D5A9A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

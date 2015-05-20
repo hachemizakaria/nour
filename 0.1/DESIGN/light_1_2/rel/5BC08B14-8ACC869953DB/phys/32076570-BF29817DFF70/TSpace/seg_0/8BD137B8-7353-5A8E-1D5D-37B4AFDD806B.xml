@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="APEX_8887425408429344" directorySegmentName="seg_0" id="8BD137B8-7353-5A8E-1D5D-37B4AFDD806B">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>LIGHT</sourceObjSchema>
+<sourceObjName>APEX_8887425408429344</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-10-05 08:37:25 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

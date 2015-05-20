@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="GIFT_DETAIL" directorySegmentName="seg_0" id="C00EE397-8358-7E96-B1D1-CB7919BE75AF">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:03:21 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="QTE_IN" id="1939563C-D64F-23B9-E742-62EF6FB91CC0">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:12:44 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="GIFT_ID" id="A15809F3-7BCA-4221-BECC-BEB7DD366441">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:04:09 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ID" id="B8D92319-B681-7BEB-8D94-D658F61C0E73">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 10:59:58 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="NATURE" id="D311D94F-4A6A-B9A1-B1BC-AF38BF895EF9">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:12:44 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ITEM_DESC" id="FBF1AE37-183F-745F-F1FA-EECED3899050">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:31:10 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="GIFT_DETAIL_FK1" id="02DE9F10-0F20-57C5-CB82-D0DB1E3D02F7">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:08:08 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="GIFT_DETAIL_PK" id="70B47D74-1DC5-BF5B-DDEC-90CD0595B8F0">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:04:09 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

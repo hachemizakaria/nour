@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="223B8BF3-47A4-FB24-37EC-BF3B59A5322B" name="ZONES">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>LIGHT</sourceObjSchema>
+<sourceObjName>ZONES</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-10-05 08:37:25 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<schemaObject>855FA091-EFC6-A6E3-B3DF-D43DC8B2A2A9</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="5D20B589-B6ED-BDF2-0457-AF081863F1BB">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>ZONES</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-10-05 08:37:25 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZONE_CODE" id="4559B937-069D-D169-8BBE-D906DA336EC9">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>ZONES</sourceObjSchema>
+<sourceObjName>ZONE_CODE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-10-05 08:37:25 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZONE_DESC" id="AC7E13D3-A604-D67E-AC22-1EABAAFD83AC">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>ZONES</sourceObjSchema>
+<sourceObjName>ZONE_DESC</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-10-05 08:37:25 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92760E5D-1D11-0734-11BB-417ED38F8FBE" name="ZONES_PK">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>LIGHT</sourceObjSchema>
+<sourceObjName>ZONES_PK</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-10-05 08:37:25 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D20B589-B6ED-BDF2-0457-AF081863F1BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FC57B64-618E-7E37-70BF-CDA2AE4F5E74" name="ZONES__UN">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>LIGHT</sourceObjSchema>
+<sourceObjName>ZONES__UN</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-10-05 08:37:25 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4559B937-069D-D169-8BBE-D906DA336EC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64B8A3D9-BC5C-7EA2-9B83-FF6AAE9C7D51" name="ZONES_PK">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>LIGHT</sourceObjSchema>
+<sourceObjName>ZONES_PK</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-10-05 08:37:25 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>855FA091-EFC6-A6E3-B3DF-D43DC8B2A2A9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D20B589-B6ED-BDF2-0457-AF081863F1BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2E22D9B-0CA8-1177-C2BF-8A1BEBBDE7ED" name="ZONES__UN">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>LIGHT</sourceObjSchema>
+<sourceObjName>ZONES__UN</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-10-05 08:37:25 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>855FA091-EFC6-A6E3-B3DF-D43DC8B2A2A9</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4559B937-069D-D169-8BBE-D906DA336EC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

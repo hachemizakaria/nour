@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A909817F-5AC2-011E-C330-FB1D8F279DBC" name="SUPPORTED">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:34:11 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6DE9C99E-13C3-FD10-3F81-EDC059BBCF7E">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:34:37 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE" id="50CC16C7-1880-E531-87EF-6ABF6BF9C67F">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:34:37 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<delegate>4559B937-069D-D169-8BBE-D906DA336EC9</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1827304-E2DF-2CAA-DB89-DAFD1B8C6938" referredColumn="4559B937-069D-D169-8BBE-D906DA336EC9"/>
+</associations>
+</Column>
+<Column name="HEALTH" id="74FE09EC-22D1-CA3C-D079-DFE213A326B4">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:34:37 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="FB75CD43-BA19-FE80-9C60-BCE84F64AB0A">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:34:37 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZONE" id="0B5CAD9C-C572-1F00-A89E-069D4EA0758C">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:20:37 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B544696E-07E9-EA61-9D72-8527862D8ADD" name="SUPPORTED_PK">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:16:59 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DE9C99E-13C3-FD10-3F81-EDC059BBCF7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96E802F3-A6B1-7597-25D2-42F0A23E3919" name="SUPPORTED__UN">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:16:59 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50CC16C7-1880-E531-87EF-6ABF6BF9C67F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E59BFB0-1709-3254-EC8B-1B963C54DB29" name="SUPPORTED_FK1">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:20:37 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50CC16C7-1880-E531-87EF-6ABF6BF9C67F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

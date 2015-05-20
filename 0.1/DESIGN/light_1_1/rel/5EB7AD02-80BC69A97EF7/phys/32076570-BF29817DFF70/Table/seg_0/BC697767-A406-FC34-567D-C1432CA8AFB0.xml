@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ZONES" directorySegmentName="seg_0" id="BC697767-A406-FC34-567D-C1432CA8AFB0">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<schemaObject>8937EAB7-C42D-821B-6D17-F76AE50531AB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D6B057CA-537F-73C3-57F5-A5F22AE3356F</segment>
+<tableSpace>D534987C-0696-84A6-AC53-7E5E0FC24005</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ZONE_DESC" id="0E042FBF-C04B-A35D-5A6C-366A4937C187">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ID" id="8FDD98C0-5653-29D9-759E-592DBD9E19B9">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ZONE_CODE" id="BB727D86-F1C0-9A0B-68D4-8B513EEC2D06">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ZONES__UN" id="4C838861-971F-A278-BF9B-6E3918DD5541">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<schemaObject>8937EAB7-C42D-821B-6D17-F76AE50531AB</schemaObject>
+<segment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</segment>
+<tableSpace>D534987C-0696-84A6-AC53-7E5E0FC24005</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ZONES_PK" id="50CBD81D-69B4-A6E8-21AE-019F69A108D9">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<schemaObject>8937EAB7-C42D-821B-6D17-F76AE50531AB</schemaObject>
+<segment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</segment>
+<tableSpace>D534987C-0696-84A6-AC53-7E5E0FC24005</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ZONES_PK" id="268F0ACB-EF2D-561E-6549-C4BC57DED179">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<segment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</segment>
+<tableSpace>D534987C-0696-84A6-AC53-7E5E0FC24005</tableSpace>
+<existingIndex>50CBD81D-69B4-A6E8-21AE-019F69A108D9</existingIndex>
+<indexSegment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="ZONES__UN" id="4B8E2A68-5BEF-6074-B26E-570520188DF8">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<segment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</segment>
+<tableSpace>D534987C-0696-84A6-AC53-7E5E0FC24005</tableSpace>
+<existingIndex>4C838861-971F-A278-BF9B-6E3918DD5541</existingIndex>
+<indexSegment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

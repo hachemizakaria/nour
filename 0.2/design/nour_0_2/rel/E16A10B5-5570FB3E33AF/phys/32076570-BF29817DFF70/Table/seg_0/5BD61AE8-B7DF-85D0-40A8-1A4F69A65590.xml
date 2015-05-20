@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ALMS_PLAN" directorySegmentName="seg_0" id="5BD61AE8-B7DF-85D0-40A8-1A4F69A65590">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C3580127-2186-D483-8D50-0A9FB49B8260</segment>
+<tableSpace>B3401C2B-C98E-D9B7-D188-4D491ADDDE89</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ALMS_PLAN_PK" id="08FBF3A7-02AB-B082-6B55-4F58C64138BA">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:21:41 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<tableSpace>B3401C2B-C98E-D9B7-D188-4D491ADDDE89</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PLAN_END_DATE" id="0E7F1C1B-07C8-06EE-7E7F-DA31220EBABF">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PLAN_TYPE" id="0F0DE5BD-A1BF-2AA2-8683-1FF7CD8CCA4C">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PLAN_CODE" id="2955FD4B-6245-F66C-85C8-43AE0823B34D">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PLAN_FREQ" id="327B0AAF-5C76-F9FF-DAF3-1EDCD6782F51">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="53DA0F90-BCCE-5E61-812F-05FD1F97F116">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PLAN_DATE_START" id="B2B1FE2C-B437-B258-F2F9-9F88B30587D5">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PLAN_DESC" id="E3CE9E78-948C-8EF8-2F0F-791D55D1A2D5">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PLAN_ALMS_VALUE" id="FC762D3C-CB4E-5923-9F32-D35B35E37404">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ALMS_PLAN_PK" id="C1D224AE-6E5C-BEDC-7A45-6F3B67E45D4E">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:21:41 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

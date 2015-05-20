@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="N3_T_EQUIPMENT" directorySegmentName="seg_0" id="A62E8F8A-612E-759A-B001-D537DEB94E17">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<schemaObject>C335209A-12F8-D6E0-879B-6BD64E44D839</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>01D6BB8F-8849-E55C-2951-28F392EF48E0</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EQ_TYPE_DESC" id="0FA48016-B9E2-AB19-180A-4D6CB661D7F8">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EQ_TYPE" id="4B7991AF-D155-D42C-F33B-01A343A12391">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="AC23A1C4-AC71-EDD2-F383-DF27466B3B40">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

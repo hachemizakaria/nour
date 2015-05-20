@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="nour_0_3_1" id="EF8482EE-2656-BE39-C050-90A9975135D3" version="3.5">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-05 18:23:35 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EF8482EE-2656-BE39-C050-90A9975135D3</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="B05A1E9B-D555-5E36-7C99-9F8E1B83D660">
+<designStoragePath>C:\Users\zaki\Documents\z-jamia\nour\0.3\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="8C99DDC0-67E4-EF4F-8CF8-0B9E4850D0F4">
+<designStoragePath>C:\Users\zaki\Documents\z-jamia\nour\0.3\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="A34A2837-0F04-ABCB-E6CD-0AABD1D83437">
+<designStoragePath>C:\Users\zaki\Documents\z-jamia\nour\0.3\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="B55C0915-77B3-CDD0-076E-62320E5AFD2E">
+<designStoragePath>C:\Users\zaki\Documents\z-jamia\nour\0.3\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="7E21CD29-481E-24F4-8F1F-771E604BFA5A">
+<designStoragePath>C:\Users\zaki\Documents\z-jamia\nour\0.3\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="17D4D001-4F4C-644E-1957-E6F95B13AF71">
+<designStoragePath>C:\Users\zaki\Documents\z-jamia\nour\0.3\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="CA84006B-66E9-E93C-4B1B-0C0ED15833DF">
+<designStoragePath>C:\Users\zaki\Documents\z-jamia\nour\0.3\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="166E7324-E0E1-6A03-0DE6-C91480D93DA3">
+<designStoragePath>C:\Users\zaki\Documents\z-jamia\nour\0.3\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3667B5B2-EE3D-33DE-97F3-D21CE57A2B96">
+<designStoragePath>C:\Users\zaki\Documents\z-jamia\nour\0.3\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="CD449D8D-F4E3-9594-AAE7-62F25B221AE7">
+<designStoragePath>C:\Users\zaki\Documents\z-jamia\nour\0.3\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="636550CD-6CF1-8B01-EC7F-A4A7DC3415C7">
+<designStoragePath>C:\Users\zaki\Documents\z-jamia\nour\0.3\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="D0716798-050D-7F86-07A1-8F2A912CD0A8">
+<designStoragePath>C:\Users\zaki\Documents\z-jamia\nour\0.3\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="322D4078-8114-D3AE-5B46-F798E57CB165">
+<designStoragePath>C:\Users\zaki\Documents\z-jamia\nour\0.3\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="81E60742-2520-335B-1BAE-EC8C2A540B1E">
+<designStoragePath>C:\Users\zaki\Documents\z-jamia\nour\0.3\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="02BCEB8E-9301-FCA6-A200-F765B8F684CE">
+<designStoragePath>C:\Users\zaki\Documents\z-jamia\nour\0.3\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="9F257D7E-19C5-13C8-0B65-2F2240C406AC">
+<designStoragePath>C:\Users\zaki\Documents\z-jamia\nour\0.3\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="6EA5D974-D702-35A9-AB60-C3EA0A57A684">
+<designStoragePath>C:\Users\zaki\Documents\z-jamia\nour\0.3\design</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

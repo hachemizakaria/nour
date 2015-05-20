@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="L_F_GIFTS_DONATION" directorySegmentName="seg_0" id="7A5C3BC6-7A1C-DE6D-347D-A38DC1D1AF91">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-07 12:06:26 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>86A0B3D1-8EE1-BF32-2E9E-39314518F6ED</segment>
+<tableSpace>D763C6DE-E5B6-5B3B-E82C-278B6FDAADD6</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DONATION_DEST" id="03CD606B-D0D7-9EDF-60C8-A0E55B375FAF">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-07 12:06:26 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GIFT_TYPE" id="C7927DC9-1B2C-F5E9-3532-2E88FCF343A2">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-05 17:00:23 UTC</createdTime>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DONATION_DATE" id="D7AC78C2-AEDD-EF75-C2B7-B57B3111A638">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-11 18:20:31 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DONATION_QNTE" id="FB7FDDD5-F131-8DA2-CCF6-EB6863B8FF82">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-07 12:06:26 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="FDFFBEA6-0205-DBC1-024A-5AEFF87CF3F8">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-05 17:00:23 UTC</createdTime>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

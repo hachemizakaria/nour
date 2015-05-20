@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.process.DPVProcess" name="P5_Givers Diagram" id="00390EDB-6AA8-68B1-3AD3-EC421CFD326C">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-15 17:39:24 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.process.TVProcess" oid="19E13C52-1F7F-B7C1-C7DD-DA719F5D3664" otype="Process" vid="464E39C4-AD27-0099-A1C8-0FA51A01ED13">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="115" y="195" width="120" height="144"/>
+</OView>
+</objectViews>
+</Diagram>

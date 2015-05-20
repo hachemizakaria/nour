@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A62E8F8A-612E-759A-B001-D537DEB94E17" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_T_EQUIPMENT">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_T_EQUIPMENT</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>9665575A-A98C-4D94-8CB1-69EF2841B09B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="AC23A1C4-AC71-EDD2-F383-DF27466B3B40">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_T_EQUIPMENT</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>3BF653A4-9264-D38F-6F82-FE67AF4C3528</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EQ_TYPE" id="4B7991AF-D155-D42C-F33B-01A343A12391">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_T_EQUIPMENT</sourceObjSchema>
+<sourceObjName>EQ_TYPE</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>65426C10-4936-E8C2-68CB-B782578D76FD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EQ_TYPE_DESC" id="0FA48016-B9E2-AB19-180A-4D6CB661D7F8">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_T_EQUIPMENT</sourceObjSchema>
+<sourceObjName>EQ_TYPE_DESC</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>541D9331-EF86-9B67-86D0-2AE5D19065A6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

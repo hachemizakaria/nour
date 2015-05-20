@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="NOUR" directorySegmentName="seg_0" id="D8310ABA-BDB8-2711-3EC1-DB20765DA3B7">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjName>NOUR</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:13:45 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<defTableSpace>9CDE3438-49AB-A982-4DD9-77C4C6FE94D5</defTableSpace>
+<privileges>CREATE MATERIALIZED VIEW, CREATE SESSION, CREATE TYPE, CREATE SEQUENCE, CREATE OPERATOR, CREATE JOB, CREATE PROCEDURE, CREATE INDEXTYPE, CREATE DIMENSION, CREATE VIEW, CREATE TRIGGER, CREATE SYNONYM, CREATE TABLE, CREATE CLUSTER</privileges>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="C748B1BB-06E8-49EB-293C-E09BA071AB91">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:13:45 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem2" id="7E0413C3-35A8-504B-C06F-E6AB3631AFC2">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:14:29 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<tableSpace>9CDE3438-49AB-A982-4DD9-77C4C6FE94D5</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem3" id="106D646E-9BC5-7FE1-E55C-6B16946F7A70">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:14:32 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<tableSpace>9CDE3438-49AB-A982-4DD9-77C4C6FE94D5</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem4" id="D5164A4F-233D-C18E-7B0C-A66B93883470">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<tableSpace>9CDE3438-49AB-A982-4DD9-77C4C6FE94D5</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem5" id="520402D1-B7B3-A675-FAF0-17E0D1D7400D">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:39 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<tableSpace>9CDE3438-49AB-A982-4DD9-77C4C6FE94D5</tableSpace>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

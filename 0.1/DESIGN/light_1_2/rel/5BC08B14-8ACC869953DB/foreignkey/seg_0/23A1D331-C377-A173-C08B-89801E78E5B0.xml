@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="23A1D331-C377-A173-C08B-89801E78E5B0" name="EQUIPMENT_LOAN_FK1">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:27:56 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<containerWithKeyObject>AE19DBDE-8866-FF63-5DCE-13AD4E6F04FB</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>08DAC881-93B0-1D42-35FC-DD0216CDAF79</localFKIndex>
+<keyObject>A4E40CF8-AF3D-A13E-2ABC-DF897B011515</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

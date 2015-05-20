@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ZONE_AMBASSADOR" directorySegmentName="seg_0" id="E7EDB787-E8D0-943D-A3E7-4051DEF57904">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<schemaObject>8937EAB7-C42D-821B-6D17-F76AE50531AB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D6B057CA-537F-73C3-57F5-A5F22AE3356F</segment>
+<tableSpace>D534987C-0696-84A6-AC53-7E5E0FC24005</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="AMBASSADOR_CODE" id="2F7F5CC2-E5A5-C118-F7DF-B8450E8B85E0">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ID" id="94C2A572-A636-3DE3-EA48-A8983A27EACC">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ZONE_CODE" id="D0A9D9E9-DA5E-4111-42D7-3CA741501C13">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ZONE_AMBASSADOR_PK" id="AFE715AF-975A-01CC-4C7F-0A9050DF141C">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<schemaObject>8937EAB7-C42D-821B-6D17-F76AE50531AB</schemaObject>
+<segment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</segment>
+<tableSpace>D534987C-0696-84A6-AC53-7E5E0FC24005</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ZONE_AMBASSADOR__UN" id="C987EFFB-9915-E1F3-2AC4-CE0C21A5DB17">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<schemaObject>8937EAB7-C42D-821B-6D17-F76AE50531AB</schemaObject>
+<segment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</segment>
+<tableSpace>D534987C-0696-84A6-AC53-7E5E0FC24005</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ZONE_AMBASSADOR_FK1" id="14964119-4EA5-3439-0A1C-39637B9011C2">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ZONE_AMBASSADOR_FK2" id="EC776621-6CF7-5B79-90C5-EC19E99CACCF">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ZONE_AMBASSADOR_PK" id="04962EA4-305B-EECD-1AFC-3CCCC48DD598">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<segment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</segment>
+<tableSpace>D534987C-0696-84A6-AC53-7E5E0FC24005</tableSpace>
+<existingIndex>AFE715AF-975A-01CC-4C7F-0A9050DF141C</existingIndex>
+<indexSegment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="ZONE_AMBASSADOR__UN" id="C6BC6673-159E-8D9B-1EFC-E105B113CE9D">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<segment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</segment>
+<tableSpace>D534987C-0696-84A6-AC53-7E5E0FC24005</tableSpace>
+<existingIndex>C987EFFB-9915-E1F3-2AC4-CE0C21A5DB17</existingIndex>
+<indexSegment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

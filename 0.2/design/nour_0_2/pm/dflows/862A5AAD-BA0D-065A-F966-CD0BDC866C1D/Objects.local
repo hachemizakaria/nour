@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.DataFlowDesign>
+   <object objectType="Process" objectID="0456AAEC-005E-6E25-842D-F258DEFB516F" name="Edit_Orphane" seqName="seg_0"/>
+   <object objectType="Process" objectID="1B75D1DD-82BC-B1A3-09DE-1B8589AFC8EF" name="terms" seqName="seg_0"/>
+   <object objectType="Process" objectID="1FE8FB7B-4CBB-F4AE-1D51-A55AFE482C76" name="P2_Orphanes" seqName="seg_0"/>
+   <object objectType="Process" objectID="2A434CC0-DE93-D182-C26B-A18951DE514F" name="Plans" seqName="seg_0"/>
+   <object objectType="Process" objectID="4C866D1D-A3DE-C20B-44D8-9698B6E06336" name="edit needy" seqName="seg_0"/>
+   <object objectType="Process" objectID="6898F3FD-BE2E-E48A-57B3-CA93CB80EA59" name="orphane_hist" seqName="seg_0"/>
+   <object objectType="Process" objectID="7C3867A2-F9E0-1BE1-0C87-AF9F78829A23" name="P2010_orphane_detail" seqName="seg_0"/>
+   <object objectType="Process" objectID="ACC26ABB-61BE-8619-7FF6-F65C05774BD1" name="P2011_new orphane" seqName="seg_0"/>
+   <object objectType="Process" objectID="D38C6616-EB81-F9DF-5F5A-0EC3B8DDD172" name="Edit_Person" seqName="seg_0"/>
+   <object objectType="Process" objectID="E10ABCA0-58C8-9567-3486-6B184C64A441" name="P2000_orphane list" seqName="seg_0"/>
+   <object objectType="Flow" objectID="21D716CD-C2F2-7772-80B1-B4684409E811" name="Flow_6" seqName="seg_0"/>
+   <object objectType="Flow" objectID="5A293804-0B65-D917-0DD6-82E1AC16CCDC" name="Flow_3" seqName="seg_0"/>
+   <object objectType="Flow" objectID="83F647D2-AE44-5BF8-B046-30B31765FE32" name="Flow_5" seqName="seg_0"/>
+   <object objectType="Flow" objectID="A1BAC20A-983A-BBE1-029E-3EA91380B38F" name="Flow_2" seqName="seg_0"/>
+   <object objectType="Flow" objectID="A696919F-1E48-C35C-B5FB-4C2EB43ED7B5" name="Flow_4" seqName="seg_0"/>
+   <object objectType="Flow" objectID="A944BFD6-3C95-866B-B254-0059A2F89248" name="Flow_11" seqName="seg_0"/>
+   <object objectType="Flow" objectID="AB6B67A2-91B3-DB74-A526-D4436EBDDB2F" name="Flow_7" seqName="seg_0"/>
+   <object objectType="Flow" objectID="BF115EE3-D3F0-E07A-6F6F-2634DC7A6290" name="Flow_1" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.process.DataFlowDesign>

@@ -1,0 +1,29 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.process.DPVProcess" name="P1001_tables Diagram" id="14847360-5A07-5395-34A8-A26DC810B14B">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:16:50 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.process.TVProcess" oid="316F86D2-7F5A-0D01-6FFD-BAE449B93673" otype="Process" vid="324CFA4B-D1FD-C01F-2B18-8DF1EF0DEC53">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="150" y="246" width="178" height="65"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.process.TVProcess" oid="44527F36-D88C-0866-80FC-C07A0D7CED73" otype="Process" vid="373C9823-A5BB-0293-0991-2262450C77A1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="137" y="82" width="180" height="65"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.process.TVProcess" oid="C277C6F4-5181-0CF3-0E91-0FF968D5D1BA" otype="Process" vid="8EB1470B-9585-203A-A82F-C550549BC329">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="148" y="162" width="179" height="64"/>
+</OView>
+</objectViews>
+</Diagram>

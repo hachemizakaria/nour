@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.process.DPVProcess" name="P4_GIFTS Diagram" id="144E1290-D31A-471C-A689-D7AB743A2568">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-06 16:41:57 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.process.TVProcess" oid="A12AC2DC-FB32-6653-EDB2-7D6106AECFCF" otype="Process" vid="D0F2FA17-9EEB-8CCF-203E-889E7397D1BC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="173" y="286" width="117" height="77"/>
+</OView>
+</objectViews>
+</Diagram>

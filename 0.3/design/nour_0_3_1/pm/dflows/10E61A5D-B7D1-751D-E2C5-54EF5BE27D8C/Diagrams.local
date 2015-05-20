@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.DataFlowDesign>
+   <object objectType="main_view" objectID="144E1290-D31A-471C-A689-D7AB743A2568" name="P4_GIFTS Diagram" visible="false"/>
+</oracle.dbtools.crest.model.design.process.DataFlowDesign>

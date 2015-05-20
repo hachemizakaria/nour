@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Process class="oracle.dbtools.crest.model.design.process.Process" name="P2_NEEDY" directorySegmentName="seg_0" id="553469BB-67B1-D09A-081F-CAD8E41E7BE6">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-06 16:29:54 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<primary>false</primary>
+<type>1</type>
+<batchMinimumTransactions>1000</batchMinimumTransactions>
+<batchTimeUnit>Second</batchTimeUnit>
+<diagram>74024482-B47C-8A85-C2C7-46EDB0D13905</diagram>
+<frequencyTimeUnit>Day</frequencyTimeUnit>
+<frequencyTimes>0</frequencyTimes>
+<interactiveLongestResponseTime>5</interactiveLongestResponseTime>
+<interactiveResponseTimeUnit>Second</interactiveResponseTimeUnit>
+<mode>Unknown</mode>
+<priority>Low</priority>
+<peakPeriodsString>000000000000000000000000</peakPeriodsString>
+</Process>

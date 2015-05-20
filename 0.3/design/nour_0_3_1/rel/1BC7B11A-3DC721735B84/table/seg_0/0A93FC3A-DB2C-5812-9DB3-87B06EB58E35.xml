@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A93FC3A-DB2C-5812-9DB3-87B06EB58E35" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_T_HEALTH_LVL">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_T_HEALTH_LVL</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>0A4F54B1-43CF-4495-F70E-46491EE73966</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="E647BA6E-54B3-B775-0841-0D4C7F5EEE04">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_T_HEALTH_LVL</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>53C87794-FAB3-3767-FC86-B59D21C89516</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LVL" id="B8AD9E22-3F09-E2D4-F7E7-28A1439F76CB">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_T_HEALTH_LVL</sourceObjSchema>
+<sourceObjName>LVL</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>3E279B55-6092-3184-7884-B5DC62717C71</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LVL_DESC" id="76630D41-0690-FFD1-6C05-E01719CBE716">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_T_HEALTH_LVL</sourceObjSchema>
+<sourceObjName>LVL_DESC</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>095169B4-CD2D-1E67-9126-8BB090671A3A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="793988F5-7A32-9966-1824-317E0A9FC505" name="N3_T_HEALTH_LVL_PK">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_T_HEALTH_LVL_PK</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 18:13:16 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>D736FE3C-8F13-CF2C-5E04-A292166D29AB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E647BA6E-54B3-B775-0841-0D4C7F5EEE04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE8A04FD-258B-22F9-1C0E-954BE59BCFDA" name="N3_T_HEALTH_LVL_UK1">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_T_HEALTH_LVL_UK1</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 18:13:16 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>401A191A-8321-B78B-4429-93963616FD7F</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8AD9E22-3F09-E2D4-F7E7-28A1439F76CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="909E51BC-30C9-8AD8-E4FE-3CD13D433383" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_T_HEALTH_LVL_PK">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_T_HEALTH_LVL_PK</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 18:13:16 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>3CE8B64B-7BD3-0095-997A-67EB4E7F4CDC</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E647BA6E-54B3-B775-0841-0D4C7F5EEE04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9775D400-9DC0-DCFE-7491-D7E11737288F" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_T_HEALTH_LVL_UK1">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_T_HEALTH_LVL_UK1</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 18:13:16 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>F891B9E2-CA46-3381-D3FB-E8A9BAD4412F</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8AD9E22-3F09-E2D4-F7E7-28A1439F76CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

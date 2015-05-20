@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.DataFlowDesign>
+   <object objectType="main_view" objectID="34E301E9-B2F9-8C2C-8F45-30B2F22F4EC6" name="P2_Orphanes Diagram" visible="false"/>
+</oracle.dbtools.crest.model.design.process.DataFlowDesign>

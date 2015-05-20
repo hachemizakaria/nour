@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.process.DPVProcess" name="p3 support Diagram" id="06A491C3-A268-9F6B-3379-A7D02923731B">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:36:58 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.process.TVProcess" oid="76A2FFDD-7F4A-2029-509C-C5AEEE72768E" otype="Process" vid="49327DA7-69B6-83BA-719F-F6F6DE58F638">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="135" y="96" width="145" height="112"/>
+</OView>
+</objectViews>
+</Diagram>

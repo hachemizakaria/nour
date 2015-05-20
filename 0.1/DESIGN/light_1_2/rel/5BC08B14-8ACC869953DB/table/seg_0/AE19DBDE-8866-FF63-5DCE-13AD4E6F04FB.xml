@@ -1,0 +1,249 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE19DBDE-8866-FF63-5DCE-13AD4E6F04FB" name="EQUIPMENT_BORROW">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:15:31 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="B5410F5B-C67D-B37E-6B04-5FFA4960BD7F">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:21:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE_EQ" id="E26B00F2-2B95-0144-2BC7-95BDA74BE927">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:21:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<delegate>7CE74FCE-0118-7954-BE12-0CAFB44B1DBD</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23A1D331-C377-A173-C08B-89801E78E5B0" referredColumn="7CE74FCE-0118-7954-BE12-0CAFB44B1DBD"/>
+</associations>
+</Column>
+<Column name="BORROW_DATE" id="EF3C5468-610B-E365-9EE6-3DFABA0BD02D">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:21:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PATIENT_FNAME" id="65E7976E-6757-AF25-CAD2-5C433A1D6B47">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:21:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PATIENT_LNAME" id="408D1545-8992-8AE6-4543-54A3B47540C1">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:21:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PATIENT_ADRESS" id="BCBD8175-7585-85EF-B5D9-CBBDDC2BC45C">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-19 09:18:28 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BORROWER_FNAME" id="5025FCE2-E8E6-ABF8-9230-EC0A1BF69687">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:21:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BORROWER_LNAME" id="232468C4-8875-0BAA-D493-5FFAAC0DD5ED">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:21:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BORROW_CIN" id="C030D381-15A0-80CD-BDA9-087E87FE25BE">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:21:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BORROWER_CIN_DELIVRED_ON" id="C16C37EA-5C98-18F7-C175-872524552C9C">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:21:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BORROWER_CIN_DELIVRED_IN" id="2BFAA379-0398-55FE-272C-A85E276BC8AF">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:21:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BORROWER_ADRESSE" id="5D551CFB-1FC0-DE0A-BD6B-2B17DC48FED5">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:21:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BORROWER_PHONE1" id="2F2A68D1-D3BD-D656-2C62-DD76A8D91E2B">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:21:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BORROWER_PHONE2" id="2B7C5B74-EC1E-C3C5-ABC0-CBC3B5A4FA1A">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:21:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RETRUN_DATE" id="40DC9DF6-545C-4F1C-7AAD-4118EB695D34">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:21:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RETURN_STATE" id="C7BF9509-8D4D-DA84-C643-353FAD525DA2">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:21:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBS" id="3F141C8D-3A02-1B8F-2605-3CE900D3B8EF">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:21:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBEA11E0-76A4-0DD5-DD6A-CB9FD11D5166" name="EQUIPMENT_LOAN_PK">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:27:56 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5410F5B-C67D-B37E-6B04-5FFA4960BD7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36FFB43E-63AD-C172-352E-954B07E51A5D" name="EQUIPMENT_LOAN_UK1">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:27:56 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E26B00F2-2B95-0144-2BC7-95BDA74BE927"/>
+<colUsage columnID="EF3C5468-610B-E365-9EE6-3DFABA0BD02D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08DAC881-93B0-1D42-35FC-DD0216CDAF79" name="EQUIPMENT_LOAN_FK1">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:27:56 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E26B00F2-2B95-0144-2BC7-95BDA74BE927"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

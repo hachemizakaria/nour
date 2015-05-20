@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="nour_0_2" id="8130D344-1F7A-1393-69C6-E9F66D7F294C" version="3.5">
+<createdBy>msi</createdBy>
+<createdTime>2014-01-24 18:26:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8130D344-1F7A-1393-69C6-E9F66D7F294C</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="B481B91F-8138-1502-1C8B-4D73649D2315">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="7BBE5B7F-9FBB-C09A-6822-7122C7657B7D">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="8887A56B-1D43-ABF8-8D20-624259AFD904">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="FE6540EA-5AEE-3491-CC3D-3584064108E8">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="8B95711F-B932-DFFB-20E4-F839630BEEA4">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="564E9F4D-E069-53DB-DDFD-AEC8B376A485">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="1DB2E2DD-53F0-1A00-2CB9-ABAD9BB4B5C6">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="34E3D2D0-8801-0509-2ED4-6C5781CDF765">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="4305035A-2F72-4D9E-BAC0-1B00E11D63D3">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="4320C478-0972-3664-39D5-929494BB8753">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3755C30A-F36F-DDD0-508A-C151FA60066F">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="A7A4B894-5965-C592-DCFB-B3232D96E08A">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="7969C41C-EBFC-ED69-C3CA-3D6EA24AE2F8">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="0DC1C87C-E285-9B7A-3CB7-5CA861B1A59B">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="1E8BCBB4-64D4-5B9E-C50F-AD2EFBCA86EB">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="F5342077-C23B-162C-A0A8-F4638907058A">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E9E3BDAB-14B8-FDDD-B593-D283776AE196">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="11808728-5AB7-8462-517A-70AB23860931">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="CB9322B7-76D6-E06C-9C1C-B4368D3FC5D5">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="CAA3E403-CC16-D0E8-AC7E-548295CE438E">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="342988A1-C275-ABEC-2B3C-E5AB971BE9E9">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E795E5AF-3D7C-7CBA-B736-180435375635">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="0193145D-20A0-4F1E-07CF-6A88E1BB6920">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="4C393191-7CF5-E235-7000-9D13B8D3472D">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="24B326D6-B4DD-932B-5D64-8BE9C571A59B">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="B99E29FC-2EF1-7340-E2C6-C55E3C2D7BE6">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="D727DDD0-3462-1C92-5A19-878EE2939B9E">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="27BA738B-09EE-57A7-638C-64E31BE5D884">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="1AD10BE6-D41F-10E9-16C6-5A8747DC0B21">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="A8E3D324-E8D4-50B4-8BB8-4DE75FFB6016">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="A5416956-89D4-8391-BC91-E60E9BB99082">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="1255FC71-175F-05AC-CA1F-2E3F46F3DA48">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="278516E2-5BAE-DC26-A149-4B785207FC3B">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="BEE8F5AA-9DC1-563B-20A2-564679FE64E9">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="9905B5EB-23A1-989B-72E6-D12A5D117FCE">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="58AE2E2A-DEA3-C082-5BF6-A4A066CCE50E">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="5DBDEEDE-C02D-4920-C9E3-1CD28073236C">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="BDE0122E-C406-BFFF-5D48-FB07211E9095">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E22CC763-22DB-C3EC-EE78-36567ADBB1C4">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="43D87E76-DB88-5D45-FC1B-FA993B5A410C">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="95679721-89A1-0C93-37FE-52F0BAE73474">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="579A1FBA-4200-A482-C35E-7DAC83D8CAF0">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C5439926-D9C4-D035-65DF-4E47424AAF1F">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3D9E2FD1-9902-8C41-C76F-C9814B843BC8">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E168E338-9CFD-4D45-4041-15FEFD76598B">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="8F104346-635A-F88F-6BCA-05464DA844B2">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="4A561EBA-2FA9-11DC-060F-BB45CC9818E0">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="FFBB5A09-C302-ADCC-741B-7F9A400AB441">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="DFB1D774-9A90-0D50-587F-699DBBCB38C9">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="853A13D8-7205-E0DF-CBF0-24AA9A5A4A88">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="37B9438A-069A-02E3-AF23-48AF757A0812">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="BE14BFDB-B93C-4F32-641E-155E360E58EB">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C394B5E5-874B-B506-EA62-22B5B259D292">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="1BFEB9D9-79C7-E16E-9836-DA9D0EACBF4D">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="A698DCEA-53C2-B7DF-5458-6AE83E2E28F7">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="F3C0CF60-2C68-131C-D2B6-19BA0D881173">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="B313A9D5-CAC2-44A3-C3BD-B74607BD7E00">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="5618D4CB-A2B6-EEBE-A60C-EF487C9F144D">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="F0311EE9-552B-FD27-95C0-C5241FE93FDE">
+<designStoragePath>C:\Users\msi\Documents\nour\0.2\design</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

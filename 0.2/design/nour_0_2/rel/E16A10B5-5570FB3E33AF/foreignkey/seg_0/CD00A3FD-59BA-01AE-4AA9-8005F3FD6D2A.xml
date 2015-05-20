@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CD00A3FD-59BA-01AE-4AA9-8005F3FD6D2A" name="F_P_HANDICAPPED_FK1">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>F_P_HANDICAPPED_FK1</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:27:59 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>1AB834AE-96E7-D792-27AA-42F46497D7DA</importedID>
+<containerWithKeyObject>13E05C06-9849-591E-5F2F-5DC076AC8F6D</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>214F1DEE-D8B6-C0FA-E494-968E976BF9AE</localFKIndex>
+<keyObject>D07CD842-D810-076D-9FB6-53D9EACD9E2B</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

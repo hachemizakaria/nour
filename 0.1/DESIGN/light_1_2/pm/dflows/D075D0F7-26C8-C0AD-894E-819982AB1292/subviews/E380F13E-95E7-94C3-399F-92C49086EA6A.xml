@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.process.DPVProcess" name="apx_navigation" id="E380F13E-95E7-94C3-399F-92C49086EA6A">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:33:34 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.process.TVProcess" oid="183ECEC1-E461-CCF2-98CB-F3C4787BB285" otype="Process" vid="A8767D24-666E-2A6A-CE9D-042BEBD5D3EF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="149" y="121" width="145" height="108"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.process.TVProcess" oid="616055DA-3B65-DD14-301E-8FB13FE72C02" otype="Process" vid="791928E5-EAC4-B8FD-6226-EFE55F8715C8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="156" y="270" width="141" height="150"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.process.TVProcess" oid="FF6FF6AC-A81B-F209-31D0-96983202843A" otype="Process" vid="41E0B43F-E9DC-EC23-0C8B-8B8682B4B7F0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="157" y="460" width="139" height="113"/>
+</OView>
+</objectViews>
+</Diagram>

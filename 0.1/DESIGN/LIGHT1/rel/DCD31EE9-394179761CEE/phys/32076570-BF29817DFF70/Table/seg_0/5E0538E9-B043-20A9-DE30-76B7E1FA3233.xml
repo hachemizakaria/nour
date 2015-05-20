@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DONATIONS" directorySegmentName="seg_0" id="5E0538E9-B043-20A9-DE30-76B7E1FA3233">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:00:34 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="DONATION_DATE" id="4004C9D9-ABC0-B524-1295-9893DB8A787D">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:02:58 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="OBS" id="60CD1A96-5F22-F959-3CA9-3F8EB07BD5EC">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:02:58 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ID" id="6A1F950C-88AC-E623-9453-89B0E997B4C6">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:02:58 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="BENEFICIARY_CODE" id="CA699407-BE56-93CC-FC81-B32219B57769">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:02:58 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="DONATION_VAL" id="EA4CFB61-091F-9280-DB3F-EC6F4591BDC4">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:02:58 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DONATIONS_BENEFICIARY_FK" id="0839244A-39A4-EF76-1493-2EDBA12B3BBF">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:07:17 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DONATIONS_PK" id="75F8CFC8-37D4-B9FA-34E3-C78746BCE258">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:05:07 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="DONATIONS__UN" id="2C880B28-FF01-2A17-3332-6840258D796A">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:05:07 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.DataFlowDesign>
+   <object objectType="Process" objectID="8CE07C02-BF25-DDC0-A1B3-794948BEA26E" name="P1_Home" seqName="seg_0"/>
+   <object objectType="Process" objectID="98EA49F9-9AF0-1A6E-0D77-F2C2CACF2DA4" name="alms_extra" seqName="seg_0"/>
+   <object objectType="Process" objectID="B191F546-341F-CCE6-9E70-7E326B05F925" name="P4_ALMS_OUT" seqName="seg_0"/>
+   <object objectType="Process" objectID="B8631C43-FFD7-D04F-048E-5D6589D7E473" name="alms_plan" seqName="seg_0"/>
+   <object objectType="Process" objectID="BDBC19C1-F129-EEFE-42FB-A993186539D0" name="P3_Alms_in" seqName="seg_0"/>
+   <object objectType="Process" objectID="CD9CE644-E380-A306-6A47-59300D46DDD5" name="P5_Givers" seqName="seg_0"/>
+   <object objectType="Process" objectID="F2E89ABE-660B-06A2-152C-2994B76B8C9E" name="P2_Orphanes" seqName="seg_0"/>
+   <object objectType="Process" objectID="FA75516C-EEA5-06E0-7EB3-24383779CAB3" name="alms_term" seqName="seg_0"/>
+   <object objectType="Flow" objectID="92216CD2-30A1-FED9-8DBB-A523D8B0C192" name="Flow_1" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.process.DataFlowDesign>

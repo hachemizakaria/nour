@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6E470EF2-6BFF-DB91-7A4F-990F7404A0D7" name="F_P_FAMILY_FK1">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>F_P_FAMILY_FK1</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:27:59 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>3D0CDD35-0370-0B98-7163-D35B4F72B945</importedID>
+<containerWithKeyObject>494B293B-BB4E-523B-A7D3-4929BD09C115</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>6D212B8D-4531-3AFD-4DD3-FD0DCA5EF85F</localFKIndex>
+<keyObject>932347E4-A188-9ADC-2D44-5768CD842F7F</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

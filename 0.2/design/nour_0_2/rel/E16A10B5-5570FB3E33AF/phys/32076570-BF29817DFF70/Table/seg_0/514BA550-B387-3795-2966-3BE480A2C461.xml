@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="L_T_EQUIPMENT" directorySegmentName="seg_0" id="514BA550-B387-3795-2966-3BE480A2C461">
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:20:04 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>86A0B3D1-8EE1-BF32-2E9E-39314518F6ED</segment>
+<tableSpace>D763C6DE-E5B6-5B3B-E82C-278B6FDAADD6</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="L_T_EQUIPEMENT_UK1" id="42FA37C8-B24D-FB8F-D3C7-39308DD212D8">
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:20:04 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<segment>109F9CD8-5B00-CA10-F030-59BDAB102287</segment>
+<tableSpace>D763C6DE-E5B6-5B3B-E82C-278B6FDAADD6</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="L_T_EQUIPEMENT_PK" id="C705EA64-065E-032A-B5AE-456042E5BC88">
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:20:04 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<segment>109F9CD8-5B00-CA10-F030-59BDAB102287</segment>
+<tableSpace>D763C6DE-E5B6-5B3B-E82C-278B6FDAADD6</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EQ_TYPE_DESC" id="8018BE91-0526-B217-B817-458AF4544B47">
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:20:04 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EQ_TYPE" id="A6325CA6-453C-4583-5610-344A4170702A">
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:20:04 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="FFC21433-E55E-EB9B-2973-57133FADBFEB">
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:20:04 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="L_T_EQUIPEMENT_PK" id="857A74C8-3EB3-7768-9D89-5E47973B81E3">
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:20:04 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<segment>109F9CD8-5B00-CA10-F030-59BDAB102287</segment>
+<tableSpace>D763C6DE-E5B6-5B3B-E82C-278B6FDAADD6</tableSpace>
+<existingIndex>C705EA64-065E-032A-B5AE-456042E5BC88</existingIndex>
+<indexSegment>109F9CD8-5B00-CA10-F030-59BDAB102287</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="L_T_EQUIPEMENT_UK1" id="3A3B9A4B-4B37-5BC4-E5BD-14E31A8D48E3">
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:20:04 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<segment>109F9CD8-5B00-CA10-F030-59BDAB102287</segment>
+<tableSpace>D763C6DE-E5B6-5B3B-E82C-278B6FDAADD6</tableSpace>
+<existingIndex>42FA37C8-B24D-FB8F-D3C7-39308DD212D8</existingIndex>
+<indexSegment>109F9CD8-5B00-CA10-F030-59BDAB102287</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCE8403C-7070-3FE7-6114-1DBEA038078D" name="BENEFICIARY_CHARGE">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:45:56 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<schemaObject>8937EAB7-C42D-821B-6D17-F76AE50531AB</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="829627DC-7F60-C6E7-E1AC-20D9620F1A0E">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:51:36 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BENEF_CODE" id="43B60AF0-7141-5CFB-967D-B6405E4281F9">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:51:36 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<delegate>FD192DE2-5A7C-A5EE-4E7B-21D51C7AAF89</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="089AAD58-0D59-48E9-BCBF-191748F4BB55" referredColumn="FD192DE2-5A7C-A5EE-4E7B-21D51C7AAF89"/>
+</associations>
+</Column>
+<Column name="CHARGE_N" id="6CAD6DCC-E97E-9984-F212-DE4612F3B09B">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:51:36 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM" id="C2A422D9-5848-38A5-F0A5-1140881F6E8E">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:51:36 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEXE" id="4F61F16B-8842-7356-4F3B-4C6014DA062C">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:51:36 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANNEE_SCOLAIRE" id="255A31C2-8425-E524-43FD-86CE1B600ECC">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:51:36 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_MAJ" id="78A86565-B157-9943-AB20-61D50EE3CBCE">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:51:36 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIRTH_DATE" id="E8541755-52BF-3C99-9C4D-E0344607FC80">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:51:36 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIRTH_YEAR" id="10C6510A-CA6C-E264-B677-B6E1BDF55A3A">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:51:36 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RELATED_TYPE" id="BA7B3046-E7A4-787F-F55B-5CCB3197DB5F">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:51:36 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<delegate>D2DCC7D9-3449-B853-D249-488C47527EB5</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="942D9D0A-B497-B9DD-40F6-4988AA694E8E" referredColumn="D2DCC7D9-3449-B853-D249-488C47527EB5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61231E96-1F30-F878-9212-80EC6D507C41" name="BENEFECIARY_CHARGE_PK">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:54:34 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="829627DC-7F60-C6E7-E1AC-20D9620F1A0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3012B1C3-BE24-3CE8-6218-350B765A781E" name="BENEFECIARY_CHARGE__UN">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:54:34 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43B60AF0-7141-5CFB-967D-B6405E4281F9"/>
+<colUsage columnID="6CAD6DCC-E97E-9984-F212-DE4612F3B09B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C65EA92D-BA5F-6C2D-1657-1E76ABA70D50" name="BENEFICIARY_CHARGE_FK1">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:54:34 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43B60AF0-7141-5CFB-967D-B6405E4281F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00823825-BAA4-9B41-2150-E661AFDCBC31" name="BENEFICIARY_CHARGE_FK2">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:54:34 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA7B3046-E7A4-787F-F55B-5CCB3197DB5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

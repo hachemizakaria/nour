@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="N3_T_SALARY_LVL" directorySegmentName="seg_0" id="A8E1716F-3A2C-F3C5-A5FF-20565A513B79">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<schemaObject>C335209A-12F8-D6E0-879B-6BD64E44D839</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>01D6BB8F-8849-E55C-2951-28F392EF48E0</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LVL_DESC" id="03C8C9EE-A720-A5B9-A5D5-4E2C3201C3FC">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALARY_START" id="046E50AB-8BD4-74C8-A1F0-EFD9A8FEC226">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LVL" id="54548944-155F-9FB1-6126-4C5FCE2CD29E">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="6DE41CE6-4F43-9FAE-0C61-26823B83FEA8">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALARY_END" id="8261B5A6-F94C-0835-F31F-74C725D56481">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="N3_T_SALARY_LVL_PK" id="5F08793D-3B22-DFDF-2BEE-DFD565CE740E">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<schemaObject>C335209A-12F8-D6E0-879B-6BD64E44D839</schemaObject>
+<segment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="N3_T_SALARY_LVL_UK1" id="812903E7-3ACC-D1BF-FF8D-B4A9A088688B">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<schemaObject>C335209A-12F8-D6E0-879B-6BD64E44D839</schemaObject>
+<segment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="N3_T_SALARY_LVL_PK" id="ED634B7F-1616-C87D-5C69-5D8B1664B452">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<segment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+<existingIndex>5F08793D-3B22-DFDF-2BEE-DFD565CE740E</existingIndex>
+<indexSegment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="N3_T_SALARY_LVL_UK1" id="8984D4FF-F1C3-19DB-7F06-C09796E7C975">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<segment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+<existingIndex>812903E7-3ACC-D1BF-FF8D-B4A9A088688B</existingIndex>
+<indexSegment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

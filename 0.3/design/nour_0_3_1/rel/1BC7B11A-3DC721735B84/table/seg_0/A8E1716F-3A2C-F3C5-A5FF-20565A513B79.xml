@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8E1716F-3A2C-F3C5-A5FF-20565A513B79" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_T_SALARY_LVL">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_T_SALARY_LVL</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>212A7482-CEA7-5FA2-3E19-B6961D71FDD0</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6DE41CE6-4F43-9FAE-0C61-26823B83FEA8">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_T_SALARY_LVL</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>4D2D2515-5E3D-F5AE-7978-492582B5FE88</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LVL" id="54548944-155F-9FB1-6126-4C5FCE2CD29E">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_T_SALARY_LVL</sourceObjSchema>
+<sourceObjName>LVL</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>D6636609-21EB-7BB2-CD29-79B36FC63EC0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LVL_DESC" id="03C8C9EE-A720-A5B9-A5D5-4E2C3201C3FC">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_T_SALARY_LVL</sourceObjSchema>
+<sourceObjName>LVL_DESC</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>77B8B95F-E3FA-DEB3-576E-B983250D43EA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARY_START" id="046E50AB-8BD4-74C8-A1F0-EFD9A8FEC226">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_T_SALARY_LVL</sourceObjSchema>
+<sourceObjName>SALARY_START</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>0DC72769-729D-24D0-2CE6-1A808CDC8CAE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARY_END" id="8261B5A6-F94C-0835-F31F-74C725D56481">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_T_SALARY_LVL</sourceObjSchema>
+<sourceObjName>SALARY_END</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>7C96FD96-78D2-A0CF-2521-FEDBC82F86E6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED634B7F-1616-C87D-5C69-5D8B1664B452" name="N3_T_SALARY_LVL_PK">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_T_SALARY_LVL_PK</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>A1E8ED7F-907C-6C4C-00CE-D636E86E1B6D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DE41CE6-4F43-9FAE-0C61-26823B83FEA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8984D4FF-F1C3-19DB-7F06-C09796E7C975" name="N3_T_SALARY_LVL_UK1">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_T_SALARY_LVL_UK1</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>4A2DF217-83BE-8971-12C2-2979A55F9894</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54548944-155F-9FB1-6126-4C5FCE2CD29E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F08793D-3B22-DFDF-2BEE-DFD565CE740E" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_T_SALARY_LVL_PK">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_T_SALARY_LVL_PK</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>46A81F03-C9FC-B73D-0A90-0AA535383FE6</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DE41CE6-4F43-9FAE-0C61-26823B83FEA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="812903E7-3ACC-D1BF-FF8D-B4A9A088688B" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_T_SALARY_LVL_UK1">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_T_SALARY_LVL_UK1</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:55:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>0FC97645-91F1-B6A1-5861-130ED1E9EB13</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54548944-155F-9FB1-6126-4C5FCE2CD29E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

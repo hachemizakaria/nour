@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="N3_ALMS_OUT_BIU" directorySegmentName="seg_0" id="DC9DAD16-8D78-6B1C-74D6-C8D6CEB74299">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_ALMS_OUT_BIU</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:14:29 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body>begin  &lt;br/&gt;   if inserting then &lt;br/&gt;      if :NEW.&quot;ID&quot; is null then &lt;br/&gt;         select gen_id() into :NEW.&quot;ID&quot; from dual; &lt;br/&gt;      end if; &lt;br/&gt;      &lt;br/&gt;     -- :new.created_on := sysdate;&lt;br/&gt;     -- :new.created_by := nvl(v(&apos;APP_USER&apos;),USER);&lt;br/&gt;   end if; &lt;br/&gt;   &lt;br/&gt;   --:new.modified_on := sysdate;&lt;br/&gt;   --:new.modified_by := nvl(v(&apos;APP_USER&apos;),USER);&lt;br/&gt;end;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>D8310ABA-BDB8-2711-3EC1-DB20765DA3B7</owner>
+<table>94C746B3-4591-C3DF-CC76-6A1002210F30</table>
+</TriggerOraclev10g>

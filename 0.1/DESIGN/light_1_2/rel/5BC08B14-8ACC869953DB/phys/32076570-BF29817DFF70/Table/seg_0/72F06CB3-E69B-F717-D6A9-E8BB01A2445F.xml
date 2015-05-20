@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DISTRUB_ITEMS" directorySegmentName="seg_0" id="72F06CB3-E69B-F717-D6A9-E8BB01A2445F">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:03:21 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="DISTRIBUTION" id="0C554F88-9893-21F5-776F-D03BE9C93F3F">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:19:53 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ID" id="13F1B3EF-4A36-2F14-F838-127200CBF637">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:18:58 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="SUPPORTED" id="45350E3F-A6D7-6494-EA07-25E068C2FBED">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:15:49 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="NATURE" id="85CB7816-3194-6387-AE4D-DFBE29F99862">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:19:53 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="QTE" id="AEB0793B-359E-301B-8A56-CDD78B3AE8FF">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:19:53 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DISTRUB_ITEMS_FKv1" id="66181FFF-8045-0F1C-7119-5C52398100E2">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:24:01 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DISTRUB_ITEMS_FK" id="E8596C3C-8187-22E3-2647-A18E081DDB07">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:24:01 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DISTRUB_ITEMS_PK" id="A2E8F118-8CA6-EC97-891C-C83829405C12">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:22:50 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="DISTRUB_ITEMS__UN" id="A44034FA-4C10-DEEC-A28E-C14B35628A08">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:22:50 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

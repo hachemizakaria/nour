@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.DataFlowDesign>
+   <object objectType="main_view" objectID="14847360-5A07-5395-34A8-A26DC810B14B" name="P1001_tables Diagram" visible="false"/>
+</oracle.dbtools.crest.model.design.process.DataFlowDesign>

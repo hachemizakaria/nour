@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05BA3066-52A8-0349-28A0-70025C7EA2B4" name="L_F_GIFTS">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>L_F_GIFTS</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-07 12:05:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="813DAEAE-8EED-84AE-3BEF-3BE4B5B7F5C6">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_GIFTS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-07 12:05:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIFT_TYPE" id="AE78ED08-8554-F64B-B8FF-512B7DD5BCB7">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_GIFTS</sourceObjSchema>
+<sourceObjName>GIFT_TYPE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-07 12:05:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIFT_QUANTITE" id="04C2DB2C-9BF0-2723-87F4-26B7EB2AD2E5">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_GIFTS</sourceObjSchema>
+<sourceObjName>GIFT_QUANTITE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-07 12:05:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIFT_UNIT" id="3306439D-D183-40A7-B41E-E2B38F590634">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_GIFTS</sourceObjSchema>
+<sourceObjName>GIFT_UNIT</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-07 12:05:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIFT_DATE" id="1471296E-C4C1-7C77-B423-A8154357C2D3">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_GIFTS</sourceObjSchema>
+<sourceObjName>GIFT_DATE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-07 12:05:40 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIVER_CODE" id="6391BBB6-DC78-B7F2-566B-D53CA68B3504">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_GIFTS</sourceObjSchema>
+<sourceObjName>GIVER_CODE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-07 12:05:40 UTC</createdTime>
+<commentInRDBMS>?</commentInRDBMS>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIFT_DESC" id="B4C7C694-44BB-8DE3-D34D-9C36E2F4AFCB">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_GIFTS</sourceObjSchema>
+<sourceObjName>GIFT_DESC</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-07 12:12:12 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>E5D5EEB7-C63D-12EC-B246-B55A474C4176</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LEFT_QNTE" id="9EDF36BD-B5C5-F584-8AE7-700AE2BD5A96">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_GIFTS</sourceObjSchema>
+<sourceObjName>LEFT_QNTE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-11 18:20:31 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>C47F1076-3966-ABFB-B3C5-D105C9B88B65</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

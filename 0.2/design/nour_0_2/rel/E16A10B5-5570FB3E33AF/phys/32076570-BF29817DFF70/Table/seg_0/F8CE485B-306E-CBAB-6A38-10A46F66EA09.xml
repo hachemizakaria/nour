@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="F_P_ORPHANE" directorySegmentName="seg_0" id="F8CE485B-306E-CBAB-6A38-10A46F66EA09">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:10:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C3580127-2186-D483-8D50-0A9FB49B8260</segment>
+<tableSpace>B3401C2B-C98E-D9B7-D188-4D491ADDDE89</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="F_P_ORPHANE_UK2" id="207B6618-FD67-C63A-69C7-8177BBB0E9FE">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:23:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<tableSpace>B3401C2B-C98E-D9B7-D188-4D491ADDDE89</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="F_P_ORPHANE_UK1" id="84D157AF-2CBA-4432-CD54-8089778DC47F">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:07:57 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<tableSpace>B3401C2B-C98E-D9B7-D188-4D491ADDDE89</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="F_P_ORPHANE_PK" id="911EE346-20BC-9D0B-92C1-644542B9E496">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:10:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<segment>3BF32631-F174-5206-E364-9636EBC455FA</segment>
+<tableSpace>B3401C2B-C98E-D9B7-D188-4D491ADDDE89</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PERSON_ID" id="32C326E7-1704-7878-EC5B-B71DE4D63A68">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:10:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OR_LAST_UPDATE" id="3D189575-FF6A-EA59-E145-1A99484E6F47">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:10:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GUARDIAN_DESC" id="3F9D3806-F138-5966-DFFC-D303E50532B5">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:10:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GUARDIAN_ID" id="41FF42C8-F944-44D7-1B6B-CEC7CB7822B6">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:10:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="80A9C2FF-29DC-C59D-7844-2C912D5F9981">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:10:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OR_CODE" id="AACBE6E2-A9FB-7139-94F3-AEB1DE1A5B98">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:10:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FAMILY_CODE" id="FD2D50F3-B391-BADF-FA5F-4BBDADF2FC33">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:10:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GUARDIAN_KINSHIP" id="FF4AC7B6-39CA-1593-37AF-07F61149F4C9">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:10:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="F_P_ORPHANE_FK1" id="B1828E2F-ED40-8F9B-25CE-785FA25CD3FE">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:20:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="F_P_ORPHANE_PK" id="2A35BB41-1C0B-B189-65AD-4FF489F651C3">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:10:51 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<segment>3BF32631-F174-5206-E364-9636EBC455FA</segment>
+<tableSpace>B3401C2B-C98E-D9B7-D188-4D491ADDDE89</tableSpace>
+<existingIndex>911EE346-20BC-9D0B-92C1-644542B9E496</existingIndex>
+<indexSegment>3BF32631-F174-5206-E364-9636EBC455FA</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="F_P_ORPHANE_UK2" id="CDC429FE-991D-5BBE-785E-CE8DB0832481">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:23:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="F_P_ORPHANE_UK1" id="F8A15B65-BECA-1143-104D-95E4D6E8EF61">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:07:57 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

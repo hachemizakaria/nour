@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="AMBASSADOR" directorySegmentName="seg_0" id="09EACC9A-2C0B-8445-46AA-B7EC5A1D028F">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:10:32 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="PRENOM" id="3D4B568C-C2B6-4222-19F6-7D689F0BC6C7">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:35:25 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="TEL1" id="802C312C-9C9A-504E-D755-EC9DF69E8F34">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:12:20 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="NOM" id="9D2B92D9-7716-E7DF-F69F-D2E264B7DF33">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:12:20 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ID" id="B4CEACBB-5CA4-F1F4-E90C-17A48BD08373">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:12:20 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="AMBASSADOR_CODE" id="B69A519E-E518-2BEA-B71C-4FED644CC2C3">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:33:51 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="TEL2" id="ED1821C3-98E7-9AD1-BB0E-6502A69691E0">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:12:20 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="AMBASSADOR_PK" id="F77ACFDD-5886-A47D-0683-A14C874A9A63">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:12:20 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="AMBASSADOR__UN" id="1BFC5525-8211-4700-236F-C980483084B9">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:35:25 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

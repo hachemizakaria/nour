@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="BENEFICIARY" directorySegmentName="seg_0" id="D8F92D4E-EEBE-8B59-579C-A4A28831D8EE">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<schemaObject>8937EAB7-C42D-821B-6D17-F76AE50531AB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D6B057CA-537F-73C3-57F5-A5F22AE3356F</segment>
+<tableSpace>D534987C-0696-84A6-AC53-7E5E0FC24005</tableSpace>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ID" id="2C01FD87-E681-B68D-2A44-5D3D07794A49">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="CODE_ZONE" id="4CDC8130-C880-5CF9-3F16-1FAFDE394153">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="TELEPHONE2" id="AB2EF605-F2D7-520D-EB73-7763999AD6DF">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="NAME_" id="BB1E4E40-4BDD-4BE9-59E4-370DB53A20C0">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="TELEPHONE1" id="BFC6B2B0-68A1-8634-6AC7-F3E6279AA087">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ADRESS" id="FA32F75B-E0E2-104D-6A9A-6C6DCFE29741">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="CODE_" id="FD192DE2-5A7C-A5EE-4E7B-21D51C7AAF89">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="BENEFICIARY_PK" id="146738FE-9AC3-397E-89BB-590DCE72C3B2">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<schemaObject>8937EAB7-C42D-821B-6D17-F76AE50531AB</schemaObject>
+<segment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</segment>
+<tableSpace>D534987C-0696-84A6-AC53-7E5E0FC24005</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="BENEFICIARY__UN" id="7612BA84-AF13-6652-BB1A-3C127DB1A8FA">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<schemaObject>8937EAB7-C42D-821B-6D17-F76AE50531AB</schemaObject>
+<segment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</segment>
+<tableSpace>D534987C-0696-84A6-AC53-7E5E0FC24005</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="BENEFICIARY_FK1" id="D0FC4457-97DF-B8E5-93FD-B029E793ECD7">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:45:20 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BENEFICIARY_PK" id="37AD9563-F432-06B9-0195-66FA48171D12">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<segment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</segment>
+<tableSpace>D534987C-0696-84A6-AC53-7E5E0FC24005</tableSpace>
+<existingIndex>146738FE-9AC3-397E-89BB-590DCE72C3B2</existingIndex>
+<indexSegment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="BENEFICIARY__UN" id="F9FDB212-2AAC-4ACB-887A-84EC860FF6E8">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<segment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</segment>
+<tableSpace>D534987C-0696-84A6-AC53-7E5E0FC24005</tableSpace>
+<existingIndex>7612BA84-AF13-6652-BB1A-3C127DB1A8FA</existingIndex>
+<indexSegment>2EB63CC8-93ED-A108-9D57-0FD20A67B878</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

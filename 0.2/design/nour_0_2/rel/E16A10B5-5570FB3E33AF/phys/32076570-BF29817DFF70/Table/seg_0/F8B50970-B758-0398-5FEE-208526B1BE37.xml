@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="L_F_TRANSACTIONS" directorySegmentName="seg_0" id="F8B50970-B758-0398-5FEE-208526B1BE37">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-11 18:24:23 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>86A0B3D1-8EE1-BF32-2E9E-39314518F6ED</segment>
+<tableSpace>D763C6DE-E5B6-5B3B-E82C-278B6FDAADD6</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CREDIT" id="45764E71-1E92-E7E1-15CC-AB3BD12C696C">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-11 18:24:23 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACCOUNT_TO" id="8799F27E-9E14-BAA7-73EC-B4770067AB4A">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-11 18:24:23 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="88822504-557E-8D66-6FE4-87D92469DB7F">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-11 18:24:23 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEBIT" id="8B9BF253-E075-2715-2C36-DCB35546022E">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-11 18:24:23 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACCOUNT_FROM" id="B543C5E3-26B6-226E-421F-DC754173476B">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-11 18:24:23 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

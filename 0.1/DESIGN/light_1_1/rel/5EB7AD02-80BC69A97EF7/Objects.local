@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="8937EAB7-C42D-821B-6D17-F76AE50531AB" name="LIGHT" seqName="seg_0"/>
+   <object objectType="Table" objectID="820C045E-6696-B59E-D69C-ED2A7F6F7F2E" name="AMBASSADOR" seqName="seg_0"/>
+   <object objectType="Table" objectID="D8F92D4E-EEBE-8B59-579C-A4A28831D8EE" name="BENEFICIARY" seqName="seg_0"/>
+   <object objectType="Table" objectID="FCE8403C-7070-3FE7-6114-1DBEA038078D" name="BENEFICIARY_CHARGE" seqName="seg_0"/>
+   <object objectType="Table" objectID="9166B235-8BA7-D103-40E8-347DB20C83C3" name="CONTRIBUTIONS" seqName="seg_0"/>
+   <object objectType="Table" objectID="B44FCDFF-FE32-49E7-9878-E84B78F61C54" name="CONTRIBUTOR" seqName="seg_0"/>
+   <object objectType="Table" objectID="37284DEF-1CB7-94F2-04A9-A74C064ACDEC" name="DONATIONS" seqName="seg_0"/>
+   <object objectType="Table" objectID="B4563CEC-9659-DA1B-E63B-090907156F50" name="RELATED" seqName="seg_0"/>
+   <object objectType="Table" objectID="BC697767-A406-FC34-567D-C1432CA8AFB0" name="ZONES" seqName="seg_0"/>
+   <object objectType="Table" objectID="E7EDB787-E8D0-943D-A3E7-4051DEF57904" name="ZONE_AMBASSADOR" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="089AAD58-0D59-48E9-BCBF-191748F4BB55" name="BENEFICIARY_CHARGE_FK1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="942D9D0A-B497-B9DD-40F6-4988AA694E8E" name="BENEFICIARY_CHARGE_FK2" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="606E64EB-EA36-8F6F-A6CA-F77FA4D2C27E" name="BENEFICIARY_FK1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E58CD0F8-C194-7351-DE02-B45F9E2FD1BE" name="CONTRIBUTION_FK1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B476C698-BA4E-85CF-84AD-E63B8C44B505" name="DONATIONS_FK1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6493CE7F-0370-AA02-D5A6-CC1EF724C5C3" name="DONATIONS_FK2" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CB2AFF60-4241-4BFE-6551-B4F94D114BBD" name="ZONE_AMBASSADOR_FK1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="247E27F9-9551-C9FC-F2AA-A80C264893D3" name="ZONE_AMBASSADOR_FK2" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

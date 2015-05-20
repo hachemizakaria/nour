@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.DataFlowDesign>
+   <object objectType="Process" objectID="19E13C52-1F7F-B7C1-C7DD-DA719F5D3664" name="P5_Givers" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.process.DataFlowDesign>

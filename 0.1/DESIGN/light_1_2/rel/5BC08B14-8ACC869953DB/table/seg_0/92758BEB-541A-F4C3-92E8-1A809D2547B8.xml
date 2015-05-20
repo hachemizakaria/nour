@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92758BEB-541A-F4C3-92E8-1A809D2547B8" name="EQUIPMENT_TYPE">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:24:32 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C8D6D9B3-6A14-3A35-68D4-9AE9A8CE1EBF">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:25:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE_CODE" id="4778265E-46B2-6D64-B429-FC3BE86C45AC">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:25:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE_DESC" id="0B6F3052-8474-D861-3963-E0848FA564E9">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:25:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1FB2567A-4931-2D6F-0698-6FD468A62790" name="EQUIPMENT_TYPE_PK">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:25:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8D6D9B3-6A14-3A35-68D4-9AE9A8CE1EBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45953CCF-77DF-7A38-0D83-EF02D97DFFFB" name="EQUIPMENT_TYPE_UK1">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-18 11:25:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4778265E-46B2-6D64-B429-FC3BE86C45AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

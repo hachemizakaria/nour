@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7EDB787-E8D0-943D-A3E7-4051DEF57904" name="ZONE_AMBASSADOR">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>LIGHT</sourceObjSchema>
+<sourceObjName>ZONE_AMBASSADOR</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<schemaObject>8937EAB7-C42D-821B-6D17-F76AE50531AB</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="94C2A572-A636-3DE3-EA48-A8983A27EACC">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>ZONE_AMBASSADOR</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZONE_CODE" id="D0A9D9E9-DA5E-4111-42D7-3CA741501C13">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>ZONE_AMBASSADOR</sourceObjSchema>
+<sourceObjName>ZONE_CODE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<delegate>BB727D86-F1C0-9A0B-68D4-8B513EEC2D06</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="247E27F9-9551-C9FC-F2AA-A80C264893D3" referredColumn="BB727D86-F1C0-9A0B-68D4-8B513EEC2D06"/>
+</associations>
+</Column>
+<Column name="AMBASSADOR_CODE" id="2F7F5CC2-E5A5-C118-F7DF-B8450E8B85E0">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>ZONE_AMBASSADOR</sourceObjSchema>
+<sourceObjName>AMBASSADOR_CODE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<delegate>16890156-D33B-492F-1FFD-97B66DEB5B10</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB2AFF60-4241-4BFE-6551-B4F94D114BBD" referredColumn="16890156-D33B-492F-1FFD-97B66DEB5B10"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="04962EA4-305B-EECD-1AFC-3CCCC48DD598" name="ZONE_AMBASSADOR_PK">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>LIGHT</sourceObjSchema>
+<sourceObjName>ZONE_AMBASSADOR_PK</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94C2A572-A636-3DE3-EA48-A8983A27EACC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6BC6673-159E-8D9B-1EFC-E105B113CE9D" name="ZONE_AMBASSADOR__UN">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>LIGHT</sourceObjSchema>
+<sourceObjName>ZONE_AMBASSADOR__UN</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0A9D9E9-DA5E-4111-42D7-3CA741501C13"/>
+<colUsage columnID="2F7F5CC2-E5A5-C118-F7DF-B8450E8B85E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFE715AF-975A-01CC-4C7F-0A9050DF141C" name="ZONE_AMBASSADOR_PK">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>LIGHT</sourceObjSchema>
+<sourceObjName>ZONE_AMBASSADOR_PK</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>8937EAB7-C42D-821B-6D17-F76AE50531AB</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94C2A572-A636-3DE3-EA48-A8983A27EACC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C987EFFB-9915-E1F3-2AC4-CE0C21A5DB17" name="ZONE_AMBASSADOR__UN">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>LIGHT</sourceObjSchema>
+<sourceObjName>ZONE_AMBASSADOR__UN</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>8937EAB7-C42D-821B-6D17-F76AE50531AB</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0A9D9E9-DA5E-4111-42D7-3CA741501C13"/>
+<colUsage columnID="2F7F5CC2-E5A5-C118-F7DF-B8450E8B85E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14964119-4EA5-3439-0A1C-39637B9011C2" name="ZONE_AMBASSADOR_FK1">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F7F5CC2-E5A5-C118-F7DF-B8450E8B85E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC776621-6CF7-5B79-90C5-EC19E99CACCF" name="ZONE_AMBASSADOR_FK2">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0A9D9E9-DA5E-4111-42D7-3CA741501C13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

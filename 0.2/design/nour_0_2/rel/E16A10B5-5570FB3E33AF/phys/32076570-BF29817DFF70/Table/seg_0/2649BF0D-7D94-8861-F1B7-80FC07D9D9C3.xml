@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="L_T_HEALTH_LVL" directorySegmentName="seg_0" id="2649BF0D-7D94-8861-F1B7-80FC07D9D9C3">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-14 10:29:14 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B6F0DBE8-9A7F-527A-C7C5-C1EE0975FD95</segment>
+<tableSpace>86EFF118-3B30-93CF-C9EA-FC7DA0A3597F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LVL" id="1EE31AE6-0346-4B0F-EED5-4A5B7AD30FE2">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-14 10:29:14 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LVL_DESC" id="6C52B91D-4326-666D-25CF-8D918AFE13FD">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-14 10:29:14 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="C9C8381A-0EAA-4C46-7CC1-854296F72B01">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-14 10:29:14 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

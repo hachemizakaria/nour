@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13E05C06-9849-591E-5F2F-5DC076AC8F6D" name="F_P_HANDICAPPED">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>F_P_HANDICAPPED</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:24:03 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6C961D4A-9E28-69AE-495E-03D9525A68EA">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>F_P_HANDICAPPED</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:24:03 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSON_ID" id="B216DEFB-2102-18FD-9F27-E909FA9C827E">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>F_P_HANDICAPPED</sourceObjSchema>
+<sourceObjName>PERSON_ID</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:24:03 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>26852042-992E-D562-9FFE-56587A87CD20</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD00A3FD-59BA-01AE-4AA9-8005F3FD6D2A" referredColumn="26852042-992E-D562-9FFE-56587A87CD20"/>
+</associations>
+</Column>
+<Column name="HD_CODE" id="A88F62CC-3067-3F4D-D83C-67E14C28C346">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>F_P_HANDICAPPED</sourceObjSchema>
+<sourceObjName>HD_CODE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:18:39 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>92E285A5-CA4D-8166-AD34-46E379AD03C8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HNDCP_PCT" id="B0DD86B8-A6FD-B3DD-B787-5E5111B9484D">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>F_P_HANDICAPPED</sourceObjSchema>
+<sourceObjName>HNDCP_PCT</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:24:03 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HNDCP_TYPE" id="48DA952F-B4AF-9FE2-E4DC-554606696C5B">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>F_P_HANDICAPPED</sourceObjSchema>
+<sourceObjName>HNDCP_TYPE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:24:03 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HNDCP_DESC" id="E1341DC5-7670-34B4-823B-08A4933BBDF4">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>F_P_HANDICAPPED</sourceObjSchema>
+<sourceObjName>HNDCP_DESC</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:24:03 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HNDCP_FROM" id="99D36C4D-6245-6841-CDC7-CDE70E8AFFC1">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>F_P_HANDICAPPED</sourceObjSchema>
+<sourceObjName>HNDCP_FROM</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:24:03 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9BCAB539-D93C-6E61-D67F-F0CA15B40F05" name="F_P_HANDICAPPED_PK">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>F_P_HANDICAPPED_PK</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:27:59 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>C1952FEB-57B9-4F35-0956-E3F2C227D46A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C961D4A-9E28-69AE-495E-03D9525A68EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D1281CD-C7FE-AA8C-BF66-2F0E2D66514D" name="F_P_HANDICAPPED_UK1">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>F_P_HANDICAPPED_UK1</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:23:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>1D6C370F-1A87-E062-7C21-D439F2C38974</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A88F62CC-3067-3F4D-D83C-67E14C28C346"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEFD5A86-72C8-C87F-C29D-6019077F94DA" name="F_P_HANDICAPPED_PK">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>F_P_HANDICAPPED_PK</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:27:59 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>6A1C723E-C3A1-3A21-B8A2-AED4F3529934</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C961D4A-9E28-69AE-495E-03D9525A68EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="241B0AAD-812E-E5D8-36C5-CB7B2AED07C1" name="F_P_HANDICAPPED_UK1">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>F_P_HANDICAPPED_UK1</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:23:50 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>17523EC3-B9C0-739E-09B6-19FAB5C5D050</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A88F62CC-3067-3F4D-D83C-67E14C28C346"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="214F1DEE-D8B6-C0FA-E494-968E976BF9AE" name="F_P_HANDICAPPED_FK1">
+<createdBy>msi</createdBy>
+<createdTime>2014-02-21 22:27:59 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B216DEFB-2102-18FD-9F27-E909FA9C827E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

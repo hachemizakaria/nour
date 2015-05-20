@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0397F246-2874-D019-3CD1-01441741CA46" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_F_ACCOUNTS">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_F_ACCOUNTS</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>48DEC77E-2724-7742-2CB5-5BE9E4B00AA1</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="ECD280AA-8219-1AAA-2887-543D5234EDE9">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_ACCOUNTS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>A3C200DA-CEF8-0E56-A22D-28CE294E9C0E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN2" id="807D0A58-6725-6288-FEA7-78AE428A2280">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_ACCOUNTS</sourceObjSchema>
+<sourceObjName>COLUMN2</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>2B69FD49-614F-ED54-FE8F-4E6AFA7EF64C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN3" id="6FF95C6D-FAB0-66CD-3DE7-31990F2FFD17">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_ACCOUNTS</sourceObjSchema>
+<sourceObjName>COLUMN3</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>7F7DB5BD-FEB1-5FAD-6CBE-9D3F7804BEFD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCOUNT" id="B5F58234-BF41-EC9F-2943-23485EDEA735">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_ACCOUNTS</sourceObjSchema>
+<sourceObjName>ACCOUNT</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>4509F73D-2FC0-E922-CA37-84A98682E8A7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALMS_TYPE" id="E1803809-6EDD-E177-487F-1BE070B899EA">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_ACCOUNTS</sourceObjSchema>
+<sourceObjName>ALMS_TYPE</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>61D92905-B7B7-19F8-7EDC-0C0193DD120E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E07C30F8-21D3-F595-BC12-2B38539E752A" referredColumn="7621F84C-B94F-9E33-2540-905BF00395C8"/>
+</associations>
+</Column>
+<Column name="COLUMN6" id="162D45AE-B3F7-9A32-B3A4-8386E6C5BE9C">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_ACCOUNTS</sourceObjSchema>
+<sourceObjName>COLUMN6</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>A857EE6F-DF33-3B3E-9372-BCA29C289EF4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN7" id="A7E08EE9-73DE-B9EA-0E56-B774BE56F31A">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_ACCOUNTS</sourceObjSchema>
+<sourceObjName>COLUMN7</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>951B5E57-5DD2-1BDC-B984-382CFD092238</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51858143-8FCB-3B9E-7E07-09E5A2163877" name="N3_F_ACCOUNTS_PK">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_F_ACCOUNTS_PK</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>96D4A0DE-091A-3AA9-2030-C221D9C20A2D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECD280AA-8219-1AAA-2887-543D5234EDE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3B8AE6F-6158-AC47-757F-DBFCEA4CA08A" name="N3_F_ACCOUNTS_UK1">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_F_ACCOUNTS_UK1</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>5ABCA200-9C35-29DB-AA11-B4FE00E77124</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5F58234-BF41-EC9F-2943-23485EDEA735"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4D59E79-DF0C-4374-B96F-03F594F5FBD8" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_F_ACCOUNTS_UK1">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_F_ACCOUNTS_UK1</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>F9151BDF-2795-3A7D-437E-FF946682B84A</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5F58234-BF41-EC9F-2943-23485EDEA735"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8FCDB3D-64C9-99BB-568B-3559D86D3BE0" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_F_ACCOUNTS_PK">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_F_ACCOUNTS_PK</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>CC36B801-D6A4-C4A7-E57A-9F9668AC104C</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECD280AA-8219-1AAA-2887-543D5234EDE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FAF593F-5D0B-3068-57C2-CA0463F513B8" name="N3_F_ACCOUNTS_FK1">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 16:30:49 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1803809-6EDD-E177-487F-1BE070B899EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

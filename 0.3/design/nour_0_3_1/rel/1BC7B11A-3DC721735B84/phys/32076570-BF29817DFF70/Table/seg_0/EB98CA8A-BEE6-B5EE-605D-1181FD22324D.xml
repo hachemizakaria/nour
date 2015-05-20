@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="N3_F_FAMILY" directorySegmentName="seg_0" id="EB98CA8A-BEE6-B5EE-605D-1181FD22324D">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-05 18:40:00 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<schemaObject>C335209A-12F8-D6E0-879B-6BD64E44D839</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>01D6BB8F-8849-E55C-2951-28F392EF48E0</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FAMILY_SIZE" id="195EFBEE-BAD3-23A6-72CB-6E7E005355C2">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-05 18:40:00 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SOCIAL_DESC" id="466AED34-B171-E741-2247-76545BFE436C">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-05 18:40:00 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FAMILY_NAME" id="6AE142A3-C4BA-FD12-55C7-1EBDA57454D5">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-05 18:40:00 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="7DF49A81-4321-15FE-B03F-C608988C40BF">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-05 18:40:00 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALARY_TYPE" id="8F0DA624-96A6-CBA7-282C-782DEAFC3FEE">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-05 18:40:00 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SOCIAL_STATE" id="9415F356-71C1-7BF0-3424-9F5088C4BCF5">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-05 18:40:00 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALARY_BY_MONTH" id="971041D9-DF49-6EB4-F36A-0DC716E7049F">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-05 18:40:00 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HOME_ROOM" id="A12CBFC1-0E9F-497D-3C0B-5275AB3ECD2A">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-05 18:40:00 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HOME_TYPE" id="AB89459F-FA64-821A-FFD4-6BB3D84944AC">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-05 18:40:00 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HOME_OWN" id="C2B61C70-5C49-2880-71E9-E650AD843DE4">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-05 18:40:00 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HOME_STATE" id="C33FC067-0DFE-9AF7-2957-E48617181E7D">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-05 18:40:00 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GUARDIAN_ID" id="D779E9E0-E380-1D9A-F824-2737B9AFF0D9">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-05 18:40:00 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALARY_DESC" id="E6A5A08A-F00F-85B7-B6AC-53BC9C9F21D6">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-05 18:40:00 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FAMILY_CODE" id="F2757F23-0D45-F1EC-EC58-3EB1272425E5">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-05 18:40:00 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="N3_F_FAMILY_PK" id="08A80DFE-663D-18B4-A816-512E63953384">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-05 18:41:58 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<schemaObject>C335209A-12F8-D6E0-879B-6BD64E44D839</schemaObject>
+<segment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="N3_F_FAMILY_PK" id="5E04CF26-4DD5-3D1B-6DC1-26249389BBC4">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-05 18:41:58 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<segment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+<existingIndex>08A80DFE-663D-18B4-A816-512E63953384</existingIndex>
+<indexSegment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

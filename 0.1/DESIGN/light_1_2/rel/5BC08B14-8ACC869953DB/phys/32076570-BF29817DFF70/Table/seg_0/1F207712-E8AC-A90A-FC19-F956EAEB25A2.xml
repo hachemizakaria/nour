@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="GIFT_IN" directorySegmentName="seg_0" id="1F207712-E8AC-A90A-FC19-F956EAEB25A2">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:03:21 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="GIFT_SEQ" id="66401A1E-C2E1-A8C8-DCC4-119489C9CB13">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:03:08 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="GIVER_NAME" id="B3621274-4744-C38D-2221-F747C6E7432B">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:09:43 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="DATE_GIFT" id="BD5798CA-8F70-3B2B-6ADC-F4847D2D7A58">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 08:09:43 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ID" id="F5B6CB96-B91E-6789-DB85-72E47D6C9B9F">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 10:56:41 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="GIFT_IN_PK" id="5D6F30CA-C369-524C-CDB6-BDCC839371BC">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:02:00 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

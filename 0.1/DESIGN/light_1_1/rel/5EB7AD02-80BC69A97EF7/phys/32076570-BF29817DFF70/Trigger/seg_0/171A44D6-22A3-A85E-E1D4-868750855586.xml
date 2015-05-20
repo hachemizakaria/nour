@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="ZONES_BUI" directorySegmentName="seg_0" id="171A44D6-22A3-A85E-E1D4-868750855586">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>LIGHT</sourceObjSchema>
+<sourceObjName>ZONES_BUI</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:38 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<actions>INSERT</actions>
+<body>begin  &lt;br/&gt;   if inserting then &lt;br/&gt;      if :NEW.&quot;ID&quot; is null then &lt;br/&gt;         select ZONRS_SEQ.nextval into :NEW.&quot;ID&quot; from dual; &lt;br/&gt;      end if; &lt;br/&gt;   end if; &lt;br/&gt;end;&lt;br/&gt;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>0145CE40-1380-D336-579E-4A016189C364</owner>
+<table>BC697767-A406-FC34-567D-C1432CA8AFB0</table>
+</TriggerOraclev10g>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="APEX_3486913134980049" directorySegmentName="seg_0" id="86EFF118-3B30-93CF-C9EA-FC7DA0A3597F">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjName>APEX_3486913134980049</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-14 10:27:23 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<dsInitialExtent>65536</dsInitialExtent>
+<dsMaxExtents>2147483645</dsMaxExtents>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+<minExtLen>65536</minExtLen>
+<dsCompression>NOCOMPRESS</dsCompression>
+<fileType>SMALLFILE</fileType>
+</TableSpaceOraclev10g>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CONTRIBUTIONS" directorySegmentName="seg_0" id="CFBDBC07-84E0-DF40-05A1-A2E15A10296F">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 18:55:29 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="CONTRIBUTOR_CODE" id="5DA2D944-9A27-1F4A-E787-A2F928C99A04">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:00:31 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="CONTRIBUTION_DATE" id="A3FB3DD0-543A-ADE4-5C4D-DD75B6E6755D">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:00:31 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ID" id="C1A47751-F70E-1DAF-B3D7-57F3A68931D4">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:00:31 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="CONTRIBUTION_VAL" id="E517C9BE-9455-EEA4-F22E-26B6088D595A">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:00:31 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CONTRIBUTION_FK1" id="4EB9B12B-41F3-0C75-370E-EFE7F218EBD0">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:07:51 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CONTRIBUTION_PK" id="5C71ED41-BA34-BFB6-0963-D826E7A3E140">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:06:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="CONTRIBUTION__UN" id="360FE23F-48B8-BFEE-9368-CDF6ECB4C8D0">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:06:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,25 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="5EB7AD02-4239-A0B3-D0E0-80BC69A97EF7" mainViewID="66834D6D-C981-A4BE-7378-F42C332E1BBE">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-04 09:44:03 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_1</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<redirectConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>light_oel8</connName>
+<connUrl>jdbc:oracle:thin:@oel8.it.ceramig.net:1521:xe</connUrl>
+<connUser>light</connUser>
+<connType>1</connType>
+<syncSelected>-1</syncSelected>
+</redirectConnectionStamp>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>light_oel8</connName>
+<connUrl>jdbc:oracle:thin:@oel8.it.ceramig.net:1521:xe</connUrl>
+<connUser>light</connUser>
+<connType>1</connType>
+<syncSelected>1</syncSelected>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

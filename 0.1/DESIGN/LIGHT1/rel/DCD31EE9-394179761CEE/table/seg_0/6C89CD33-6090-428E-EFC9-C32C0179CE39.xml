@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C89CD33-6090-428E-EFC9-C32C0179CE39" name="BENEFICIARY">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>LIGHT</sourceObjSchema>
+<sourceObjName>BENEFICIARY</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 18:54:47 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<schemaObject>8B596FC0-513D-DAA2-F90D-0001D9AE90B1</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="73303005-F1DB-563A-5C19-560404029F7D">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>BENEFICIARY</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 18:54:48 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE_" id="71C58584-7DA1-08F8-9A14-CBE0FD77FD80">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>BENEFICIARY</sourceObjSchema>
+<sourceObjName>CODE_</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 18:54:48 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME_" id="70ED70BC-AE1A-33E4-92AA-FAD8EAD6005C">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>BENEFICIARY</sourceObjSchema>
+<sourceObjName>NAME_</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 18:54:48 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADRESS" id="040B7A20-701D-785E-5750-8D75D46DBB9E">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>BENEFICIARY</sourceObjSchema>
+<sourceObjName>ADRESS</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 18:54:48 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE_ZONE" id="857F4781-84C2-7A20-3B82-2EBAC752EB6C">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>BENEFICIARY</sourceObjSchema>
+<sourceObjName>CODE_ZONE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 18:54:48 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<delegate>BF312237-225A-6814-D56F-B3FFAB2D98E8</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99DF3E81-8B59-5179-7235-7829E6ED73E8" referredColumn="BF312237-225A-6814-D56F-B3FFAB2D98E8"/>
+</associations>
+</Column>
+<Column name="TELEPHONE1" id="EDDF9688-1D76-A916-9D1A-593A22E54608">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>BENEFICIARY</sourceObjSchema>
+<sourceObjName>TELEPHONE1</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 18:54:48 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEPHONE2" id="025D600C-E2FC-3C77-DEC9-1A993CFF6E3F">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>BENEFICIARY</sourceObjSchema>
+<sourceObjName>TELEPHONE2</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 18:54:48 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C23F109-7F97-73CA-B133-7B024ADE869C" name="BENEFICIARY_PK">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>LIGHT</sourceObjSchema>
+<sourceObjName>BENEFICIARY_PK</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 18:54:49 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73303005-F1DB-563A-5C19-560404029F7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBC5418E-EA97-5D27-01B2-A533691DC180" name="BENEFICIARY__UN">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 19:05:24 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71C58584-7DA1-08F8-9A14-CBE0FD77FD80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A506AB2-889F-87B0-660C-05EF66D861EC" name="BENEFICIARY_PK">
+<sourceConnName>light_oel8</sourceConnName>
+<sourceObjSchema>LIGHT</sourceObjSchema>
+<sourceObjName>BENEFICIARY_PK</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2013-09-22 18:54:48 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>8B596FC0-513D-DAA2-F90D-0001D9AE90B1</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73303005-F1DB-563A-5C19-560404029F7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2C59818-AACF-92EA-1BBB-275627952D80" name="BENEFICIARY_FK1">
+<createdBy>msi</createdBy>
+<createdTime>2013-09-27 14:52:20 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>LIGHT1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="857F4781-84C2-7A20-3B82-2EBAC752EB6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

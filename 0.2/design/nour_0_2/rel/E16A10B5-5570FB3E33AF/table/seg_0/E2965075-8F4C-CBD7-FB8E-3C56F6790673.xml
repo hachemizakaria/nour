@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2965075-8F4C-CBD7-FB8E-3C56F6790673" name="L_T_SECTIONS">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>L_T_SECTIONS</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:11:03 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="12064060-4F00-6320-F0B5-E523B39841BD">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_T_SECTIONS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:11:03 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SECTION_CODE" id="F749FFF7-67DC-8174-5B2E-2178416E5884">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_T_SECTIONS</sourceObjSchema>
+<sourceObjName>SECTION_CODE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:11:03 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SECTION_DESC" id="F32739B4-6B6F-3D63-0D62-6B844317FF9D">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_T_SECTIONS</sourceObjSchema>
+<sourceObjName>SECTION_DESC</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:11:03 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SECTION_PARENT" id="5E40CEA6-5AF2-0226-BC42-AB85CFBA7213">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_T_SECTIONS</sourceObjSchema>
+<sourceObjName>SECTION_PARENT</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:11:03 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>F749FFF7-67DC-8174-5B2E-2178416E5884</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0347A6B3-B05A-AB60-31C0-8383D7A8AB06" referredColumn="F749FFF7-67DC-8174-5B2E-2178416E5884"/>
+</associations>
+</Column>
+<Column name="SECTION_MANAGER" id="13331C75-EE56-6138-D2D9-0A4EC9725338">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_T_SECTIONS</sourceObjSchema>
+<sourceObjName>SECTION_MANAGER</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:11:03 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A7425C9-5670-2238-BD0B-62F018E0F4F3" name="L_T_SECTIONS_PK">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>L_T_SECTIONS_PK</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:13:21 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>695D395B-FF3F-46C9-2D36-3400FDB1BC1E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12064060-4F00-6320-F0B5-E523B39841BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FF01725-D8FC-C862-2B22-9E47C479145C" name="L_T_SECTIONS_UK1">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>L_T_SECTIONS_UK1</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:13:21 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>C1CE0BDF-B5B0-F2D3-52DB-9B539528C0F2</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F749FFF7-67DC-8174-5B2E-2178416E5884"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE76DE4D-47C4-B4D0-1B9D-6F2B2FC11BEC" name="L_T_SECTIONS_PK">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>L_T_SECTIONS_PK</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:13:21 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>FD971B53-91A4-2E6A-473C-0903F8564E3D</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12064060-4F00-6320-F0B5-E523B39841BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63773451-664B-3B9C-C63E-6494CD0197B9" name="L_T_SECTIONS_UK1">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>L_T_SECTIONS_UK1</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:13:21 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>CACC9E45-BAD8-E21F-A66E-AC85FB53A3B2</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F749FFF7-67DC-8174-5B2E-2178416E5884"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7D042E1-FAE7-ADC1-403C-BFC5648594C8" name="L_T_SECTIONS_FK1">
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:13:21 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E40CEA6-5AF2-0226-BC42-AB85CFBA7213"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

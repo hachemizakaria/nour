@@ -1,0 +1,190 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="782329F8-5F12-C62D-B45D-D12E2DFF0927" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_F_GIVERS">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_F_GIVERS</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-15 16:51:03 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="B7E38B9E-3E86-CF95-A3DF-F87F6A39F055">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_GIVERS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-15 16:51:03 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GV_CODE" id="1D71913F-3BBF-06FC-69C4-484E883AABCC">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_GIVERS</sourceObjSchema>
+<sourceObjName>GV_CODE</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-15 16:51:03 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GV_LNAME" id="9C97B1E1-161A-E042-0D6B-6B9505901766">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_GIVERS</sourceObjSchema>
+<sourceObjName>GV_LNAME</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-15 16:51:03 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GV_FNAME" id="387DF74F-B005-3AD2-3E08-D2C4B6EB6633">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_GIVERS</sourceObjSchema>
+<sourceObjName>GV_FNAME</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-15 16:51:03 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GV_BIRTH_ON" id="57DD8D73-D9E6-DEED-DEC4-5A507A7FF5F8">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_GIVERS</sourceObjSchema>
+<sourceObjName>GV_BIRTH_ON</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-15 16:51:03 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GV_BIRTH_IN" id="2FCA5B13-F79E-E23E-6D8E-8506ABA19FB0">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_GIVERS</sourceObjSchema>
+<sourceObjName>GV_BIRTH_IN</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-15 16:51:03 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GV_AGE" id="61402859-C4F3-3239-562D-1D3A752895F3">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_GIVERS</sourceObjSchema>
+<sourceObjName>GV_AGE</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-15 16:51:03 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GV_DATE_AGE" id="5EE5E442-D77B-5C32-F517-6BD8F186E826">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_GIVERS</sourceObjSchema>
+<sourceObjName>GV_DATE_AGE</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-15 16:51:03 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A94D3E53-170D-9B6C-7EF3-6DE0AAD636B3" name="N3_F_GIVERS_PK">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_F_GIVERS_PK</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>AA1CA026-EC0F-F369-5FD4-63A5126BE9DD</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7E38B9E-3E86-CF95-A3DF-F87F6A39F055"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A789A20-1DAE-4F95-9A16-D29785423813" name="N3_F_GIVERS_UK1">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_F_GIVERS_UK1</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 16:36:42 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>8AA94B74-36A5-345B-5585-5E89988738FB</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D71913F-3BBF-06FC-69C4-484E883AABCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69ABC3CF-D4C2-4603-C7B8-FE64DB6AB28C" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_F_GIVERS_PK">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_F_GIVERS_PK</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>9DF79FD6-347A-ECE7-D23A-17AFB722684F</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7E38B9E-3E86-CF95-A3DF-F87F6A39F055"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D58B81A-363B-EB02-9F29-71D48A931202" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_F_GIVERS_UK1">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_F_GIVERS_UK1</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 16:36:42 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>5886CDE4-433D-4E3E-E6E0-396C2E68DC9D</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D71913F-3BBF-06FC-69C4-484E883AABCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

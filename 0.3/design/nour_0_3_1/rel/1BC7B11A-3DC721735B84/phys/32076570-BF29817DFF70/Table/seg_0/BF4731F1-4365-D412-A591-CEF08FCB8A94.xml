@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="N3_ALMS_IN" directorySegmentName="seg_0" id="BF4731F1-4365-D412-A591-CEF08FCB8A94">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:14:32 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<schemaObject>C335209A-12F8-D6E0-879B-6BD64E44D839</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BFF5E721-C4D0-ADBD-D261-9EA75210630B</segment>
+<tableSpace>9CDE3438-49AB-A982-4DD9-77C4C6FE94D5</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="COLUMN1" id="78A9D1CB-3D4A-4C4C-EA5C-86FF37B1C464">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:14:32 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENG_ID" id="8DD30C30-098E-CC3A-3220-DC202004552E">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:14:32 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GIVER_CODE" id="A06A29E4-5AFD-564D-FD93-AAA5EB1D6838">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:14:32 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ALMS_DATE" id="BE4E361B-CD69-5B31-5BFA-EA23C44CCE07">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:14:32 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLUMN7" id="CC44D1E5-16DC-5B4A-85F5-39C626BDCDDB">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:14:32 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="D176AAE8-C174-D353-3CB4-52D624B94A15">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:14:32 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLUMN8" id="E7C6860F-23A2-6783-1559-DC09C8BD36B1">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:14:32 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FUND_ACCOUNT" id="ECB73E31-46BB-F991-D032-E9DDB3C4A57C">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:14:32 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ALMS_VALUE" id="F774CFB3-92E8-BA8E-AC0E-B841FDEDAC4C">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:14:32 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="N3_ALMS_IN_PK" id="B55636FD-1920-25AF-BEB7-95D6567C3F26">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 16:33:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<schemaObject>C335209A-12F8-D6E0-879B-6BD64E44D839</schemaObject>
+<segment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="N3_ALMS_IN_FK1" id="335F020E-14A0-6F2C-261A-8FF1EEBE508C">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 16:33:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="N3_ALMS_IN_FK2" id="F4F06B9D-7FC4-4237-E7BB-576B3A748D38">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 16:37:41 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="N3_ALMS_IN_PK" id="7551E350-EA63-EE26-3C51-9758A622D944">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 16:33:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<segment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+<existingIndex>B55636FD-1920-25AF-BEB7-95D6567C3F26</existingIndex>
+<indexSegment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.DataFlowDesign>
+   <object objectType="Process" objectID="17BB888A-56FB-D096-2186-E5B0FCEAE327" name="P2011_step1" seqName="seg_0"/>
+   <object objectType="Process" objectID="65C99008-FBAF-5530-6CE3-2C086C03ADBA" name="P2012_step2" seqName="seg_0"/>
+   <object objectType="Process" objectID="ADC13765-5F49-3DAB-CF0C-3F38B07B1ADC" name="P2014_step4" seqName="seg_0"/>
+   <object objectType="Process" objectID="B555C266-AF69-9C5A-F530-D900032C6C55" name="P2022_Affiliation" seqName="seg_0"/>
+   <object objectType="Process" objectID="C0B8FD3F-15D6-D6B0-3B60-C48F983B5A0E" name="P2023_Guardian" seqName="seg_0"/>
+   <object objectType="Process" objectID="C4EFCE58-3D18-5C84-EAFA-43FAED8D9EB2" name="P2021_Person" seqName="seg_0"/>
+   <object objectType="Process" objectID="D335799B-0B8B-D24B-BA02-B52B008A5A28" name="P2013_step3" seqName="seg_0"/>
+   <object objectType="Process" objectID="E0BEC44C-472E-E341-1C29-7B881F85C98F" name="P2015_Confirmation" seqName="seg_0"/>
+   <object objectType="Flow" objectID="2B7A306A-812E-2C05-677C-44D8542B399B" name="Flow_4" seqName="seg_0"/>
+   <object objectType="Flow" objectID="522A38A6-A1F2-F2AD-E093-59FE52ABDECD" name="Flow_1" seqName="seg_0"/>
+   <object objectType="Flow" objectID="CBAB7609-7C82-20FD-4672-85E23F0CBA3D" name="Flow_3" seqName="seg_0"/>
+   <object objectType="Flow" objectID="D5295DAD-21AF-B4A3-263C-281C70068934" name="Flow_2" seqName="seg_0"/>
+   <object objectType="Flow" objectID="F5E7BC1A-176E-0818-8859-84E2111FC79A" name="Flow_6" seqName="seg_0"/>
+   <object objectType="Flow" objectID="F845D608-09A1-020C-9F82-2DEF7DA8092C" name="Flow_5" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.process.DataFlowDesign>

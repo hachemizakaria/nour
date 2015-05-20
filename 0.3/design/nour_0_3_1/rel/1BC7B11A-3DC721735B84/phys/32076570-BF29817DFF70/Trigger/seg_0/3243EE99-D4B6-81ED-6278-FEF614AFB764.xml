@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="N3_F_FAMILY_BIU" directorySegmentName="seg_0" id="3243EE99-D4B6-81ED-6278-FEF614AFB764">
+<sourceConnName>nour_oel8</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_F_FAMILY_BIU</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-05 18:41:58 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body>begin  &lt;br/&gt;   if inserting then &lt;br/&gt;      if :NEW.&quot;ID&quot; is null then &lt;br/&gt;         select gen_id() into :NEW.&quot;ID&quot; from dual; &lt;br/&gt;      end if; &lt;br/&gt;      &lt;br/&gt;     -- :new.created_on := sysdate;&lt;br/&gt;     -- :new.created_by := nvl(v(&apos;APP_USER&apos;),USER);&lt;br/&gt;   end if; &lt;br/&gt;   &lt;br/&gt;   --:new.modified_on := sysdate;&lt;br/&gt;   --:new.modified_by := nvl(v(&apos;APP_USER&apos;),USER);&lt;br/&gt;end;&lt;br/&gt;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>8909C4D5-AE32-EDDA-DA7C-EA37DBC044DA</owner>
+<table>EB98CA8A-BEE6-B5EE-605D-1181FD22324D</table>
+</TriggerOraclev10g>

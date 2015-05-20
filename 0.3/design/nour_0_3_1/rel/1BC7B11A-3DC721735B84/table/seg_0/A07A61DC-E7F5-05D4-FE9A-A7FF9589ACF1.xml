@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A07A61DC-E7F5-05D4-FE9A-A7FF9589ACF1" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_T_SCORING_LVL">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_T_SCORING_LVL</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:48:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="3F748007-B7D4-AC32-1775-D3A9838845A6">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_T_SCORING_LVL</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:48:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SCORING_LVL" id="35B2C067-A7C1-E54A-2169-580CC8EC2550">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_T_SCORING_LVL</sourceObjSchema>
+<sourceObjName>SCORING_LVL</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:48:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SCORING_DESC" id="DDAF3CD0-6D2D-0CDB-D8AF-D25860DC94D0">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_T_SCORING_LVL</sourceObjSchema>
+<sourceObjName>SCORING_DESC</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:48:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN4" id="D734FB51-16CD-D770-EACA-8FAE04E0ADEC">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_T_SCORING_LVL</sourceObjSchema>
+<sourceObjName>COLUMN4</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:48:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN1" id="92464961-52BF-ED35-DAC6-19FAED65CB85">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_T_SCORING_LVL</sourceObjSchema>
+<sourceObjName>COLUMN1</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:48:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="963A107B-B6FD-1FA2-DF19-EF9F5DDDE298" name="N3_T_SCORING_LVL_PK">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_T_SCORING_LVL_PK</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:48:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F748007-B7D4-AC32-1775-D3A9838845A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFEEFF3D-390A-5565-F2F8-21649914FDD9" name="N3_T_SCORING_LVL_UK1">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_T_SCORING_LVL_UK1</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:48:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35B2C067-A7C1-E54A-2169-580CC8EC2550"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C31CCB3-B071-63B7-1E61-0CAB7EE4E382" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_T_SCORING_LVL_PK">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_T_SCORING_LVL_PK</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:48:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F748007-B7D4-AC32-1775-D3A9838845A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B3DC8B5-D5BC-0A62-17B7-92F179E9B3F4" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_T_SCORING_LVL_UK1">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_T_SCORING_LVL_UK1</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:48:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35B2C067-A7C1-E54A-2169-580CC8EC2550"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

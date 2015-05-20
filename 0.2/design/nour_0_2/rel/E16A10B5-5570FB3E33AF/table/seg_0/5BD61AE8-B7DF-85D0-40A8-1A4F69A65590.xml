@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5BD61AE8-B7DF-85D0-40A8-1A4F69A65590" name="ALMS_PLAN">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>ALMS_PLAN</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="53DA0F90-BCCE-5E61-812F-05FD1F97F116">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>ALMS_PLAN</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAN_CODE" id="2955FD4B-6245-F66C-85C8-43AE0823B34D">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>ALMS_PLAN</sourceObjSchema>
+<sourceObjName>PLAN_CODE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAN_DESC" id="E3CE9E78-948C-8EF8-2F0F-791D55D1A2D5">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>ALMS_PLAN</sourceObjSchema>
+<sourceObjName>PLAN_DESC</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAN_DATE_START" id="B2B1FE2C-B437-B258-F2F9-9F88B30587D5">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>ALMS_PLAN</sourceObjSchema>
+<sourceObjName>PLAN_DATE_START</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAN_END_DATE" id="0E7F1C1B-07C8-06EE-7E7F-DA31220EBABF">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>ALMS_PLAN</sourceObjSchema>
+<sourceObjName>PLAN_END_DATE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAN_TYPE" id="0F0DE5BD-A1BF-2AA2-8683-1FF7CD8CCA4C">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>ALMS_PLAN</sourceObjSchema>
+<sourceObjName>PLAN_TYPE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAN_FREQ" id="327B0AAF-5C76-F9FF-DAF3-1EDCD6782F51">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>ALMS_PLAN</sourceObjSchema>
+<sourceObjName>PLAN_FREQ</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAN_ALMS_VALUE" id="FC762D3C-CB4E-5923-9F32-D35B35E37404">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>ALMS_PLAN</sourceObjSchema>
+<sourceObjName>PLAN_ALMS_VALUE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:16:30 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1D224AE-6E5C-BEDC-7A45-6F3B67E45D4E" name="ALMS_PLAN_PK">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>ALMS_PLAN_PK</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:21:41 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>45F1BB19-1AD3-BD74-7C6A-DB10BD0DE622</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53DA0F90-BCCE-5E61-812F-05FD1F97F116"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08FBF3A7-02AB-B082-6B55-4F58C64138BA" name="ALMS_PLAN_PK">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>ALMS_PLAN_PK</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-02-22 08:21:41 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>2E196F62-6D8B-AFFB-8436-6D88050C0137</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53DA0F90-BCCE-5E61-812F-05FD1F97F116"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

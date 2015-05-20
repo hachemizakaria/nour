@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10B0B7AE-BEFE-D060-0A1D-ECF90F714471" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_ALMS_TERM">
+<sourceConnName>nour_oel8</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_ALMS_TERM</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-06 16:40:19 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="5B4E137D-D52D-7F81-0E42-552A276BA6FC">
+<sourceConnName>nour_oel8</sourceConnName>
+<sourceObjSchema>N3_ALMS_TERM</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-06 16:40:20 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAN_ID" id="34FA33F4-C600-052D-A08D-88181AC1602F">
+<sourceConnName>nour_oel8</sourceConnName>
+<sourceObjSchema>N3_ALMS_TERM</sourceObjSchema>
+<sourceObjName>PLAN_ID</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-06 16:40:20 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B30B2EE-7FDC-9E00-1D7C-D61A64C33B4A" referredColumn="E0BFA9C9-F65E-863C-DA07-E788C1199D55"/>
+</associations>
+</Column>
+<Column name="DATE_TERM" id="F00B3BE1-33EC-A3B9-BD50-6C513EE8F49A">
+<sourceConnName>nour_oel8</sourceConnName>
+<sourceObjSchema>N3_ALMS_TERM</sourceObjSchema>
+<sourceObjName>DATE_TERM</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-06 16:40:20 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TERM_SEQ" id="1E5CE869-204A-1357-DB4D-CEE60CF7C42E">
+<sourceConnName>nour_oel8</sourceConnName>
+<sourceObjSchema>N3_ALMS_TERM</sourceObjSchema>
+<sourceObjName>TERM_SEQ</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-06 16:40:20 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69A75E56-7303-FFB4-C0A9-1BF474701AFB" name="N3_ALMS_TERM_PK">
+<sourceConnName>nour_oel8</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_ALMS_TERM_PK</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-06 16:40:20 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B4E137D-D52D-7F81-0E42-552A276BA6FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAE188B4-489A-CFA6-0313-70DF413F31AD" name="N3_ALMS_TERM_UK1">
+<sourceConnName>nour_oel8</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_ALMS_TERM_UK1</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-06 16:40:20 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34FA33F4-C600-052D-A08D-88181AC1602F"/>
+<colUsage columnID="F00B3BE1-33EC-A3B9-BD50-6C513EE8F49A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3224F4D8-5AC4-A20C-86BF-92E463EFA72C" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_ALMS_TERM_PK">
+<sourceConnName>nour_oel8</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_ALMS_TERM_PK</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-06 16:40:20 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B4E137D-D52D-7F81-0E42-552A276BA6FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE79E224-38E4-A3A8-10C9-CE30D7CB60C0" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_ALMS_TERM_UK1">
+<sourceConnName>nour_oel8</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_ALMS_TERM_UK1</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-06 16:40:20 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34FA33F4-C600-052D-A08D-88181AC1602F"/>
+<colUsage columnID="F00B3BE1-33EC-A3B9-BD50-6C513EE8F49A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83F9D87E-4A2D-E165-A40E-7E01E660745F" name="N3_ALMS_TERM_FK1">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-06 16:40:21 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34FA33F4-C600-052D-A08D-88181AC1602F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

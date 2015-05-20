@@ -1,0 +1,329 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94507CF1-26D1-4B7F-DAF8-3762942F53E2" name="L_F_MEMBERS">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>L_F_MEMBERS</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:36:54 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A3CCF78F-9438-9489-4E2B-0CDCBA5FBF53">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_MEMBERS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:36:54 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MM_CODE" id="6B1DACA8-8D20-77F0-225D-4C3C191019F7">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_MEMBERS</sourceObjSchema>
+<sourceObjName>MM_CODE</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:36:54 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MM_MANAGER" id="4D2281EF-70D9-B60D-7621-3FC5A4AAD6EE">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_MEMBERS</sourceObjSchema>
+<sourceObjName>MM_MANAGER</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:36:54 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>6B1DACA8-8D20-77F0-225D-4C3C191019F7</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB7D02B9-F9E5-17B2-EAF0-439B7B12A821" referredColumn="6B1DACA8-8D20-77F0-225D-4C3C191019F7"/>
+</associations>
+</Column>
+<Column name="MM_LNAME" id="1A2F67EC-C508-7A59-64DD-C2C8504C50CC">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_MEMBERS</sourceObjSchema>
+<sourceObjName>MM_LNAME</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:36:54 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MM_FNAME" id="A4E9648D-A0B4-EF6C-A22C-B081C9B202F7">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_MEMBERS</sourceObjSchema>
+<sourceObjName>MM_FNAME</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:36:54 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MM_BIRTH_ON" id="3EC3A797-5CFD-FB40-8D0D-3920928D92D4">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_MEMBERS</sourceObjSchema>
+<sourceObjName>MM_BIRTH_ON</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:36:54 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MM_BIRTH_IN" id="696295EC-B291-9C31-D38C-D3AECD5DF89D">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_MEMBERS</sourceObjSchema>
+<sourceObjName>MM_BIRTH_IN</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:36:54 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MM_JOB" id="4819C984-B899-3F3B-C928-D8C6FDB00499">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_MEMBERS</sourceObjSchema>
+<sourceObjName>MM_JOB</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:36:54 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>98940B64-64C1-4382-3BB9-3C7A0A82D17F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37CEC13D-65FE-15E6-4A85-61F94E3FDFF9" referredColumn="98940B64-64C1-4382-3BB9-3C7A0A82D17F"/>
+</associations>
+</Column>
+<Column name="MM_SECTION" id="DC734EA0-877B-6F39-62CD-5568F9523795">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_MEMBERS</sourceObjSchema>
+<sourceObjName>MM_SECTION</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:36:54 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>F749FFF7-67DC-8174-5B2E-2178416E5884</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F176530C-2A90-F02B-8CFA-87154B5C896A" referredColumn="F749FFF7-67DC-8174-5B2E-2178416E5884"/>
+</associations>
+</Column>
+<Column name="MM_PHONE1" id="963AC318-E759-6E93-DEA9-2C214C1FBDDF">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_MEMBERS</sourceObjSchema>
+<sourceObjName>COLUMN2</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:36:54 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MM_PHONE2" id="0E0F96DD-6F3C-2CAE-326F-E5AAF4B1079D">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_MEMBERS</sourceObjSchema>
+<sourceObjName>COLUMN3</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:36:54 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN1" id="F1D8F442-E2E7-BF2B-840D-7D8D7B163462">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_MEMBERS</sourceObjSchema>
+<sourceObjName>COLUMN1</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:36:54 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN4" id="0517211A-F9D2-B5CC-F3CF-CB307F69A0B4">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_MEMBERS</sourceObjSchema>
+<sourceObjName>COLUMN4</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:36:54 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN5" id="F3ACC209-62F4-D1E9-D2BA-BE32A32D3089">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>L_F_MEMBERS</sourceObjSchema>
+<sourceObjName>COLUMN5</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 18:36:54 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6BB9F7E7-C87F-C424-7CA6-64569DA2705F" name="L_F_MEMBERS_PK">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>L_F_MEMBERS_PK</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:13:21 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>0BFC4C01-435C-9401-A690-AF438A274491</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3CCF78F-9438-9489-4E2B-0CDCBA5FBF53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F7B0D2D-4378-F408-B6D5-3601DC23E64E" name="L_F_MEMBERS_UK1">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>L_F_MEMBERS_UK1</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:13:21 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>9C204AC9-6B39-188C-D6A3-35CE0434C967</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B1DACA8-8D20-77F0-225D-4C3C191019F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1820E59A-32F8-7F64-B364-071F69CD1200" name="L_F_MEMBERS_PK">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>L_F_MEMBERS_PK</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:13:21 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>1E60D821-5EC1-8CB2-EB06-037C54CBD3D6</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3CCF78F-9438-9489-4E2B-0CDCBA5FBF53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED2D0540-2D1C-3104-D883-1889A1A48822" name="L_F_MEMBERS_UK1">
+<sourceConnName>nour_oel6</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>L_F_MEMBERS_UK1</sourceObjName>
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:13:21 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<importedID>238A4496-29F4-B877-908F-F18E8886D864</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2B20ECF2-F17C-0DC1-C6FC-AD529E06AFC8</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B1DACA8-8D20-77F0-225D-4C3C191019F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0CF80B4-AF9A-4CD6-9FD5-A0B509720C15" name="L_F_MEMBERS_FK1">
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:13:21 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D2281EF-70D9-B60D-7621-3FC5A4AAD6EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7F192EB-7A55-7816-E46F-02D4AE96DD91" name="L_F_MEMBERS_FK2">
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:16:20 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC734EA0-877B-6F39-62CD-5568F9523795"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F43FE4B-0E31-ED5A-52DA-64608B38A438" name="L_F_MEMBERS_FK3">
+<createdBy>msi</createdBy>
+<createdTime>2014-01-25 21:16:20 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>nour_0_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4819C984-B899-3F3B-C928-D8C6FDB00499"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

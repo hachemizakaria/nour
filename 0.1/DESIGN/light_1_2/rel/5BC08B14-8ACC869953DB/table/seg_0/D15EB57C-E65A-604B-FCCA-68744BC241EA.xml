@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D15EB57C-E65A-604B-FCCA-68744BC241EA" name="KAFALA">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-19 10:37:24 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="8405C616-73C8-5843-880C-C5F0F2394A70">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-19 10:38:03 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORPHAN_CODE" id="2736C02C-C8D3-BD87-5261-9FF0AE9B696B">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-19 10:38:03 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<delegate>23F513E7-6E0B-A3AE-7F66-3BD6AB9B7C49</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDFA8137-5E69-EEF3-8744-5F9CA9275D0F" referredColumn="23F513E7-6E0B-A3AE-7F66-3BD6AB9B7C49"/>
+</associations>
+</Column>
+<Column name="SUPPORTER_CODE" id="FA4A883A-84C5-089A-5FC6-E99358E4260A">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-19 10:38:03 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<delegate>D465CDB6-F222-12DC-5639-C2D7312A7FAF</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE61FC83-E938-7957-B37F-3206E67BCAE4" referredColumn="D465CDB6-F222-12DC-5639-C2D7312A7FAF"/>
+</associations>
+</Column>
+<Column name="START_DATE" id="EE55CC00-23BD-6D92-B63A-8556915009EB">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-19 10:38:03 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="F7DDF0E3-2595-A27E-4937-9D1B9472481C">
+<createdBy>msi</createdBy>
+<createdTime>2013-11-01 11:24:49 UTC</createdTime>
+<ownerDesignName>light_1_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7386A2A-AD49-26DA-E327-15BF2E4C1FC4" name="KAFALA_PK">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-19 10:40:21 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8405C616-73C8-5843-880C-C5F0F2394A70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C31F8E8A-EF34-B4E0-5A27-EB1216F774B6" name="KAFALA_FK1">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-19 10:40:21 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2736C02C-C8D3-BD87-5261-9FF0AE9B696B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0DEBD66-DAE9-05FF-9230-2BBB32187464" name="KAFALA_FK2">
+<createdBy>msi</createdBy>
+<createdTime>2013-10-19 10:40:21 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>light_1_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA4A883A-84C5-089A-5FC6-E99358E4260A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

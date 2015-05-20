@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="N3_T_SCORING_LVL" directorySegmentName="seg_0" id="A07A61DC-E7F5-05D4-FE9A-A7FF9589ACF1">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:48:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<schemaObject>C335209A-12F8-D6E0-879B-6BD64E44D839</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>01D6BB8F-8849-E55C-2951-28F392EF48E0</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SCORING_LVL" id="35B2C067-A7C1-E54A-2169-580CC8EC2550">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:48:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="3F748007-B7D4-AC32-1775-D3A9838845A6">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:48:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLUMN1" id="92464961-52BF-ED35-DAC6-19FAED65CB85">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:48:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLUMN4" id="D734FB51-16CD-D770-EACA-8FAE04E0ADEC">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:48:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SCORING_DESC" id="DDAF3CD0-6D2D-0CDB-D8AF-D25860DC94D0">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:48:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="N3_T_SCORING_LVL_UK1" id="3B3DC8B5-D5BC-0A62-17B7-92F179E9B3F4">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:48:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<schemaObject>C335209A-12F8-D6E0-879B-6BD64E44D839</schemaObject>
+<segment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="N3_T_SCORING_LVL_PK" id="9C31CCB3-B071-63B7-1E61-0CAB7EE4E382">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:48:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<schemaObject>C335209A-12F8-D6E0-879B-6BD64E44D839</schemaObject>
+<segment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="N3_T_SCORING_LVL_PK" id="963A107B-B6FD-1FA2-DF19-EF9F5DDDE298">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:48:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<segment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+<existingIndex>9C31CCB3-B071-63B7-1E61-0CAB7EE4E382</existingIndex>
+<indexSegment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="N3_T_SCORING_LVL_UK1" id="CFEEFF3D-390A-5565-F2F8-21649914FDD9">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 17:48:30 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<segment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+<existingIndex>3B3DC8B5-D5BC-0A62-17B7-92F179E9B3F4</existingIndex>
+<indexSegment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

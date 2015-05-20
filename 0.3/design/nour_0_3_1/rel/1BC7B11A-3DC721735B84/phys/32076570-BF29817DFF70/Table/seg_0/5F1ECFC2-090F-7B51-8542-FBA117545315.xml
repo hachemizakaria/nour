@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="N3_F_FUNDS" directorySegmentName="seg_0" id="5F1ECFC2-090F-7B51-8542-FBA117545315">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<schemaObject>C335209A-12F8-D6E0-879B-6BD64E44D839</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BFF5E721-C4D0-ADBD-D261-9EA75210630B</segment>
+<tableSpace>9CDE3438-49AB-A982-4DD9-77C4C6FE94D5</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="COLUMN7" id="00341D9E-0C42-EA99-B8BB-B39141C266FE">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="1B99E565-0B8B-A99C-64AD-FC9806AFA1BE">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLUMN4" id="21A9C380-3E54-EA43-3875-A16A5A94062C">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLUMN10" id="2C80E530-767B-367B-DCA2-0BA612E9FD61">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLUMN9" id="3A5D4B59-5134-6891-B1E6-9D809CFF732B">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FUND_ACCOUNT" id="3F54855A-C320-1933-F2E5-5392D055C431">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLUMN11" id="5E3BA6CD-7CF6-0EE6-C1B6-5B92E78D1C4C">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLUMN5" id="AB95F154-A22C-B80D-1286-4AC688C91500">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FUND_VALUE" id="B2ED48E0-D744-FE47-007B-2BFE222BF051">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLUMN6" id="E0AABDB2-3BA7-C1B6-84CA-5EC808B4403A">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLUMN8" id="EE368889-0E74-7B17-AC9A-99466E14D148">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-18 16:23:33 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="N3_F_FUNDS_PK" id="4884A966-22A9-DA33-5C36-322F960CA69E">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<schemaObject>C335209A-12F8-D6E0-879B-6BD64E44D839</schemaObject>
+<segment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="N3_F_FUNDS_FK1" id="FBA7385B-9D35-B5FC-9FCD-7C0EACF20441">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-20 16:30:49 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="N3_F_FUNDS_PK" id="9404F980-806B-7D9C-ACEE-94DB1F17A328">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-19 17:05:59 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<segment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</segment>
+<tableSpace>6128E59F-C26F-4F9E-26DE-A98A16542907</tableSpace>
+<existingIndex>4884A966-22A9-DA33-5C36-322F960CA69E</existingIndex>
+<indexSegment>9798DEEE-26C2-A8BB-B68C-7F41B4ED4354</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
