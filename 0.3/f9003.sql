@@ -27,7 +27,7 @@ prompt APPLICATION 9003 - nour 0.3
 -- Application Export:
 --   Application:     9003
 --   Name:            nour 0.3
---   Date and Time:   17:06 Monday May 18, 2015
+--   Date and Time:   03:14 Tuesday May 19, 2015
 --   Exported By:     ZAKI
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -36,20 +36,20 @@ prompt APPLICATION 9003 - nour 0.3
 --
 
 -- Application Statistics:
---   Pages:                     33
+--   Pages:                     34
 --     Items:                  106
 --     Computations:             3
 --     Validations:              3
---     Processes:               45
---     Regions:                 66
---     Buttons:                 74
+--     Processes:               47
+--     Regions:                 68
+--     Buttons:                 78
 --     Dynamic Actions:          1
 --   Shared Components:
 --     Logic:
 --     Navigation:
 --       Lists:                  2
 --       Breadcrumbs:            1
---         Entries:             31
+--         Entries:             32
 --     Security:
 --       Authentication:         1
 --     User Interface:
@@ -102,7 +102,7 @@ wwv_flow_api.create_flow(
 ,p_application_tab_set=>0
 ,p_logo_image=>'TEXT:nour 0.3'
 ,p_proxy_server=> nvl(wwv_flow_application_install.get_proxy,'')
-,p_flow_version=>'nour 0.3.8.2'
+,p_flow_version=>'nour 0.3.8.3'
 ,p_flow_status=>'AVAILABLE_W_EDIT_LINK'
 ,p_flow_unavailable_text=>'This application is currently unavailable at this time.'
 ,p_exact_substitutions_only=>'Y'
@@ -111,7 +111,7 @@ wwv_flow_api.create_flow(
 ,p_rejoin_existing_sessions=>'N'
 ,p_csv_encoding=>'Y'
 ,p_last_updated_by=>'ZAKI'
-,p_last_upd_yyyymmddhh24miss=>'20150518170612'
+,p_last_upd_yyyymmddhh24miss=>'20150519031151'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_ui_type_name => null
 );
@@ -127,24 +127,33 @@ wwv_flow_api.create_list(
 wwv_flow_api.create_list_item(
  p_id=>wwv_flow_api.id(48059970518634962)
 ,p_list_item_display_sequence=>10
-,p_list_item_link_text=>'Home'
-,p_list_item_link_target=>'f?p=&APP_ID.:1:&APP_SESSION.::&DEBUG.:'
+,p_list_item_link_text=>'الرئيسية'
+,p_list_item_link_target=>'f?p=&APP_ID.:1:&SESSION.::&DEBUG.::::'
 ,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
-,p_list_item_current_for_pages=>'1,1003'
+,p_list_item_current_for_pages=>'1,1003,1004'
 );
 wwv_flow_api.create_list_item(
  p_id=>wwv_flow_api.id(76305511302461278)
 ,p_list_item_display_sequence=>160
-,p_list_item_link_text=>'Update accounts'
-,p_list_item_link_target=>'f?p=&APP_ID.:1003:&SESSION.::&DEBUG.'
+,p_list_item_link_text=>'الصناديق'
+,p_list_item_link_target=>'f?p=&APP_ID.:1003:&SESSION.::&DEBUG.::::'
 ,p_parent_list_item_id=>wwv_flow_api.id(48059970518634962)
 ,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
 ,p_list_item_current_for_pages=>'1003'
 );
 wwv_flow_api.create_list_item(
+ p_id=>wwv_flow_api.id(80149107845001215)
+,p_list_item_display_sequence=>170
+,p_list_item_link_text=>'الاحتياجات'
+,p_list_item_link_target=>'f?p=&APP_ID.:1004:&SESSION.::&DEBUG.'
+,p_parent_list_item_id=>wwv_flow_api.id(48059970518634962)
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'1004'
+);
+wwv_flow_api.create_list_item(
  p_id=>wwv_flow_api.id(48060405380635018)
 ,p_list_item_display_sequence=>20
-,p_list_item_link_text=>'الايتام'
+,p_list_item_link_text=>'المحتاجين'
 ,p_list_item_link_target=>'f?p=&APP_ID.:2:&SESSION.::&DEBUG.::::'
 ,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
 ,p_list_item_current_for_pages=>'2,2000,2010'
@@ -268,17 +277,17 @@ wwv_flow_api.create_list(
 ,p_list_status=>'PUBLIC'
 );
 wwv_flow_api.create_list_item(
- p_id=>wwv_flow_api.id(48058644937634329)
-,p_list_item_display_sequence=>10
-,p_list_item_link_text=>'Log Out'
-,p_list_item_link_target=>'&LOGOUT_URL.'
-,p_list_item_current_for_pages=>'&LOGOUT_URL.'
-);
-wwv_flow_api.create_list_item(
  p_id=>wwv_flow_api.id(76331725181799055)
 ,p_list_item_display_sequence=>10
 ,p_list_item_link_text=>'ملاحظات'
 ,p_list_item_link_target=>'f?p=&APP_ID.:102:&SESSION.:::102:P102_APPLICATION_ID,P102_PAGE_ID:&APP_ID.,&APP_PAGE_ID.'
+);
+wwv_flow_api.create_list_item(
+ p_id=>wwv_flow_api.id(48058644937634329)
+,p_list_item_display_sequence=>20
+,p_list_item_link_text=>'خروج'
+,p_list_item_link_target=>'&LOGOUT_URL.'
+,p_list_item_current_type=>'TARGET_PAGE'
 );
 end;
 /
@@ -554,6 +563,13 @@ wwv_flow_api.create_menu_option(
 ,p_short_name=>'Update accounts'
 ,p_link=>'f?p=&APP_ID.:1003:&SESSION.'
 ,p_page_id=>1003
+);
+wwv_flow_api.create_menu_option(
+ p_id=>wwv_flow_api.id(80160315929001255)
+,p_parent_id=>wwv_flow_api.id(48060228159634966)
+,p_short_name=>'الاحتياجات'
+,p_link=>'f?p=&APP_ID.:1004:&SESSION.'
+,p_page_id=>1004
 );
 wwv_flow_api.create_menu_option(
  p_id=>wwv_flow_api.id(48060789871635018)
@@ -9172,19 +9188,19 @@ begin
 wwv_flow_api.create_page(
  p_id=>1
 ,p_user_interface_id=>wwv_flow_api.id(48058538667634046)
-,p_name=>'Home'
+,p_name=>'الرئيسية'
 ,p_page_mode=>'NORMAL'
-,p_step_title=>'Home'
+,p_step_title=>'الرئيسية'
 ,p_step_sub_title=>'Home'
 ,p_step_sub_title_type=>'TEXT_WITH_SUBSTITUTIONS'
 ,p_first_item=>'NO_FIRST_ITEM'
 ,p_page_template_options=>'#DEFAULT#'
-,p_dialog_chained=>'Y'
 ,p_overwrite_navigation_list=>'N'
 ,p_page_is_public_y_n=>'N'
 ,p_cache_mode=>'NOCACHE'
 ,p_help_text=>'No help is available for this page.'
-,p_last_upd_yyyymmddhh24miss=>'20150505081019'
+,p_last_updated_by=>'ZAKI'
+,p_last_upd_yyyymmddhh24miss=>'20150519023215'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(48060337517635004)
@@ -10128,6 +10144,247 @@ wwv_flow_api.create_page_process(
 ,p_process_type=>'NATIVE_TABFORM_DELETE'
 ,p_process_name=>'ApplyMRD'
 ,p_attribute_02=>'N3_F_ACCOUNTS'
+,p_attribute_03=>'ID'
+,p_error_display_location=>'INLINE_IN_NOTIFICATION'
+,p_process_when=>'MULTI_ROW_DELETE'
+,p_process_when_type=>'REQUEST_EQUALS_CONDITION'
+,p_process_success_message=>'#MRD_COUNT# row(s) deleted.'
+);
+end;
+/
+prompt --application/pages/page_01004
+begin
+wwv_flow_api.create_page(
+ p_id=>1004
+,p_user_interface_id=>wwv_flow_api.id(48058538667634046)
+,p_name=>'الاحتياجات'
+,p_page_mode=>'NORMAL'
+,p_step_title=>'الاحتياجات'
+,p_step_sub_title_type=>'TEXT_WITH_SUBSTITUTIONS'
+,p_first_item=>'NO_FIRST_ITEM'
+,p_javascript_code=>'var htmldb_delete_message=''"DELETE_CONFIRM_MSG"'';'
+,p_page_template_options=>'#DEFAULT#'
+,p_dialog_chained=>'Y'
+,p_overwrite_navigation_list=>'N'
+,p_page_is_public_y_n=>'N'
+,p_cache_mode=>'NOCACHE'
+,p_help_text=>'No help is available for this page.'
+,p_last_updated_by=>'ZAKI'
+,p_last_upd_yyyymmddhh24miss=>'20150519024224'
+);
+wwv_flow_api.create_report_region(
+ p_id=>wwv_flow_api.id(80149848657001228)
+,p_name=>'الاحتياجات'
+,p_template=>wwv_flow_api.id(48032513334632979)
+,p_display_sequence=>15
+,p_include_in_reg_disp_sel_yn=>'N'
+,p_region_template_options=>'#DEFAULT#:t-Region--scrollBody'
+,p_component_template_options=>'#DEFAULT#:t-Report--altRowsDefault:t-Report--rowHighlight'
+,p_display_point=>'BODY'
+,p_source=>wwv_flow_utilities.join(wwv_flow_t_varchar2(
+'select ',
+'"ID",',
+'',
+'"NEED_TYPE",',
+'"NEED_DESC",',
+'"COLUMN1",',
+'"COLUMN2"',
+'from "#OWNER#"."N3_T_NEEDS"',
+''))
+,p_source_type=>'NATIVE_TABFORM'
+,p_ajax_enabled=>'N'
+,p_query_row_template=>wwv_flow_api.id(48041363471633085)
+,p_query_num_rows=>10
+,p_query_options=>'DERIVED_REPORT_COLUMNS'
+,p_query_show_nulls_as=>'(null)'
+,p_query_no_data_found=>'No data found.'
+,p_query_num_rows_type=>'ROW_RANGES_IN_SELECT_LIST'
+,p_query_row_count_max=>500
+);
+wwv_flow_api.create_report_columns(
+ p_id=>wwv_flow_api.id(80150548429001234)
+,p_query_column_id=>1
+,p_column_alias=>'ID'
+,p_column_display_sequence=>2
+,p_disable_sort_column=>'N'
+,p_hidden_column=>'Y'
+,p_display_as=>'HIDDEN'
+,p_pk_col_source_type=>'T'
+,p_derived_column=>'N'
+,p_include_in_export=>'Y'
+,p_ref_schema=>'NOUR'
+,p_ref_table_name=>'N3_T_NEEDS'
+,p_ref_column_name=>'ID'
+);
+wwv_flow_api.create_report_columns(
+ p_id=>wwv_flow_api.id(80151344308001235)
+,p_query_column_id=>2
+,p_column_alias=>'NEED_TYPE'
+,p_column_display_sequence=>3
+,p_column_heading=>'Need Type'
+,p_use_as_row_header=>'N'
+,p_disable_sort_column=>'N'
+,p_display_as=>'TEXT'
+,p_column_width=>16
+,p_derived_column=>'N'
+,p_include_in_export=>'Y'
+,p_ref_schema=>'NOUR'
+,p_ref_table_name=>'N3_T_NEEDS'
+,p_ref_column_name=>'NEED_TYPE'
+);
+wwv_flow_api.create_report_columns(
+ p_id=>wwv_flow_api.id(80151734621001239)
+,p_query_column_id=>3
+,p_column_alias=>'NEED_DESC'
+,p_column_display_sequence=>4
+,p_column_heading=>'Need Desc'
+,p_use_as_row_header=>'N'
+,p_disable_sort_column=>'N'
+,p_display_as=>'TEXT'
+,p_column_width=>16
+,p_derived_column=>'N'
+,p_include_in_export=>'Y'
+,p_ref_schema=>'NOUR'
+,p_ref_table_name=>'N3_T_NEEDS'
+,p_ref_column_name=>'NEED_DESC'
+);
+wwv_flow_api.create_report_columns(
+ p_id=>wwv_flow_api.id(80152008239001239)
+,p_query_column_id=>4
+,p_column_alias=>'COLUMN1'
+,p_column_display_sequence=>5
+,p_column_heading=>'Column1'
+,p_use_as_row_header=>'N'
+,p_disable_sort_column=>'N'
+,p_display_as=>'TEXT'
+,p_column_width=>16
+,p_derived_column=>'N'
+,p_include_in_export=>'Y'
+,p_ref_schema=>'NOUR'
+,p_ref_table_name=>'N3_T_NEEDS'
+,p_ref_column_name=>'COLUMN1'
+);
+wwv_flow_api.create_report_columns(
+ p_id=>wwv_flow_api.id(80152456543001240)
+,p_query_column_id=>5
+,p_column_alias=>'COLUMN2'
+,p_column_display_sequence=>6
+,p_column_heading=>'Column2'
+,p_use_as_row_header=>'N'
+,p_disable_sort_column=>'N'
+,p_display_as=>'TEXT'
+,p_column_width=>16
+,p_derived_column=>'N'
+,p_include_in_export=>'Y'
+,p_ref_schema=>'NOUR'
+,p_ref_table_name=>'N3_T_NEEDS'
+,p_ref_column_name=>'COLUMN2'
+);
+wwv_flow_api.create_report_columns(
+ p_id=>wwv_flow_api.id(80159036305001250)
+,p_query_column_id=>6
+,p_column_alias=>'CHECK$01'
+,p_column_display_sequence=>1
+,p_column_heading=>'Select Row'
+,p_display_as=>'CHECKBOX'
+,p_derived_column=>'Y'
+);
+wwv_flow_api.create_page_plug(
+ p_id=>wwv_flow_api.id(80159954140001254)
+,p_plug_name=>'Breadcrumb'
+,p_region_template_options=>'#DEFAULT#:t-BreadcrumbRegion--useBreadcrumbTitle'
+,p_component_template_options=>'#DEFAULT#'
+,p_plug_template=>wwv_flow_api.id(48035811601632983)
+,p_plug_display_sequence=>10
+,p_include_in_reg_disp_sel_yn=>'N'
+,p_plug_display_point=>'REGION_POSITION_01'
+,p_menu_id=>wwv_flow_api.id(48059833609634930)
+,p_plug_source_type=>'NATIVE_BREADCRUMB'
+,p_menu_template_id=>wwv_flow_api.id(48053852706633353)
+,p_plug_query_row_template=>1
+);
+wwv_flow_api.create_page_button(
+ p_id=>wwv_flow_api.id(80154991602001245)
+,p_button_sequence=>40
+,p_button_plug_id=>wwv_flow_api.id(80149848657001228)
+,p_button_name=>'ADD'
+,p_button_action=>'REDIRECT_URL'
+,p_button_template_options=>'#DEFAULT#'
+,p_button_template_id=>wwv_flow_api.id(48053369342633320)
+,p_button_image_alt=>'إضافة سطر'
+,p_button_position=>'BOTTOM'
+,p_button_redirect_url=>'javascript:apex.widget.tabular.addRow();'
+,p_button_execute_validations=>'N'
+,p_grid_new_grid=>false
+);
+wwv_flow_api.create_page_button(
+ p_id=>wwv_flow_api.id(80154740741001245)
+,p_button_sequence=>30
+,p_button_plug_id=>wwv_flow_api.id(80149848657001228)
+,p_button_name=>'SUBMIT'
+,p_button_action=>'SUBMIT'
+,p_button_template_options=>'#DEFAULT#'
+,p_button_template_id=>wwv_flow_api.id(48053369342633320)
+,p_button_image_alt=>'حفظ'
+,p_button_position=>'REGION_TEMPLATE_CHANGE'
+,p_grid_new_grid=>false
+);
+wwv_flow_api.create_page_button(
+ p_id=>wwv_flow_api.id(80154623257001245)
+,p_button_sequence=>10
+,p_button_plug_id=>wwv_flow_api.id(80149848657001228)
+,p_button_name=>'CANCEL'
+,p_button_action=>'REDIRECT_PAGE'
+,p_button_template_options=>'#DEFAULT#'
+,p_button_template_id=>wwv_flow_api.id(48053369342633320)
+,p_button_image_alt=>'إغلاق'
+,p_button_position=>'REGION_TEMPLATE_CLOSE'
+,p_button_redirect_url=>'f?p=&APP_ID.:1:&SESSION.::&DEBUG.:::'
+,p_grid_new_grid=>false
+);
+wwv_flow_api.create_page_button(
+ p_id=>wwv_flow_api.id(80154819219001245)
+,p_button_sequence=>20
+,p_button_plug_id=>wwv_flow_api.id(80149848657001228)
+,p_button_name=>'MULTI_ROW_DELETE'
+,p_button_action=>'REDIRECT_URL'
+,p_button_template_options=>'#DEFAULT#'
+,p_button_template_id=>wwv_flow_api.id(48053369342633320)
+,p_button_image_alt=>'حذف'
+,p_button_position=>'REGION_TEMPLATE_DELETE'
+,p_button_redirect_url=>'javascript:apex.confirm(htmldb_delete_message,''MULTI_ROW_DELETE'');'
+,p_button_execute_validations=>'N'
+,p_grid_new_grid=>false
+);
+wwv_flow_api.create_page_branch(
+ p_id=>wwv_flow_api.id(80159470549001250)
+,p_branch_action=>'f?p=&APP_ID.:1004:&SESSION.&success_msg=#SUCCESS_MSG#'
+,p_branch_point=>'AFTER_PROCESSING'
+,p_branch_type=>'REDIRECT_URL'
+,p_branch_when_button_id=>wwv_flow_api.id(80154740741001245)
+,p_branch_sequence=>1
+);
+wwv_flow_api.create_page_process(
+ p_id=>wwv_flow_api.id(80156451123001247)
+,p_process_sequence=>10
+,p_process_point=>'AFTER_SUBMIT'
+,p_region_id=>wwv_flow_api.id(80149848657001228)
+,p_process_type=>'NATIVE_TABFORM_UPDATE'
+,p_process_name=>'ApplyMRU'
+,p_attribute_02=>'N3_T_NEEDS'
+,p_attribute_03=>'ID'
+,p_error_display_location=>'INLINE_IN_NOTIFICATION'
+,p_process_when_button_id=>wwv_flow_api.id(80154740741001245)
+,p_process_success_message=>'#MRU_COUNT# row(s) updated, #MRI_COUNT# row(s) inserted.'
+);
+wwv_flow_api.create_page_process(
+ p_id=>wwv_flow_api.id(80156898141001248)
+,p_process_sequence=>20
+,p_process_point=>'AFTER_SUBMIT'
+,p_region_id=>wwv_flow_api.id(80149848657001228)
+,p_process_type=>'NATIVE_TABFORM_DELETE'
+,p_process_name=>'ApplyMRD'
+,p_attribute_02=>'N3_T_NEEDS'
 ,p_attribute_03=>'ID'
 ,p_error_display_location=>'INLINE_IN_NOTIFICATION'
 ,p_process_when=>'MULTI_ROW_DELETE'
@@ -14138,7 +14395,7 @@ wwv_flow_api.create_page(
 ,p_cache_mode=>'NOCACHE'
 ,p_help_text=>'No help is available for this page.'
 ,p_last_updated_by=>'ZAKI'
-,p_last_upd_yyyymmddhh24miss=>'20150514024014'
+,p_last_upd_yyyymmddhh24miss=>'20150519030744'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(75765973425864164)
@@ -14188,7 +14445,7 @@ wwv_flow_api.create_worksheet_column(
 ,p_column_identifier=>'A'
 ,p_column_label=>'Id'
 ,p_column_type=>'NUMBER'
-,p_tz_dependent=>'N'
+,p_display_text_as=>'HIDDEN'
 );
 wwv_flow_api.create_worksheet_column(
  p_id=>wwv_flow_api.id(75766731113864267)
@@ -14506,7 +14763,7 @@ wwv_flow_api.create_page(
 ,p_cache_mode=>'NOCACHE'
 ,p_help_text=>'No help is available for this page.'
 ,p_last_updated_by=>'ZAKI'
-,p_last_upd_yyyymmddhh24miss=>'20150514023525'
+,p_last_upd_yyyymmddhh24miss=>'20150519031151'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(75756831045864085)
@@ -14667,17 +14924,20 @@ wwv_flow_api.create_page_item(
 ,p_prompt=>'Giver Code'
 ,p_source=>'GIVER_CODE'
 ,p_source_type=>'DB_COLUMN'
-,p_display_as=>'NATIVE_TEXT_FIELD'
+,p_display_as=>'NATIVE_POPUP_LOV'
+,p_lov=>wwv_flow_utilities.join(wwv_flow_t_varchar2(
+'SELECT   GV_CODE || '' '' ||   GV_LNAME d,',
+'gv_code r',
+'FROM N3_F_GIVERS'))
+,p_lov_display_null=>'YES'
+,p_lov_null_text=>'-مجهول-'
 ,p_cSize=>32
 ,p_cMaxlength=>20
-,p_label_alignment=>'RIGHT'
 ,p_field_template=>wwv_flow_api.id(48052892973633300)
 ,p_item_template_options=>'#DEFAULT#'
-,p_attribute_01=>'N'
-,p_attribute_02=>'N'
-,p_attribute_03=>'N'
-,p_attribute_04=>'TEXT'
-,p_attribute_05=>'NONE'
+,p_lov_display_extra=>'YES'
+,p_attribute_01=>'NOT_ENTERABLE'
+,p_attribute_02=>'FIRST_ROWSET'
 );
 wwv_flow_api.create_page_item(
  p_id=>wwv_flow_api.id(75761078804864142)
@@ -14706,14 +14966,17 @@ wwv_flow_api.create_page_item(
 ,p_prompt=>'Fund Account'
 ,p_source=>'FUND_ACCOUNT'
 ,p_source_type=>'DB_COLUMN'
-,p_display_as=>'NATIVE_NUMBER_FIELD'
-,p_cSize=>32
-,p_cMaxlength=>255
+,p_display_as=>'NATIVE_SELECT_LIST'
+,p_lov=>wwv_flow_utilities.join(wwv_flow_t_varchar2(
+'SELECT  ACCOUNT d,account r',
+'FROM N3_F_ACCOUNTS'))
+,p_lov_display_null=>'YES'
 ,p_cHeight=>1
-,p_label_alignment=>'RIGHT'
 ,p_field_template=>wwv_flow_api.id(48052892973633300)
 ,p_item_template_options=>'#DEFAULT#'
-,p_attribute_03=>'right'
+,p_lov_display_extra=>'YES'
+,p_attribute_01=>'NONE'
+,p_attribute_02=>'N'
 );
 wwv_flow_api.create_page_item(
  p_id=>wwv_flow_api.id(75761820029864142)
