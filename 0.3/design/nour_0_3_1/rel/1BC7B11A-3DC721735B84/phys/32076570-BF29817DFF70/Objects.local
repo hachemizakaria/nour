@@ -1,20 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
-   <object objectType="TSpace" objectID="6128E59F-C26F-4F9E-26DE-A98A16542907" name="APEX_2844712914499494" seqName="seg_0"/>
+   <object objectType="TSpace" objectID="847A5A52-8154-A498-C417-CC1B8E0E8399" name="APEX_2844712914499494" seqName="seg_0"/>
    <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
-   <object objectType="User" objectID="74AA93DD-2A20-05F0-A476-99ACA19ECA70" name="NOUR" seqName="seg_0"/>
-   <object objectType="User" objectID="8909C4D5-AE32-EDDA-DA7C-EA37DBC044DA" name="NOUR" seqName="seg_0"/>
-   <object objectType="User" objectID="B5992FD1-3C08-BEFC-519C-A184AC0D8283" name="NOUR" seqName="seg_0"/>
-   <object objectType="User" objectID="D8310ABA-BDB8-2711-3EC1-DB20765DA3B7" name="NOUR" seqName="seg_0"/>
+   <object objectType="User" objectID="095881CC-585D-24D2-B2F3-1CEBDE2F8DB6" name="NOUR" seqName="seg_0"/>
    <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
    <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
    <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
    <object objectType="Table" objectID="0397F246-2874-D019-3CD1-01441741CA46" name="N3_F_ACCOUNTS" seqName="seg_0"/>
    <object objectType="Table" objectID="0A93FC3A-DB2C-5812-9DB3-87B06EB58E35" name="N3_T_HEALTH_LVL" seqName="seg_0"/>
    <object objectType="Table" objectID="10B0B7AE-BEFE-D060-0A1D-ECF90F714471" name="N3_ALMS_TERM" seqName="seg_0"/>
+   <object objectType="Table" objectID="17F59C85-A06A-D4DE-ACBC-DBF9515C93CF" name="N3_T_NEEDS" seqName="seg_0"/>
+   <object objectType="Table" objectID="27718AA8-6960-50CE-E8BF-81171C4B088D" name="N3_F_NEEDY_NEEDS" seqName="seg_0"/>
    <object objectType="Table" objectID="5F1ECFC2-090F-7B51-8542-FBA117545315" name="N3_F_FUNDS" seqName="seg_0"/>
    <object objectType="Table" objectID="647B2FA2-2A27-0487-5D56-BDE491D62520" name="N3_GIFTS" seqName="seg_0"/>
-   <object objectType="Table" objectID="6D47CB36-03B7-75C4-0D78-8A834D71C817" name="N3_T_NEEDS" seqName="seg_0"/>
    <object objectType="Table" objectID="6F08719D-CB0A-F526-3F3F-131C7809BB82" name="N3_T_SCHOOLS" seqName="seg_0"/>
    <object objectType="Table" objectID="782329F8-5F12-C62D-B45D-D12E2DFF0927" name="N3_F_GIVERS" seqName="seg_0"/>
    <object objectType="Table" objectID="7AA68340-D340-5BE3-FBFA-2A0817F8F472" name="N3_T_ALMS" seqName="seg_0"/>
@@ -33,35 +31,8 @@
    <object objectType="Table" objectID="EA537336-A974-262F-04D3-7A49C369F829" name="N3_ALMS_PLAN" seqName="seg_0"/>
    <object objectType="Table" objectID="EB98CA8A-BEE6-B5EE-605D-1181FD22324D" name="N3_F_FAMILY" seqName="seg_0"/>
    <object objectType="Table" objectID="FEB663C1-51A2-D385-19CA-31C145B6B485" name="N3_GIFTS_IN" seqName="seg_0"/>
-   <object objectType="Segment" objectID="9798DEEE-26C2-A8BB-B68C-7F41B4ED4354" name="Storage1" seqName="seg_0"/>
-   <object objectType="Segment" objectID="CD9AF1F0-9885-18AB-BD70-9386B4C54959" name="Storage10" seqName="seg_0"/>
-   <object objectType="Segment" objectID="01D6BB8F-8849-E55C-2951-28F392EF48E0" name="Storage2" seqName="seg_0"/>
-   <object objectType="Segment" objectID="2CE60BEE-6785-056D-FE8F-A32F05EB5057" name="Storage2" seqName="seg_0"/>
-   <object objectType="Segment" objectID="8E8BEB5B-E2D7-A771-9EB0-E7B9852A0088" name="Storage2" seqName="seg_0"/>
-   <object objectType="Segment" objectID="BFF5E721-C4D0-ADBD-D261-9EA75210630B" name="Storage2" seqName="seg_0"/>
-   <object objectType="Segment" objectID="766850C6-7826-A14C-F20D-1826705BF2F3" name="Storage41" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="6E4F6126-3920-C435-76AB-04C6B4B6CA43" name="N3_ALMS_ENGMT_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="B124D494-76E2-50D2-2A22-AC5AE5F216A1" name="N3_ALMS_IN_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="DC9DAD16-8D78-6B1C-74D6-C8D6CEB74299" name="N3_ALMS_OUT_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="9EA94839-A0F7-DFFE-6075-1F66E5C50BE4" name="N3_ALMS_PLAN_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="2C1B6FA2-65DA-26DF-4265-03450F136B0D" name="N3_ALMS_PLAN_NDY_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="05555400-9F68-4F9A-1937-257761B96089" name="N3_ALMS_TERM_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="7D3ECECB-F327-4373-D490-344604E8EBD2" name="N3_ALMS_TERM_NDY_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="B60DCB3D-DCF2-3204-5398-9AF718B20BCD" name="N3_F_ACCOUNTS_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="8A438DFB-3DF7-B9BE-D338-942D5A0B6851" name="N3_F_EQUIPMENT_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="3243EE99-D4B6-81ED-6278-FEF614AFB764" name="N3_F_FAMILY_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="6C732E12-ACE1-B1A4-382C-59647D7CFD70" name="N3_F_FUNDS_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="143D87FC-0D89-5F46-B85D-E03DDEF686B4" name="N3_F_GIVERS_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="713858B7-7AB6-63C1-ECB4-6001C3267ED6" name="N3_F_NEEDY_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="B93A4DEE-78C7-0626-0578-CDDFF395DD5F" name="N3_F_ORPHANE_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="D1C5207A-EEFA-C78E-36D8-DE938B1E39BE" name="N3_GIFTS_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="6FEB5C2C-EDC0-D8F9-7F64-CA4FC0F3D2ED" name="N3_GIFTS_IN_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="AE7C93E3-E269-94E3-16C1-48577CFE1868" name="N3_NEEDY_SCHOOL_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="E617C3AA-E78F-FE95-327B-AD0F41054387" name="N3_T_ALMS_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="EBEF26F1-0D34-8687-F6BD-0057B3C6AC3F" name="N3_T_EQUIPMENT_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="B1FB484C-58F9-2439-E113-B4A1E5C1F9E5" name="N3_T_HEALTH_LVL_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="BB842AD7-7398-FF77-BCA8-388CB8842BA6" name="N3_T_NEEDS_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="B8DDA7C7-DD9C-950D-2DC0-233D801E0157" name="N3_T_SALARY_LVL_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="37B7DDE9-364D-9D39-0C2B-183F86A9CB34" name="N3_T_SCHOOLS_BIU" seqName="seg_0"/>
-   <object objectType="Trigger" objectID="30F4347E-2D3F-C2E1-96F9-B6D35CFAD98C" name="N3_T_SCORING_LVL_BIU" seqName="seg_0"/>
+   <object objectType="Segment" objectID="C158CC72-554D-38E8-8C61-50C4365F3131" name="Storage12" seqName="seg_0"/>
+   <object objectType="Segment" objectID="DCFC1ACC-D9E5-E850-D268-F3577A04CE31" name="Storage2" seqName="seg_0"/>
+   <object objectType="Segment" objectID="BBE72131-6032-D1BC-BE2E-9EA2F3DBCE8E" name="Storage4" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="0754493B-893C-2628-DC3C-6A66C1460E3E" name="N3_T_NEEDS_BIU" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

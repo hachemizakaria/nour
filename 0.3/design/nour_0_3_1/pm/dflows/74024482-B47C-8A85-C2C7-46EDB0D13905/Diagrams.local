@@ -1,4 +1,4 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.process.DataFlowDesign>
-   <object objectType="main_view" objectID="C5A760CB-FE62-FBB9-D790-2318511B231D" name="P2_NEEDY Diagram" visible="true"/>
+   <object objectType="main_view" objectID="C5A760CB-FE62-FBB9-D790-2318511B231D" name="P2_NEEDY Diagram" visible="false"/>
 </oracle.dbtools.crest.model.design.process.DataFlowDesign>

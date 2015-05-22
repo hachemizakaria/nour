@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataFlowDesign class="oracle.dbtools.crest.model.design.process.DataFlowDesign" name="P4_almsin Diagram" id="AFC801DB-2434-C675-2D48-1FBE08D1DFFB" mainViewID="EE7CF69D-0CE5-380C-C1AD-AC869E02EA13" topLevel="false" parentDFD_ID="DFE6AA24-DC5C-6D07-E1F7-2CF806C77F23">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-21 18:00:34 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<process>DD1E3DC7-EDFB-F60F-AA79-B6B037F5C1BF</process>
+</DataFlowDesign>

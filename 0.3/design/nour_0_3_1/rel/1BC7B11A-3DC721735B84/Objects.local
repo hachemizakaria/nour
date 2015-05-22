@@ -14,6 +14,7 @@
    <object objectType="Table" objectID="5F1ECFC2-090F-7B51-8542-FBA117545315" name="N3_F_FUNDS" seqName="seg_0"/>
    <object objectType="Table" objectID="782329F8-5F12-C62D-B45D-D12E2DFF0927" name="N3_F_GIVERS" seqName="seg_0"/>
    <object objectType="Table" objectID="BBD5802B-748A-BFB5-488A-525BBC39AEC3" name="N3_F_NEEDY" seqName="seg_0"/>
+   <object objectType="Table" objectID="27718AA8-6960-50CE-E8BF-81171C4B088D" name="N3_F_NEEDY_NEEDS" seqName="seg_0"/>
    <object objectType="Table" objectID="C18ABC98-D196-25AC-03F9-A8E8C8B270CF" name="N3_F_ORPHANE" seqName="seg_0"/>
    <object objectType="Table" objectID="647B2FA2-2A27-0487-5D56-BDE491D62520" name="N3_GIFTS" seqName="seg_0"/>
    <object objectType="Table" objectID="FEB663C1-51A2-D385-19CA-31C145B6B485" name="N3_GIFTS_IN" seqName="seg_0"/>
@@ -21,16 +22,17 @@
    <object objectType="Table" objectID="7AA68340-D340-5BE3-FBFA-2A0817F8F472" name="N3_T_ALMS" seqName="seg_0"/>
    <object objectType="Table" objectID="A62E8F8A-612E-759A-B001-D537DEB94E17" name="N3_T_EQUIPMENT" seqName="seg_0"/>
    <object objectType="Table" objectID="0A93FC3A-DB2C-5812-9DB3-87B06EB58E35" name="N3_T_HEALTH_LVL" seqName="seg_0"/>
-   <object objectType="Table" objectID="6D47CB36-03B7-75C4-0D78-8A834D71C817" name="N3_T_NEEDS" seqName="seg_0"/>
+   <object objectType="Table" objectID="17F59C85-A06A-D4DE-ACBC-DBF9515C93CF" name="N3_T_NEEDS" seqName="seg_0"/>
    <object objectType="Table" objectID="A8E1716F-3A2C-F3C5-A5FF-20565A513B79" name="N3_T_SALARY_LVL" seqName="seg_0"/>
    <object objectType="Table" objectID="6F08719D-CB0A-F526-3F3F-131C7809BB82" name="N3_T_SCHOOLS" seqName="seg_0"/>
    <object objectType="Table" objectID="A07A61DC-E7F5-05D4-FE9A-A7FF9589ACF1" name="N3_T_SCORING_LVL" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="8500CDBB-8557-E683-2786-4DC949822005" name="N3_ALMS_PLAN_FK1" seqName="seg_0" containerID="EA537336-A974-262F-04D3-7A49C369F829" refContainerID="0397F246-2874-D019-3CD1-01441741CA46"/>
+   <object objectType="FKIndexAssociation" objectID="05697C31-0BE2-64ED-C96D-9493356E8184" name="N3_F_NEEDY_NEEDS_FK2" seqName="seg_0" containerID="27718AA8-6960-50CE-E8BF-81171C4B088D" refContainerID="17F59C85-A06A-D4DE-ACBC-DBF9515C93CF"/>
    <object objectType="FKIndexAssociation" objectID="E44E21B6-F35B-B6E8-5DC9-9B220B3EF238" name="N3_ALMS_ENGMT_FK1" seqName="seg_0" containerID="CF1D3B91-AD2E-48F2-5FBE-C66A485C1EC3"/>
    <object objectType="FKIndexAssociation" objectID="46279670-4BD5-3C14-A337-EC0499FA6CDA" name="N3_ALMS_IN_FK1" seqName="seg_0" containerID="BF4731F1-4365-D412-A591-CEF08FCB8A94" refContainerID="0397F246-2874-D019-3CD1-01441741CA46"/>
    <object objectType="FKIndexAssociation" objectID="B7569908-50FC-6002-359A-0CBF185FB8C3" name="N3_ALMS_IN_FK2" seqName="seg_0" containerID="BF4731F1-4365-D412-A591-CEF08FCB8A94" refContainerID="782329F8-5F12-C62D-B45D-D12E2DFF0927"/>
    <object objectType="FKIndexAssociation" objectID="91414681-6B5E-36E5-A093-57EB63535A8A" name="N3_ALMS_OUT_FK1" seqName="seg_0" containerID="94C746B3-4591-C3DF-CC76-6A1002210F30" refContainerID="0397F246-2874-D019-3CD1-01441741CA46"/>
    <object objectType="FKIndexAssociation" objectID="FAA8A961-7DA2-D6E0-6880-1DD6DC89469E" name="N3_ALMS_OUT_FK2" seqName="seg_0" containerID="94C746B3-4591-C3DF-CC76-6A1002210F30" refContainerID="BBD5802B-748A-BFB5-488A-525BBC39AEC3"/>
+   <object objectType="FKIndexAssociation" objectID="8500CDBB-8557-E683-2786-4DC949822005" name="N3_ALMS_PLAN_FK1" seqName="seg_0" containerID="EA537336-A974-262F-04D3-7A49C369F829" refContainerID="0397F246-2874-D019-3CD1-01441741CA46"/>
    <object objectType="FKIndexAssociation" objectID="A85178F7-FD78-44D4-1FB2-5A39CB2BBED5" name="N3_ALMS_PLAN_NDY_FK1" seqName="seg_0" containerID="CD97CD66-334C-91C1-3556-4D21579D0D93" refContainerID="EA537336-A974-262F-04D3-7A49C369F829"/>
    <object objectType="FKIndexAssociation" objectID="F517756E-AB6D-0680-FF3A-794A7B9865AF" name="N3_ALMS_PLAN_NDY_FK2" seqName="seg_0" containerID="CD97CD66-334C-91C1-3556-4D21579D0D93" refContainerID="BBD5802B-748A-BFB5-488A-525BBC39AEC3"/>
    <object objectType="FKIndexAssociation" objectID="1B30B2EE-7FDC-9E00-1D7C-D61A64C33B4A" name="N3_ALMS_TERM_FK1" seqName="seg_0" containerID="10B0B7AE-BEFE-D060-0A1D-ECF90F714471" refContainerID="EA537336-A974-262F-04D3-7A49C369F829"/>
@@ -40,6 +42,7 @@
    <object objectType="FKIndexAssociation" objectID="317C5EA6-5B72-8E57-1281-66CF8C2763AE" name="N3_F_NEEDY_FK1" seqName="seg_0" containerID="BBD5802B-748A-BFB5-488A-525BBC39AEC3" refContainerID="A8E1716F-3A2C-F3C5-A5FF-20565A513B79"/>
    <object objectType="FKIndexAssociation" objectID="8B5AB5E1-C662-896F-C638-9790DF78509B" name="N3_F_NEEDY_FK2" seqName="seg_0" containerID="BBD5802B-748A-BFB5-488A-525BBC39AEC3" refContainerID="0A93FC3A-DB2C-5812-9DB3-87B06EB58E35"/>
    <object objectType="FKIndexAssociation" objectID="5A0448FD-3A2B-0F2A-3B15-938E3094796E" name="N3_F_NEEDY_FK3" seqName="seg_0" containerID="BBD5802B-748A-BFB5-488A-525BBC39AEC3" refContainerID="0A93FC3A-DB2C-5812-9DB3-87B06EB58E35"/>
+   <object objectType="FKIndexAssociation" objectID="F7772ACD-6F19-DD20-B7A7-D10F144B551D" name="N3_F_NEEDY_NEEDS_FK1" seqName="seg_0" containerID="27718AA8-6960-50CE-E8BF-81171C4B088D"/>
    <object objectType="FKIndexAssociation" objectID="302C2BA2-C084-B13A-0762-B164A316EFA6" name="N3_NEEDY_SCHOOL_FK1" seqName="seg_0" containerID="BBC005DF-5A0A-896F-FF53-87F03BB11241" refContainerID="A07A61DC-E7F5-05D4-FE9A-A7FF9589ACF1"/>
    <object objectType="FKIndexAssociation" objectID="3F9FF6C5-5209-A6AB-746B-923896DDE8D4" name="N3_NEEDY_SCHOOL_FK2" seqName="seg_0" containerID="BBC005DF-5A0A-896F-FF53-87F03BB11241" refContainerID="6F08719D-CB0A-F526-3F3F-131C7809BB82"/>
    <object objectType="FKIndexAssociation" objectID="342C6977-7A56-5460-0CAE-2F5D094388B2" name="N3_NEEDY_SCHOOL_FK3" seqName="seg_0" containerID="BBC005DF-5A0A-896F-FF53-87F03BB11241" refContainerID="BBD5802B-748A-BFB5-488A-525BBC39AEC3"/>

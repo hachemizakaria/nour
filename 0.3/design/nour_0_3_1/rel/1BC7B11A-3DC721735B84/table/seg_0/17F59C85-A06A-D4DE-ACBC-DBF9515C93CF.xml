@@ -1,38 +1,35 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D47CB36-03B7-75C4-0D78-8A834D71C817" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_T_NEEDS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17F59C85-A06A-D4DE-ACBC-DBF9515C93CF" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_T_NEEDS">
 <sourceConnName>nour_oel9</sourceConnName>
 <sourceObjSchema>NOUR</sourceObjSchema>
 <sourceObjName>N3_T_NEEDS</sourceObjName>
 <createdBy>zaki</createdBy>
-<createdTime>2015-05-20 16:28:25 UTC</createdTime>
+<createdTime>2015-05-21 18:08:46 UTC</createdTime>
 <ownerDesignName>nour_0_3_1</ownerDesignName>
-<importedID>1751741F-6A50-AD83-B21A-6D784A40802F</importedID>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="7B5E42D9-DD42-2196-3F4C-28EA5EB0888A">
+<Column name="ID" id="8CF4B1B8-8B0B-D9C4-CBC0-6E93A370707B">
 <sourceConnName>nour_oel9</sourceConnName>
 <sourceObjSchema>N3_T_NEEDS</sourceObjSchema>
 <sourceObjName>ID</sourceObjName>
 <createdBy>zaki</createdBy>
-<createdTime>2015-05-20 16:28:25 UTC</createdTime>
+<createdTime>2015-05-21 18:08:46 UTC</createdTime>
 <ownerDesignName>nour_0_3_1</ownerDesignName>
-<importedID>75C0639C-96AE-AABB-CC93-13FB64870B52</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NEED_TYPE" id="EF8F7E38-4C6C-8EEA-04C5-48F1EF85AE80">
+<Column name="NEED_TYPE" id="D1E1301D-FB98-10E7-BD00-53FCDC1C535D">
 <sourceConnName>nour_oel9</sourceConnName>
 <sourceObjSchema>N3_T_NEEDS</sourceObjSchema>
 <sourceObjName>NEED_TYPE</sourceObjName>
 <createdBy>zaki</createdBy>
-<createdTime>2015-05-20 16:28:25 UTC</createdTime>
+<createdTime>2015-05-21 18:08:46 UTC</createdTime>
 <ownerDesignName>nour_0_3_1</ownerDesignName>
-<importedID>EDEEBF1B-B61B-FB7C-810A-9A35E9C56E96</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -41,14 +38,13 @@
 <ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NEED_DESC" id="82B8A3B3-22F1-A188-1A32-741BA2B390AE">
+<Column name="NEED_DESC" id="39ECC3FD-7BE4-3347-CC94-11011D2FB7C1">
 <sourceConnName>nour_oel9</sourceConnName>
 <sourceObjSchema>N3_T_NEEDS</sourceObjSchema>
 <sourceObjName>NEED_DESC</sourceObjName>
 <createdBy>zaki</createdBy>
-<createdTime>2015-05-20 16:28:25 UTC</createdTime>
+<createdTime>2015-05-21 18:08:46 UTC</createdTime>
 <ownerDesignName>nour_0_3_1</ownerDesignName>
-<importedID>E6F0D7BE-5EE3-F185-71D0-8EACC51FC640</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,14 +53,13 @@
 <ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COLUMN4" id="A8085288-C2EE-B185-6593-26C364718BC1">
+<Column name="COLUMN4" id="B5765D1F-D360-07C5-6D0B-C4FAC9300999">
 <sourceConnName>nour_oel9</sourceConnName>
 <sourceObjSchema>N3_T_NEEDS</sourceObjSchema>
 <sourceObjName>COLUMN4</sourceObjName>
 <createdBy>zaki</createdBy>
-<createdTime>2015-05-20 16:28:25 UTC</createdTime>
+<createdTime>2015-05-21 18:08:46 UTC</createdTime>
 <ownerDesignName>nour_0_3_1</ownerDesignName>
-<importedID>AA4EC7D2-281A-30AB-4546-16D545B59EBC</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -73,14 +68,13 @@
 <ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COLUMN5" id="8A4296F3-A7C0-DF27-3A09-E105798031F8">
+<Column name="COLUMN5" id="6093C19D-4EC3-FEB8-AB19-86D4DB0F1EEE">
 <sourceConnName>nour_oel9</sourceConnName>
 <sourceObjSchema>N3_T_NEEDS</sourceObjSchema>
 <sourceObjName>COLUMN5</sourceObjName>
 <createdBy>zaki</createdBy>
-<createdTime>2015-05-20 16:28:25 UTC</createdTime>
+<createdTime>2015-05-21 18:08:46 UTC</createdTime>
 <ownerDesignName>nour_0_3_1</ownerDesignName>
-<importedID>C90FA939-2FC9-7E13-6906-E6E416E2FCD8</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -89,14 +83,13 @@
 <ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COLUMN1" id="A30E46D8-C86F-7B50-93FB-28F4A0BD7D4A">
+<Column name="COLUMN1" id="834CFF00-E9CB-7D74-492B-2B1C3DC0FE3D">
 <sourceConnName>nour_oel9</sourceConnName>
 <sourceObjSchema>N3_T_NEEDS</sourceObjSchema>
 <sourceObjName>COLUMN1</sourceObjName>
 <createdBy>zaki</createdBy>
-<createdTime>2015-05-20 16:28:25 UTC</createdTime>
+<createdTime>2015-05-21 18:08:46 UTC</createdTime>
 <ownerDesignName>nour_0_3_1</ownerDesignName>
-<importedID>ADB969BC-3E76-9C63-41AD-B86736909F70</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -105,14 +98,13 @@
 <ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COLUMN2" id="8EEEA308-92EF-3FBA-7990-81219BEF0B98">
+<Column name="COLUMN2" id="A3541BEF-A26B-52EC-ECA0-B6314902E8D3">
 <sourceConnName>nour_oel9</sourceConnName>
 <sourceObjSchema>N3_T_NEEDS</sourceObjSchema>
 <sourceObjName>COLUMN2</sourceObjName>
 <createdBy>zaki</createdBy>
-<createdTime>2015-05-20 16:28:25 UTC</createdTime>
+<createdTime>2015-05-21 18:08:46 UTC</createdTime>
 <ownerDesignName>nour_0_3_1</ownerDesignName>
-<importedID>4D3B5E91-C6C0-FEA2-5839-22CB795EDB30</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -121,14 +113,13 @@
 <ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COLUMN6" id="2DC448B7-DC3A-89D6-A53B-2EE46C868167">
+<Column name="COLUMN6" id="FD9FFA72-F3B7-6800-BEBB-6757655CE696">
 <sourceConnName>nour_oel9</sourceConnName>
 <sourceObjSchema>N3_T_NEEDS</sourceObjSchema>
 <sourceObjName>COLUMN6</sourceObjName>
 <createdBy>zaki</createdBy>
-<createdTime>2015-05-20 16:28:25 UTC</createdTime>
+<createdTime>2015-05-21 18:08:46 UTC</createdTime>
 <ownerDesignName>nour_0_3_1</ownerDesignName>
-<importedID>CD726F5A-EEBC-64E7-942B-C8C4CD688546</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -139,33 +130,59 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="488D6CED-7C4E-2DAD-8F00-962AC9F853C7" name="N3_T_NEEDS_PK">
+<ind_PK_UK id="FAB1CA6C-101B-0FD0-31C7-5A8865536DBF" name="N3_T_NEEDS_PKv2">
 <sourceConnName>nour_oel9</sourceConnName>
 <sourceObjSchema>NOUR</sourceObjSchema>
-<sourceObjName>N3_T_NEEDS_PK</sourceObjName>
+<sourceObjName>N3_T_NEEDS_PKv2</sourceObjName>
 <createdBy>zaki</createdBy>
-<createdTime>2015-05-20 16:28:25 UTC</createdTime>
+<createdTime>2015-05-21 18:08:46 UTC</createdTime>
 <ownerDesignName>nour_0_3_1</ownerDesignName>
-<importedID>420CC8F8-6FF5-D4C7-5A0E-D75C857BD64F</importedID>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7B5E42D9-DD42-2196-3F4C-28EA5EB0888A"/>
+<colUsage columnID="8CF4B1B8-8B0B-D9C4-CBC0-6E93A370707B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B1D0495E-867A-8D25-5DFC-AE650C927111" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_T_NEEDS_PK">
+<ind_PK_UK id="5BEF9A31-2D76-2D3C-B462-11073F8380DA" name="N3_T_NEEDS_UK1">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_T_NEEDS_UK1</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-21 21:39:39 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>F78778B7-3365-02C8-ADD6-D2C01BD5BD10</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1E1301D-FB98-10E7-BD00-53FCDC1C535D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C24F228C-DBF0-8C05-6BF3-C7ACE5F3D7B2" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_T_NEEDS_PKv2">
 <sourceConnName>nour_oel9</sourceConnName>
 <sourceObjSchema>NOUR</sourceObjSchema>
 <sourceObjName>N3_T_NEEDS_PK</sourceObjName>
 <createdBy>zaki</createdBy>
-<createdTime>2015-05-20 16:28:25 UTC</createdTime>
+<createdTime>2015-05-21 18:08:46 UTC</createdTime>
 <ownerDesignName>nour_0_3_1</ownerDesignName>
-<importedID>834E1D8F-B6D6-70F7-35DE-20A2FF2B61AA</importedID>
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7B5E42D9-DD42-2196-3F4C-28EA5EB0888A"/>
+<colUsage columnID="8CF4B1B8-8B0B-D9C4-CBC0-6E93A370707B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B8DC34B-EFE5-37A2-2287-93E1F81C4D95" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_T_NEEDS_UK1">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_T_NEEDS_UK1</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-21 21:39:39 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>4F6EF384-20B7-2891-D24D-080675412DA0</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1E1301D-FB98-10E7-BD00-53FCDC1C535D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

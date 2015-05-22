@@ -1,0 +1,202 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27718AA8-6960-50CE-E8BF-81171C4B088D" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_F_NEEDY_NEEDS">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_F_NEEDY_NEEDS</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-21 18:12:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="2E22EDB6-B901-BF56-FC29-170AFD28F5A2">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_NEEDY_NEEDS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-21 18:12:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NDY_CODE" id="46D738E6-8AF7-D8A4-EF39-4382CD250DF1">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_NEEDY_NEEDS</sourceObjSchema>
+<sourceObjName>NDY_CODE</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-21 18:12:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NEED_TYPE" id="ACDDABD2-1077-0349-7561-CF0F209948E0">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_NEEDY_NEEDS</sourceObjSchema>
+<sourceObjName>NEED_TYPE</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-21 18:12:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05697C31-0BE2-64ED-C96D-9493356E8184" referredColumn="D1E1301D-FB98-10E7-BD00-53FCDC1C535D"/>
+</associations>
+</Column>
+<Column name="NEED_QTY" id="D4897B0A-AC0F-98D8-D00D-30F8ABC19357">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_NEEDY_NEEDS</sourceObjSchema>
+<sourceObjName>NEED_QTY</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-21 18:12:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NEED_FREQ" id="54D93593-562B-9769-BFB5-B90A36FBEB0E">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_NEEDY_NEEDS</sourceObjSchema>
+<sourceObjName>NEED_FREQ</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-21 18:12:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN1" id="CDCBFC0B-C96E-37B5-6478-7408EA6FDB39">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_NEEDY_NEEDS</sourceObjSchema>
+<sourceObjName>COLUMN1</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-21 18:12:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN2" id="D936FEF0-2CD4-7635-44E2-C07591D36DCC">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>N3_F_NEEDY_NEEDS</sourceObjSchema>
+<sourceObjName>COLUMN2</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-21 18:12:06 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F9F704D-EF25-EC7B-B2BA-4957DA0F4AF7" name="N3_F_NEEDY_NEEDS_PK">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_F_NEEDY_NEEDS_PK</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-21 21:39:24 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>12314B36-30A1-9571-81DE-1C2A0B7C73BA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E22EDB6-B901-BF56-FC29-170AFD28F5A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="890657AA-FA12-1328-F282-DA1453FCC9AC" name="N3_F_NEEDY_NEEDS_UK1">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_F_NEEDY_NEEDS_UK1</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-21 21:39:24 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>7D19FD45-DE1F-889E-D9EC-837DD1768DA5</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46D738E6-8AF7-D8A4-EF39-4382CD250DF1"/>
+<colUsage columnID="ACDDABD2-1077-0349-7561-CF0F209948E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55144CC1-9CF9-243D-5C60-5F47D5D5C965" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_F_NEEDY_NEEDS_PK">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_F_NEEDY_NEEDS_PK</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-21 21:39:24 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>B9BF51AC-C000-3FBD-CAE3-A71634FF0AA4</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E22EDB6-B901-BF56-FC29-170AFD28F5A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E56A989F-BC2B-CA5E-A682-13F57C4C7D47" schemaObject="C335209A-12F8-D6E0-879B-6BD64E44D839" name="N3_F_NEEDY_NEEDS_UK1">
+<sourceConnName>nour_oel9</sourceConnName>
+<sourceObjSchema>NOUR</sourceObjSchema>
+<sourceObjName>N3_F_NEEDY_NEEDS_UK1</sourceObjName>
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-21 21:39:24 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<importedID>BD36E4AF-908D-189B-9D34-F05550CCA1FE</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46D738E6-8AF7-D8A4-EF39-4382CD250DF1"/>
+<colUsage columnID="ACDDABD2-1077-0349-7561-CF0F209948E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0274A403-D84D-2CC9-C63F-19314AA292D0" name="N3_F_NEEDY_NEEDS_FK1">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-21 21:39:24 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46D738E6-8AF7-D8A4-EF39-4382CD250DF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="948609E1-21C5-9F9A-CADA-5D4A05840F17" name="N3_F_NEEDY_NEEDS_FK2">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-21 21:39:51 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACDDABD2-1077-0349-7561-CF0F209948E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

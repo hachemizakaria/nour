@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataFlowDesign class="oracle.dbtools.crest.model.design.process.DataFlowDesign" name="P6_borrow Diagram" id="1B336FD4-F1AD-DFA9-B09E-A674A8295548" mainViewID="B40229E1-A09E-52B2-8A25-FB5DDE87BAE9" topLevel="false" parentDFD_ID="DFE6AA24-DC5C-6D07-E1F7-2CF806C77F23">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-21 18:01:34 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<process>4AE9612B-93DE-361B-EBE8-1A5DAE061F7B</process>
+</DataFlowDesign>

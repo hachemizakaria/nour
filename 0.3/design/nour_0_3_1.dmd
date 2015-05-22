@@ -57,5 +57,14 @@
 <designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="6EA5D974-D702-35A9-AB60-C3EA0A57A684">
 <designStoragePath>C:\Users\zaki\Documents\z-jamia\nour\0.3\design</designStoragePath>
 </designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="FBC10E63-579C-FC8A-8CAD-35F4FF6043A3">
+<designStoragePath>C:\Users\zaki\Documents\GitHub\nour\0.3\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="BE8CFAF2-15F9-A58D-6CC7-B0037390F54E">
+<designStoragePath>C:\Users\zaki\Documents\GitHub\nour\0.3\design</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="7CE62391-1C67-010C-9A96-ECA7DE9A7BA6">
+<designStoragePath>C:\Users\zaki\Documents\GitHub\nour\0.3\design</designStoragePath>
+</designDescr>
 </usedDesignStorageDescriptors>
 </OSDM_Design>

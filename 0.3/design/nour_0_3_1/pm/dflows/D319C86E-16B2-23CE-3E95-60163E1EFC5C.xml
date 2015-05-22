@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataFlowDesign class="oracle.dbtools.crest.model.design.process.DataFlowDesign" name="P2_needy Diagram" id="D319C86E-16B2-23CE-3E95-60163E1EFC5C" mainViewID="54EE628B-7887-041E-8370-67E5F7FD24A8" topLevel="false" parentDFD_ID="DFE6AA24-DC5C-6D07-E1F7-2CF806C77F23">
+<createdBy>zaki</createdBy>
+<createdTime>2015-05-21 17:59:39 UTC</createdTime>
+<ownerDesignName>nour_0_3_1</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<process>4CCEACBC-90D3-71E0-73CC-7BB15CD0D17B</process>
+<processOrderString>2D0F084C-6E41-0199-4CDD-B25706F9F3AB,439F5C3E-A864-FE57-0D3E-1A4ED4C154C0,92A36B9B-CCEC-7886-1543-CF42DB0CDC2E,B7F548DE-BC44-DC29-11E4-FF66CD6414E5</processOrderString>
+</DataFlowDesign>
