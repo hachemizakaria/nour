@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.process.DataFlowDesign>
-   <object objectType="Process" objectID="4F592F45-0713-F501-1E1E-8B53020B4073" name="P2000_orphane list" seqName="seg_0"/>
    <object objectType="Process" objectID="162806B0-0DA0-4479-5AA2-9E91745C1471" name="P2010_family list" seqName="seg_0"/>
-   <object objectType="Process" objectID="852CED6B-E61F-C41D-C000-B777CC05A283" name="P2100_poor" seqName="seg_0"/>
-   <object objectType="Process" objectID="D77E9DAB-8629-2482-1D56-6462B743336F" name="P2300_handycap" seqName="seg_0"/>
    <object objectType="Process" objectID="39510CF1-399D-2B0D-FAA0-DB1D7C150EDB" name="P2_NEEDY" seqName="seg_0"/>
-   <object objectType="Process" objectID="B2722305-9FE1-1CC5-63C1-F447396DB3B5" name="needs" seqName="seg_0"/>
    <object objectType="Process" objectID="4A680959-B8FD-76D9-80EA-C495DE9C95F4" name="pupil" seqName="seg_0"/>
+   <object objectType="Process" objectID="4F592F45-0713-F501-1E1E-8B53020B4073" name="P2000_orphane list" seqName="seg_0"/>
+   <object objectType="Process" objectID="852CED6B-E61F-C41D-C000-B777CC05A283" name="P2100_poor" seqName="seg_0"/>
+   <object objectType="Process" objectID="B2722305-9FE1-1CC5-63C1-F447396DB3B5" name="needs" seqName="seg_0"/>
+   <object objectType="Process" objectID="D77E9DAB-8629-2482-1D56-6462B743336F" name="P2300_handycap" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.process.DataFlowDesign>

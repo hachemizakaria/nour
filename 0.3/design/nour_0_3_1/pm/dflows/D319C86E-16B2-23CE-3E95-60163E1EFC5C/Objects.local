@@ -4,7 +4,7 @@
    <object objectType="Process" objectID="439F5C3E-A864-FE57-0D3E-1A4ED4C154C0" name="P2100_orphanes" seqName="seg_0"/>
    <object objectType="Process" objectID="92A36B9B-CCEC-7886-1543-CF42DB0CDC2E" name="P2200_poors" seqName="seg_0"/>
    <object objectType="Process" objectID="B7F548DE-BC44-DC29-11E4-FF66CD6414E5" name="P2300_handicaps" seqName="seg_0"/>
+   <object objectType="Flow" objectID="051C660A-4A38-A3C1-7EFE-EAD408269825" name="Flow_3" seqName="seg_0"/>
    <object objectType="Flow" objectID="66D1D897-6BF0-B2C7-175F-618A427F4538" name="Flow_1" seqName="seg_0"/>
    <object objectType="Flow" objectID="83D774C2-35E1-7CB5-D0DE-D412B3EDE2A2" name="Flow_2" seqName="seg_0"/>
-   <object objectType="Flow" objectID="051C660A-4A38-A3C1-7EFE-EAD408269825" name="Flow_3" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.process.DataFlowDesign>

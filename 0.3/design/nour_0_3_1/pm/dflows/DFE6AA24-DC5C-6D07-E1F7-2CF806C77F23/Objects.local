@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.process.DataFlowDesign>
-   <object objectType="Process" objectID="A46ACCF6-8D09-C1BF-6EC7-C8416B9EB89E" name="p1_home" seqName="seg_0"/>
+   <object objectType="Process" objectID="4AE9612B-93DE-361B-EBE8-1A5DAE061F7B" name="P6_borrow" seqName="seg_0"/>
    <object objectType="Process" objectID="4CCEACBC-90D3-71E0-73CC-7BB15CD0D17B" name="P2_needy" seqName="seg_0"/>
    <object objectType="Process" objectID="72B75BDC-CC54-9223-E176-4A624B18EFFC" name="P3_alms_out" seqName="seg_0"/>
-   <object objectType="Process" objectID="DD1E3DC7-EDFB-F60F-AA79-B6B037F5C1BF" name="P4_almsin" seqName="seg_0"/>
    <object objectType="Process" objectID="8290C078-CDDC-8804-21B1-31B6CD919B80" name="P5_gifts" seqName="seg_0"/>
-   <object objectType="Process" objectID="4AE9612B-93DE-361B-EBE8-1A5DAE061F7B" name="P6_borrow" seqName="seg_0"/>
+   <object objectType="Process" objectID="A46ACCF6-8D09-C1BF-6EC7-C8416B9EB89E" name="p1_home" seqName="seg_0"/>
+   <object objectType="Process" objectID="DD1E3DC7-EDFB-F60F-AA79-B6B037F5C1BF" name="P4_almsin" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.process.DataFlowDesign>

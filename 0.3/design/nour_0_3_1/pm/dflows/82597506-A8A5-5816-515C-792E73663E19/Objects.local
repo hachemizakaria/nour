@@ -1,11 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.process.DataFlowDesign>
-   <object objectType="Process" objectID="DB644162-BEF0-071E-7772-5F64983856A6" name="P1001_tables" seqName="seg_0"/>
-   <object objectType="Process" objectID="553469BB-67B1-D09A-081F-CAD8E41E7BE6" name="P2_NEEDY" seqName="seg_0"/>
-   <object objectType="Process" objectID="D68E2EF7-323F-6753-B863-A2F5C4B0B234" name="P4_GIFTS" seqName="seg_0"/>
-   <object objectType="Process" objectID="CEE8E38A-3175-5DA2-5CB8-F93204A68607" name="P5_Givers" seqName="seg_0"/>
-   <object objectType="Process" objectID="A12AC2DC-FB32-6653-EDB2-7D6106AECFCF" name="p1_home" seqName="seg_0"/>
    <object objectType="Process" objectID="4F384091-5708-2825-29E7-8A4976025020" name="p3_alms" seqName="seg_0"/>
+   <object objectType="Process" objectID="553469BB-67B1-D09A-081F-CAD8E41E7BE6" name="P2_NEEDY" seqName="seg_0"/>
+   <object objectType="Process" objectID="A12AC2DC-FB32-6653-EDB2-7D6106AECFCF" name="p1_home" seqName="seg_0"/>
+   <object objectType="Process" objectID="CEE8E38A-3175-5DA2-5CB8-F93204A68607" name="P5_Givers" seqName="seg_0"/>
+   <object objectType="Process" objectID="D68E2EF7-323F-6753-B863-A2F5C4B0B234" name="P4_GIFTS" seqName="seg_0"/>
+   <object objectType="Process" objectID="DB644162-BEF0-071E-7772-5F64983856A6" name="P1001_tables" seqName="seg_0"/>
    <object objectType="Flow" objectID="0255A1CE-9206-C5C8-7BC7-5C93E5984E77" name="Flow_1" seqName="seg_0"/>
    <object objectType="Flow" objectID="19A27C8A-338A-3C1E-5B32-8D9C1F86C0AC" name="Flow_2" seqName="seg_0"/>
    <object objectType="Flow" objectID="D053C23B-F896-96B2-072F-1BBBA376392A" name="Flow_3" seqName="seg_0"/>
