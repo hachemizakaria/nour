@@ -25,6 +25,10 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="318" y="316" width="194" height="70"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.process.TVProcess" oid="959319B3-E125-8400-A659-40264B3A76FB" otype="Process" vid="24E0A8C6-3DB5-2D32-5CA3-0DD3E0CF0CBB">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="313" y="86" width="196" height="80"/>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.process.TVProcess" oid="B7F548DE-BC44-DC29-11E4-FF66CD6414E5" otype="Process" vid="85983BE3-5975-F82C-FE4A-82EC1369AEC1">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="316" y="425" width="193" height="80"/>

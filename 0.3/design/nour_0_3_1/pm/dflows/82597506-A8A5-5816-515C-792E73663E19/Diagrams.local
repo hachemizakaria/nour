@@ -1,4 +1,4 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.process.DataFlowDesign>
-   <object objectType="main_view" objectID="94F71D13-A08C-64E8-6EED-36C5B8319AE7" name="n3_tree" visible="false"/>
+   <object objectType="main_view" objectID="94F71D13-A08C-64E8-6EED-36C5B8319AE7" name="n3_tree" visible="true"/>
 </oracle.dbtools.crest.model.design.process.DataFlowDesign>

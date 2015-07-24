@@ -66,5 +66,8 @@
 <designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="7CE62391-1C67-010C-9A96-ECA7DE9A7BA6">
 <designStoragePath>C:\Users\zaki\Documents\GitHub\nour\0.3\design</designStoragePath>
 </designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E725BB5E-3BF4-CDA2-3370-08E2573E4513">
+<designStoragePath>C:\Users\zaki\Documents\GitHub\nour\0.3\design</designStoragePath>
+</designDescr>
 </usedDesignStorageDescriptors>
 </OSDM_Design>
